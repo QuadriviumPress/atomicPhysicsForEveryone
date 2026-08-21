@@ -1,0 +1,48 @@
+version: 1
+project:
+  title: Atomic Physics for Everyone
+  subtitle: An Introduction to Atomic Physics, Quantum Mechanics, and Precision Spectroscopy with No College-Level Prerequisites
+  short_title: Atomic Physics for Everyone
+  authors:
+    - name: Will Raven
+      corresponding: true
+      affiliations:
+        - institution: Smith College
+          department: Department of Physics
+          city: Northampton
+          region: MA
+          country: USA
+  date: 2025-01-01
+  doi: 10.1007/978-3-031-69507-0
+  license: CC-BY-4.0
+  open_access: true
+  github: QuadriviumPress/AtomicPhysicsForEveryone
+  toc:
+    - file: index.md
+    - title: Part I — Atom-Light Interactions
+      children:
+        - file: chapters/ch-01-introduction-to-atoms-and-light.md
+        - file: chapters/ch-02-natural-light.md
+        - file: chapters/ch-03-atoms-at-rest.md
+        - file: chapters/ch-04-atoms-in-motion.md
+        - file: chapters/ch-05-saturated-absorption-spectroscopy.md
+    - title: "Part II — Digging Deeper: Quantum Mechanics and Beyond"
+      children:
+        - file: chapters/ch-06-quantum-mechanics-vs-classical-physics.md
+        - file: chapters/ch-07-angular-momentum.md
+        - file: chapters/ch-08-electronic-structure-and-atomic-notation.md
+        - file: chapters/ch-09-hyperfine-structure.md
+        - file: chapters/ch-10-isotope-shifts-radioactive-decay-and-the-nuclear-forces.md
+        - file: chapters/ch-11-the-standard-model-of-particle-physics.md
+    - title: Appendices
+      children:
+        - file: chapters/app-a-the-periodic-table.md
+        - file: chapters/app-b-a-table-of-the-elements.md
+        - file: chapters/app-c-transition-rules.md
+site:
+  template: book-theme
+  title: Atomic Physics for Everyone
+  actions:
+    - title: Springer Open Access Book
+      url: https://link.springer.com/book/10.1007/978-3-031-69507-0
+  nav: []
