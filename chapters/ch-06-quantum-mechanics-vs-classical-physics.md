@@ -11,7 +11,7 @@ In this chapter, we explore the differences between quantum mechanics and classi
 
 **Keywords:** Quantum states, Observables, Compatible observables, Incompatible observables, Uncertainty principle, Superposition, Harmonic oscillator, Basis sets completeness, Energy basis
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

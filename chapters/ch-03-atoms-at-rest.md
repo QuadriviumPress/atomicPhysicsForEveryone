@@ -11,7 +11,7 @@ In this chapter, we consider the factors that lead to complexity in atomic lines
 
 **Keywords:** Natural linewidth, Excited state lifetime, Scattering rate, Saturation, Power broadening, Atomic resonance, Selection rules, Spectral features
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

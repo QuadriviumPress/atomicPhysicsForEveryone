@@ -11,7 +11,7 @@ In this chapter, we explore hyperfine structure, which occurs in atoms with a nu
 
 **Keywords:** Hyperfine structure, Nuclear spin, Magnetic dipole hyperfine constant, Electric quadrupole hyperfine constant, Hyperfine splitting, Hyperfine levels, Hyperfine transition amplitudes
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

@@ -11,7 +11,7 @@ In this chapter, we explore how light from sources such as the sun or a lamp can
 
 **Keywords:** Spectrum · Blackbody radiation · Diffraction · Refraction · Gratings · Absorption spectroscopy · Spectral analysis
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

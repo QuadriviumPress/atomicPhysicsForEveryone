@@ -11,7 +11,7 @@ In this chapter, we explore angular momentum, a key concept in quantum mechanics
 
 **Keywords:** Quantum numbers, Angular momentum, Orbital angular momentum, Magnitude projection, Spin, Intrinsic angular momentum, Electronic angular momentum, Adding quantum mechanical angular momentum, Fine structure, Fine structure splitting
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

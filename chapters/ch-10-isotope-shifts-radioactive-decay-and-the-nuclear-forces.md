@@ -11,7 +11,7 @@ In this chapter, we explore the nucleus, focusing on how the number of neutrons 
 
 **Keywords:** Isotope shifts, Normal mass shift, Radioactive decay, Half-life, Nuclear forces, Strong nuclear force, Weak nuclear force, Nuclear shell model
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

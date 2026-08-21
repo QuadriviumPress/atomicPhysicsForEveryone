@@ -30,7 +30,6 @@ Below is a list of all of the known elements sorted by the number of protons in 
 | 18 | Argon | Ar | [Ne]3s${ }^2$3p${ }^6~{ }^{1}S_{0}$ | 36, 38, 40 |
 | 19 | Potassium | K | [Ar]4s${ }^1~{ }^{2}S_{1/2}$ | 39, 40, 41 |
 | 20 | Calcium | Ca | [Ar]4s${ }^2~{ }^{1}S_{0}$ | 40, 42, 43, 44, 46, 48 |
-
 | 21 | Scandium | Sc | [Ar]3d${ }^1$4s${ }^2~{ }^{2}D_{3/2}$ | 45 |
 | 22 | Titanium | Ti | [Ar]3d${ }^2$4s${ }^2~{ }^{3}F_{2}$ | 46, 47, 48, 49, 50 |
 | 23 | Vanadium | V | [Ar]3d${ }^3$4s${ }^2~{ }^{4}F_{3/2}$ | 50, 51 |
@@ -66,7 +65,6 @@ Below is a list of all of the known elements sorted by the number of protons in 
 | 53 | Iodine | I | [Kr]4d${ }^{10}$5s${ }^2$5p${ }^5~{ }^{2}P_{3/2}$ | 127 |
 | 54 | Xenon | Xe | [Kr]4d${ }^{10}$5s${ }^2$5p${ }^6~{ }^{1}S_{0}$ | 124, 126, 128, 129, 130, 131, 132, 134, 136 |
 | 55 | Cesium | Cs | [Xe]6s${ }^1~{ }^{2}S_{1/2}$ | 133 |
-
 | 56 | Barium | Ba | [Xe]6s${ }^2~{ }^{1}S_{0}$ | 130, 132, 134, 135, 136, 137, 138 |
 | 57 | Lanthanum | La | [Xe]5d${ }^1$6s${ }^2~{ }^{2}D_{3/2}$ | 138, 139 |
 | 58 | Cerium | Ce | [Xe]4f${ }^1$5d${ }^1$6s${ }^2~{ }^{1}G_{4}$ | 136, 138, 140, 142 |
@@ -97,7 +95,6 @@ Below is a list of all of the known elements sorted by the number of protons in 
 | 83 | Bismuth | Bi | [Xe]4f${ }^{14}$5d${ }^{10}$6s${ }^2$6p${ }^3~{ }^{4}S_{3/2}$ | 209 |
 | 84 | Polonium | Po | [Xe]4f${ }^{14}$5d${ }^{10}$6s${ }^2$6p${ }^4~{ }^{3}P_{2}$ | N/A |
 | 85 | Astatine | At | [Xe]4f${ }^{14}$5d${ }^{10}$6s${ }^2$6p${ }^5~{ }^{2}P_{3/2}$ | N/A |
-
 | 86 | Radon | Rn | [Xe]4f${ }^{14}$5d${ }^{10}$6s${ }^2$6p${ }^6~{ }^{1}S_{0}$ | N/A |
 | 87 | Francium | Fr | [Rn]7s${ }^1~{ }^{2}S_{1/2}$ | N/A |
 | 88 | Radium | Ra | [Rn]7s${ }^2~{ }^{1}S_{0}$ | N/A |

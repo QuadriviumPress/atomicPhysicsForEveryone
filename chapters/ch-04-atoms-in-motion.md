@@ -11,7 +11,7 @@ In this chapter, we explore how motion can affect the perceived frequency of wav
 
 **Keywords:** Doppler effect, Doppler shift, Doppler width, Doppler profile, Maxwell-Boltzmann velocity distribution, Transmission and absorption plots
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

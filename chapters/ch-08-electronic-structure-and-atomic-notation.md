@@ -11,7 +11,7 @@ In this chapter, we explore the fundamental principles governing the electronic 
 
 **Keywords:** Energy level spacings, Coulomb interaction, Electron shells, Electronic configuration, Term symbols, Fermions, Bosons, Pauli exclusion principle
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

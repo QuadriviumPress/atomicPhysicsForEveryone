@@ -9,7 +9,7 @@ doi: 10.1007/978-3-031-69507-0_1
 
 In this chapter, we explore the nature of light and atoms, focusing on their dual nature as both particles and waves. We examine why atoms have discrete energy levels and how only certain frequencies of light can excite electrons within these atoms. Through this exploration, we will understand the relationship between light’s frequency, wavelength, and photon energy. We also explore key concepts such as wave interference and the historical experiments that shaped our understanding of quantum mechanics. Most importantly, this chapter emphasizes the scientific method, encouraging continual questioning of ideas, understanding, theories, and results to uncover the fundamental nature of the universe.
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 

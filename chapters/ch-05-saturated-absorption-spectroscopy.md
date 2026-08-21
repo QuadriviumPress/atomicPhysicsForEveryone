@@ -9,7 +9,7 @@ doi: 10.1007/978-3-031-69507-0_5
 
 In this chapter, we explore the clever spectroscopy technique known as saturated absorption spectroscopy. This technique is used to remove Doppler profiles from spectroscopic signals. We will learn how saturated absorption spectroscopy works, including the roles of probe and pump beams, and the resulting spectral features. Additionally, we will examine the artifacts, specifically crossover features (*V*, $\Lambda$, and *X* crossovers), that may appear due to this technique and understand the conditions under which they occur. Practical examples using various atoms, advanced techniques for achieving crossover-free spectroscopy, and potential issues are also discussed.
 
-**Learning Goals**
+## Learning Goals
 
 By the end of this chapter, you should be able to understand:
 
