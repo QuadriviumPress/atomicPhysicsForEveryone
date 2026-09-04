@@ -1,0 +1,12 @@
+{
+  "name": "atomic-physics-for-everyone",
+  "private": true,
+  "description": "MyST Markdown edition of Atomic Physics for Everyone by Will Raven",
+  "scripts": {
+    "start": "myst start",
+    "build": "myst build --html"
+  },
+  "devDependencies": {
+    "mystmd": "1.10.1"
+  }
+}
