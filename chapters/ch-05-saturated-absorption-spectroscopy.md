@@ -279,7 +279,7 @@ So, in this example, our transmission plot will have up to 15 spectral features.
 (sec-5-3)=
 ## 5.3 Example with Cesium-133
 
-Cesium-133, which has 55 protons and 78 neutrons, is one of the most studied atoms on the periodic table. Figure [](#fig-5-12) shows a simplified energy level diagram for a transition that uses 455.6 nm light. The lower state, which has the label $6\text{s}\ { }^2 S_{1/2}$ (don’t worry about what that means right now, we will talk about the physical meaning behind the labeling starting in Chap. [](#ch-7)), has two closely spaced ground states with labels $F=3$ and $F=4$ (we will give meaning to these labels in Chaps. [](#ch-8) and [](#ch-9)). The separation of these two states is just over 9 GHz. In energy units, that would be $hf=(6.626\times 10^{-34}\,\text{Js})(9.192\times 10^{9}\,\text{Hz})=6.091\times 10^{-24}\,\text{J}=38\,\upmu \text{eV}$.
+Cesium-133, which has 55 protons and 78 neutrons, is one of the most studied atoms on the periodic table. Figure [](#fig-5-12) shows a simplified energy level diagram for a transition that uses 455.6 nm light. The lower state, which has the label $6\text{s}\ { }^2 S_{1/2}$ (don’t worry about what that means right now, we will talk about the physical meaning behind the labeling starting in Chap. [](#ch-7)), has two closely spaced ground states with labels $F=3$ and $F=4$ (we will give meaning to these labels in Chaps. [](#ch-8) and [](#ch-9)). The separation of these two states is just over 9 GHz. In energy units, that would be $hf=(6.626\times 10^{-34}\,\text{Js})(9.192\times 10^{9}\,\text{Hz})=6.091\times 10^{-24}\,\text{J}=38\,\mu \text{eV}$.
 
 ```{figure} ../images/ch-05/541577_1_En_5_Fig12_HTML.png
 :name: fig-5-12
@@ -498,7 +498,7 @@ Answer the questions in Sect. [](#sec-5-6).
 
 ## References
 
-1. Williams, W.D., Herd, M.T., Hawkins W.B.: Spectroscopic study of the $7\text{p}_{1/2}$ and $7\text{p}_{3/2}$ states in Cesium-133. Laser Phys. Lett. **15**(9), 095702 (2018). [https://doi.org/10.1088/1612-202X/aac97](https://doi.org/10.1088/1612-202X/aac97)
+1. Williams, W.D., Herd, M.T., Hawkins W.B.: Spectroscopic study of the $7\text{p}_{1/2}$ and $7\text{p}_{3/2}$ states in Cesium-133. Laser Phys. Lett. **15**(9), 095702 (2018). [https://doi.org/10.1088/1612-202X/aac97e](https://doi.org/10.1088/1612-202X/aac97e)
 2. Maruko, C., Cölmek, N., Herd, M.T., Ahrendsen, K., Cabrales, B., Cannon, G., Davis, E., Guo, X., Karani, T., Wallace, A., Wisnauckas, K., Williams, W.D.: Spectroscopic study of the $4\text{f}^{7}6\text{s}^{2}\,{ }^{8}\text{S}_{7/2}^{\circ } - 4\text{f}^{7}({ }^{8}\text{S}^{\circ })~6\,\text{s}6\text{p}({ }^{1}\text{P}^{\circ })~{ }^{8}\text{P}_{5/2,7/2}$ transitions in neutral europium-151 and europium-153: absolute frequency and hyperfine structure. J. Opt. Soc. Am. B. **41**, 1217–1223 (2024). [https://doi.org/10.1364/JOSAB.521181](https://doi.org/10.1364/JOSAB.521181)
 
 [^1]: Remember that an atom can be moving perpendicular to the laser beam, and it will experience no Doppler effect. Only the velocity component parallel (towards or away) with the laser will contribute to a Doppler shift.

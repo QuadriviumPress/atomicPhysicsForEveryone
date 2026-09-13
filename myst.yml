@@ -3,6 +3,15 @@ project:
   title: Atomic Physics for Everyone
   subtitle: An Introduction to Atomic Physics, Quantum Mechanics, and Precision Spectroscopy with No College-Level Prerequisites
   short_title: Atomic Physics for Everyone
+  description: >-
+    A prerequisite-light introduction to atoms, light, quantum mechanics,
+    precision spectroscopy, nuclear physics, and the Standard Model.
+  keywords:
+    - atomic physics
+    - quantum mechanics
+    - spectroscopy
+    - particle physics
+    - open textbook
   authors:
     - name: Will Raven
       corresponding: true
@@ -45,4 +54,6 @@ site:
   actions:
     - title: Springer Open Access Book
       url: https://link.springer.com/book/10.1007/978-3-031-69507-0
-  nav: []
+  nav:
+    - title: Sources & Attribution
+      url: https://github.com/QuadriviumPress/AtomicPhysicsForEveryone/blob/main/SOURCES.md
