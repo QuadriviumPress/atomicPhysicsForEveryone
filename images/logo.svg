@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Atomic Physics for Everyone</title>
+  <desc id="desc">A crimson nucleus with a blue electron on an elliptical orbit, on a soft rose background.</desc>
+  <rect width="512" height="512" rx="96" fill="#fff0f3"/>
+  <ellipse cx="256" cy="256" rx="170" ry="70" fill="none" stroke="#1769aa" stroke-width="16" transform="rotate(-28 256 256)"/>
+  <ellipse cx="256" cy="256" rx="170" ry="70" fill="none" stroke="#8dabc4" stroke-width="12" transform="rotate(38 256 256)"/>
+  <circle cx="256" cy="256" r="42" fill="#b33a3a"/>
+  <circle cx="256" cy="256" r="16" fill="#fca5a5"/>
+  <circle cx="390" cy="200" r="22" fill="#1769aa"/>
+</svg>
