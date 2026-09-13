@@ -35,9 +35,9 @@
       "title": "Introduction to Atoms and Light",
       "slug": "ch-01-introduction-to-atoms-and-light",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_1_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch01.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch01.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_1_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch01.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch01.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "13-34"
       },
@@ -56,9 +56,9 @@
       "title": "“Natural Light”",
       "slug": "ch-02-natural-light",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_2_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch02.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch02.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_2_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch02.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch02.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "35-49"
       },
@@ -77,9 +77,9 @@
       "title": "Atoms at Rest",
       "slug": "ch-03-atoms-at-rest",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_3_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch03.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch03.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_3_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch03.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch03.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "50-72"
       },
@@ -98,9 +98,9 @@
       "title": "Atoms in Motion",
       "slug": "ch-04-atoms-in-motion",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_4_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch04.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch04.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_4_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch04.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch04.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "73-91"
       },
@@ -119,9 +119,9 @@
       "title": "Saturated Absorption Spectroscopy",
       "slug": "ch-05-saturated-absorption-spectroscopy",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_5_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch05.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch05.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_5_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch05.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch05.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "92-117"
       },
@@ -140,9 +140,9 @@
       "title": "Quantum Mechanics vs. Classical Physics",
       "slug": "ch-06-quantum-mechanics-vs-classical-physics",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_6_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch06.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch06.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_6_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch06.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch06.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "118-138"
       },
@@ -161,9 +161,9 @@
       "title": "Angular Momentum",
       "slug": "ch-07-angular-momentum",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_7_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch07.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch07.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_7_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch07.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch07.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "139-159"
       },
@@ -182,9 +182,9 @@
       "title": "Electronic Structure and Atomic Notation",
       "slug": "ch-08-electronic-structure-and-atomic-notation",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_8_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch08.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch08.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_8_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch08.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch08.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "160-179"
       },
@@ -203,9 +203,9 @@
       "title": "Hyperfine Structure",
       "slug": "ch-09-hyperfine-structure",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_9_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch09.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch09.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_9_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch09.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch09.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "180-198"
       },
@@ -224,9 +224,9 @@
       "title": "Isotope Shifts, Radioactive Decay, and the Nuclear Forces",
       "slug": "ch-10-isotope-shifts-radioactive-decay-and-the-nuclear-forces",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_10_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch10.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch10.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_10_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch10.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch10.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "199-225"
       },
@@ -245,9 +245,9 @@
       "title": "The Standard Model of Particle Physics",
       "slug": "ch-11-the-standard-model-of-particle-physics",
       "sources": {
-        "xhtml": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_11_Chapter.xhtml",
-        "math": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/math_ch11.json",
-        "figures": "/home/veillette/QuadriviumPress/AtomicPhysicsForEveryone/work/epub/figures_ch11.json",
+        "xhtml": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/extract/OEBPS/html/541577_1_En_11_Chapter.xhtml",
+        "math": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/math_ch11.json",
+        "figures": "/home/veillette/QuadriviumPress/atomicPhysicsForEveryone/work/epub/figures_ch11.json",
         "pdf_text_dir": "work/text",
         "pdf_pages": "226-244"
       },

@@ -25,7 +25,7 @@ project:
   doi: 10.1007/978-3-031-69507-0
   license: CC-BY-4.0
   open_access: true
-  github: QuadriviumPress/AtomicPhysicsForEveryone
+  github: QuadriviumPress/atomicPhysicsForEveryone
   toc:
     - file: index.md
     - title: Part I — Atom-Light Interactions
@@ -56,4 +56,4 @@ site:
       url: https://link.springer.com/book/10.1007/978-3-031-69507-0
   nav:
     - title: Sources & Attribution
-      url: https://github.com/QuadriviumPress/AtomicPhysicsForEveryone/blob/main/SOURCES.md
+      url: https://github.com/QuadriviumPress/atomicPhysicsForEveryone/blob/main/SOURCES.md
