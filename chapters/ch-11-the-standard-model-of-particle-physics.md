@@ -79,11 +79,12 @@ But, Eq. [](#eq-11-3) tells us that $\Gamma \tau = 1$, so we find
 ```
 
 This is really neat! We now know why a spectral feature has a width and an excited state has a lifetime: time and energy are incompatible observables. While that was fun, you might be thinking, “Why is this in Chap. [](#ch-11), a chapter devoted to the issues and problems in quantum mechanics?” We will need it in Sect. [](#sec-11-4-2) to understand something called vacuum fluctuations. But first, we need to discuss one more concept: **antimatter**.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig1_HTML.png
-:name: fig-11-1
+:label: fig-11-1
+:alt: An electron in an excited state decays with a characteristic lifetime . That lifetime is related to the linewidth of the excited state by Eq. [](#eq-11-3). If is small, is large. Conversely, if is large, is small
 
 An electron in an excited state decays with a characteristic lifetime $\tau$. That lifetime is related to the linewidth of the excited state by Eq. [](#eq-11-3). If $\tau$ is small, $\Gamma$ is large. Conversely, if $\tau$ is large, $\Gamma$ is small
+
 ```
 
 (sec-11-3)=
@@ -126,19 +127,21 @@ The nuclei of an atom can also have excited states similar to the electrons in t
 Quantum mechanics conserves particle number. However, unstable atoms decay, and we create and destroy particles all the time at particle accelerators.
 
 To fix this incompatibility with nature (i.e., the theory says no, but experiment says yes), physicists had to remove the constraint of conservation of particle number from their models. Particle number is clearly not conserved in nature, so we should try to make a model that doesn’t conserve particle number. However, this causes a really interesting problem. The Schrödinger equation models an individual particle. What do we do if the particle doesn’t always exist? The solution was to form a mathematical model that doesn’t try to model a particle, but something called a field. But what is a field? The easiest way to understand a field is with a few examples. Figure [](#fig-11-2) is a temperature field of the minimum temperatures across the Nordic countries Norway, Sweden, and Finland from January 27, 1999. The region had an unusually cold day.[^9] For reference, $-50^{\circ }\,\text{C} = -58^{\circ }\,\text{F}$ and $0^{\circ }\,\text{C} = +32^{\circ }\,\text{F}$. This type of field is known as a scalar field. Every point on the map has a temperature. If I told you a coordinate, you could tell me the temperature at that coordinate. In other words, this scalar field is really some function $T(x,y)$. If you knew the function, you could quickly find the temperature for any coordinate values of x and y.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig2_HTML.png
-:name: fig-11-2
+:label: fig-11-2
+:alt: A scalar field showing the minimum temperatures across the Nordic countries Norway, Sweden, and Finland on January 27, 1999. The data used to make this plot was taken from the Copernicus Climate Change Service, Climate Data Store, see Reference [1]
 
 A scalar field showing the minimum temperatures across the Nordic countries Norway, Sweden, and Finland on January 27, 1999. The data used to make this plot was taken from the Copernicus Climate Change Service, Climate Data Store, see Reference [1]
+
 ```
 
 Figure [](#fig-11-3) is another type of field known as a vector field. This is a plot that shows the speed of wind in a simulated tornado. This is, again, a function, but the answer that you get from this function is a vector. It tells you both the speed of the wind and the direction. Other vector fields you might have heard about are electric fields and magnetic fields.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig3_HTML.png
-:name: fig-11-3
+:label: fig-11-3
+:alt: A (simulated) vector field showing the wind speed of a tornado that has a diameter of about 300 m and a top speed of about 20 m/s. This type of plot gives us both direction (the flow is counterclockwise) and the speed of the air
 
 A (simulated) vector field showing the wind speed of a tornado that has a diameter of about 300 m and a top speed of about 20 m/s. This type of plot gives us both direction (the flow is counterclockwise) and the speed of the air
+
 ```
 
 Instead of following around a particle, quantum field theory keeps track of a field. Particles are “excitations” of the fields. As an analogy, let’s think about the standing waves on a quantum mechanical string, see Fig. [](#fig-6-2). The background field in this analogy would be the state with a single loop. The particle would be an excitation of this field, or the state with two loops. A quantum particle can go into the field (in our analogy, the system went from two loops to one) or come out of it (one loop to two). Consider a free neutron moving through space. We know from Chap. [](#ch-10) that a free neutron is unstable and will decay into a proton, an electron, and an anti-electron neutrino with a half-life of about 11 minutes. From a mathematical viewpoint, that neutron is described as moving through a quantum field. When the neutron decays, the neutron goes into the field and a proton, electron, and anti-electron neutrino come out of the field.[^10]
@@ -177,21 +180,23 @@ How to read a Feynman diagram:
 - Particle creation and annihilation occur at the vertices.
 
 A Feynman diagram is not just a wonderful way to visualize a quantum mechanical process. Each diagram is actually a visual representation of a complicated mathematical equation from quantum field theory. An example Feynman diagram can be seen in Fig. [](#fig-11-4). In this Feynman diagram, we have two electrons that exchange a “virtual photon,” which can exist for a short amount of time because of the energy-time uncertainty principle. That virtual photon comes from the field and does not exist for very long before returning to the field.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig4_HTML.png
-:name: fig-11-4
+:label: fig-11-4
+:alt: An example of a Feynman diagram. This diagram illustrates a possible interaction between two electrons
 
 An example of a Feynman diagram. This diagram illustrates a possible interaction between two electrons
+
 ```
 
 The virtual photon transmits information, including the electromagnetic force, from one electron to the other electron. This is how quantum field theory describes the Coulomb interaction! When two electrons are close to each other, the virtual photons that mediate the electromagnetic force between them can exist for a short time due to the energy-time uncertainty principle. Since the virtual photons don’t have to exist for a very long time, they can have higher energy, resulting in a strong repulsive interaction between the like charges. As the two electrons move further apart, the virtual photons need to exist for a longer time to mediate the interaction, which means they have less energy. Consequently, the force between the two charged particles decreases with distance. This is why, according to quantum field theory, the repulsive or attractive force between two charged particles diminishes as the distance between them increases.
 
 Other things can happen as well. For example, Fig. [](#fig-11-5) describes how a virtual photon can split into an electron-positron pair when traveling between the two charged particles. This doesn’t happen very often compared to the simple exchange of a virtual photon (the electron-positron pair have much more energy, so the energy-time uncertainty principle makes it harder for this to happen), but when the electron-position pair pop into existence from the field, they have a real impact on the system.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig5_HTML.png
-:name: fig-11-5
+:label: fig-11-5
+:alt: A Feynman diagram depicting how a virtual photon can momentarily split into an electron-positron pair while being exchanged between two electrons
 
 A Feynman diagram depicting how a virtual photon can momentarily split into an electron-positron pair while being exchanged between two electrons
+
 ```
 
 Consider an electron in an atom. That electron is constantly interacting with the protons in the nucleus via virtual photons. Every once in a while, that virtual photon breaks apart into an electron-positron pair similar to Fig. [](#fig-11-5) (just replace one of the electrons with a proton). The effect of the electron-positron pair is that the transition frequency between any two states is shifted by just a little bit, but this small shift is still big enough for us to experimentally measure!
@@ -221,11 +226,12 @@ Let’s take two protons and give them a ton of kinetic energy. Next, we are goi
 ## 11.5 The Standard Model of Particle Physics
 
 Quantum field theory is currently the best mathematical model that we have to describe the world of the super small. The conceptual model is called the Standard Model of Particle Physics, or just the Standard Model for short, see Fig. [](#fig-11-6).
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig6_HTML.png
-:name: fig-11-6
+:label: fig-11-6
+:alt: The standard model of particle physics
 
 The standard model of particle physics
+
 ```
 
 **A Little History**
@@ -246,11 +252,12 @@ Protons are composed of 2 up quarks and 1 down quark. A neutron is made up of 1 
 The four elementary particles colored red are the force carriers. Even though the gluon is listed once, there are actually 8 different types of gluons. All 8 of them are carriers for the strong force, which transmit information between quarks. The photon is the force carrier that transmits information between charged particles. Finally, the Z boson and the two W bosons are force carriers for the weak nuclear force, which is the force responsible for $\beta ^{-}$ decay, $\beta ^{+}$ decay, and electron capture. Also, notice how massive the W and Z bosons are. This is why the weak force is such a short range force. The uncertainty principle tells us that those force carriers simply can’t exist for very long making their range very, very short.
 
 We can now be more precise in what happens during $\beta ^{-}$ decay, see Fig. [](#fig-11-7). During this process, a down quark in the neutron is transformed into an up quark, resulting in the neutron becoming a proton. This transformation is facilitated by the emission of a $\text{W}^{-}$ boson, which quickly decays into an electron and an anti-electron neutrino. The proton remains in the nucleus, while the electron and anti-electron neutrino are emitted from the atom.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig7_HTML.png
-:name: fig-11-7
+:label: fig-11-7
+:alt: A Feynman diagram showing how a neutron decays into a proton. A neutron is composed of 2 down quarks and 1 up quark. One of the down quarks is transformed into an up quark. This transformation is facilitated by the emission of a boson, which quickly decays into an electron and an anti-electron neutrino
 
 A Feynman diagram showing how a neutron decays into a proton. A neutron is composed of 2 down quarks and 1 up quark. One of the down quarks is transformed into an up quark. This transformation is facilitated by the emission of a $\text{W}^{-}$ boson, which quickly decays into an electron and an anti-electron neutrino
+
 ```
 
 Once again, I admit that all of this seems a little …out there. But everything we have talked about so far really just naturally falls out of the math when we remove or add the restrictions that we talked about in Sect. [](#sec-11-1). More importantly, the math behind this conceptual model seems to do an amazing job both modeling and predicting the world of the super small.
@@ -269,11 +276,12 @@ Believe it or not, quantum field theory does not include gravity. Einstein’s t
 **Where Is All the Antimatter?**
 
 Quantum field theory predicts there should be about equal parts matter and antimatter. For example, Fig. [](#fig-11-8) shows a photon that has enough energy to create particles (we have done this at accelerators!). The particles that are created are always a matter/antimatter pair. However, when we look out in the universe, we only see matter. So, where is all the antimatter? We don’t know. This problem is called baryon asymmetry. This isn’t a bad thing. If the universe was equal parts matter and antimatter, they would have annihilated each other. So, in a way, this is one experimental measurement that the Standard Model failed to predict. The Standard Model predicts equal amounts of matter and antimatter, while observations show a universe dominated by matter.
-
 ```{figure} ../images/ch-11/541577_1_En_11_Fig8_HTML.png
-:name: fig-11-8
+:label: fig-11-8
+:alt: Everything we have done in the lab produces equal amounts of matter and antimatter, like this photon making an electron and a positron
 
 Everything we have done in the lab produces equal amounts of matter and antimatter, like this photon making an electron and a positron
+
 ```
 
 **Why Do Neutrinos Have Mass?**

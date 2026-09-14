@@ -21,27 +21,30 @@ By the end of this chapter, you should be able to understand:
 ## 5.1 Saturated Absorption Spectroscopy
 
 **Saturated absorption spectroscopy** is a really neat spectroscopy trick used on a vapor cell with hot atoms that creates a transmission plot with only spectral features from the atoms that are moving perpendicular to the laser ($v_{\parallel }=0$). Reread that sentence! It is really quite amazing. Suppose the atoms are at 400 K. We know that if we use a single laser beam, we would expect to see a Doppler broadened spectrum from these atoms that is Gaussian in shape. Saturated absorption spectroscopy uses two laser beams, resulting in a small Lorentzian feature on top of the Gaussian shape, as shown in Fig. [](#fig-5-1). The small Lorentzian feature comes only from those atoms that have zero speed in the direction of the laser.[^1]
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig1_HTML.png
-:name: fig-5-1
+:label: fig-5-1
+:alt: An illustrative example showing the transmission plots for a two-level atom. On the left is the Doppler profile we learned about in Chap. [](#ch-4). On the right is the transmission plot for a saturated absorption setup
 
 An illustrative example showing the transmission plots for a two-level atom. On the left is the Doppler profile we learned about in Chap. [](#ch-4). On the right is the transmission plot for a saturated absorption setup
+
 ```
 
 This is how we do it: we send two laser beams into a vapor cell from opposite directions, see Fig. [](#fig-5-2). The laser beam that starts on the left and moves to the right has a small amount of power. We call this laser the **probe beam**. In saturated absorption spectroscopy, we measure the transmission of the probe beam. The other laser starts on the right and is moving to the left and has a large amount of power. We will call this laser the **pump beam**. In most experimental setups, the probe beam and the pump beam originate from the same laser. The laser can be split into two paths using, for example, a $\lambda$/2 plate and a polarizing beam splitter, see Sect. [](#sec-1-5). One would adjust the orientation of the $\lambda$/2 plate so that the probe beam has less power than the pump beam.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig2_HTML.png
-:name: fig-5-2
+:label: fig-5-2
+:alt: Saturated absorption spectroscopy needs two laser beams: a probe beam and a pump beam. Not pictured is the photodiode with which we monitor the transmission of the probe beam
 
 Saturated absorption spectroscopy needs two laser beams: a probe beam and a pump beam. Not pictured is the photodiode with which we monitor the transmission of the probe beam
+
 ```
 
 To explore how this technique works, we will use our simple two-level atom. If the pump beam were not present, we know the transmission of the probe beam looks like Fig. [](#fig-5-3). This plot is calculated using the mass of a europium-156 atom and a vapor cell at 400 Kelvin. The natural linewidth of the transition is about 25 MHz, which is much smaller than the Doppler width of 320 MHz.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig3_HTML.png
-:name: fig-5-3
+:label: fig-5-3
+:alt: An example of a Doppler profile simulated using parameters for a transition in europium-156 atoms with a temperature of 400 Kelvin
 
 An example of a Doppler profile simulated using parameters for a transition in europium-156 atoms with a temperature of 400 Kelvin
+
 ```
 
 Now, let’s add in the pump beam. Our ultimate goal is to determine how the transmission plot of the probe beam changes with the addition of the pump beam. Let’s start by thinking about the transmission of a laser through the vapor cell when the laser frequency is at $f_{A}$, see Fig. [](#fig-5-1). Since both the pump and the probe beam come from the same laser, they have the same frequency. The only difference is that they are moving in opposite directions. We want to ask the question: Which atoms interact with each laser beam?
@@ -99,11 +102,12 @@ What is really important is that this only happens for the atoms that have $v_{\
 If the laser frequency is not on resonance, the probe beam and pump beam are interacting with different atoms. In other words, the probe beam is losing photons to different atoms than the pump beam. On resonance, the two lasers compete for the same atoms, which results in less photons being absorbed from the probe beam.
 
 A simulation of the transmission of the probe beam with the pump beam off (left plot) and with the pump beam on (middle) is shown in Fig. [](#fig-5-4).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig4_HTML.png
-:name: fig-5-4
+:label: fig-5-4
+:alt: The transmission plots of the probe beam for a 2 level atom with just a probe beam (left), the probe beam and a pump beam (middle), and the difference between the two transmission plots (right)
 
 The transmission plots of the probe beam for a 2 level atom with just a probe beam (left), the probe beam and a pump beam (middle), and the difference between the two transmission plots (right)
+
 ```
 
 If we subtract the two plots (right), we are left with a spectral feature with a full width half maximum equal to the natural linewidth of the transition.[^3] This is the same plot as the absorption plot from the thought experiment that we did in Sect. [](#sec-3-1), which was an absorption plot for atoms at 0 Kelvin. We call this plot a **saturated absorption plot**. Neat trick, huh!
@@ -117,34 +121,37 @@ Saturated absorption spectroscopy is super cool.[^4] It allows us to use hot gas
 :label: eq-5-4
 \begin{array}{l} \text{The Rule} \\ \Delta F = -1, 0, +1 \\ F = 0 \nrightarrow F = 0 \end{array}
 ```
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig5_HTML.png
-:name: fig-5-5
+:label: fig-5-5
+:alt: The three types of crossovers. A *V* crossover is due to the probe beam and pump beam exciting atoms from the same ground state to two different excited states. For a *V* crossover, the pump beam “steals” atoms from the probe beam. A crossover is due to the probe beam and pump beam exciting atoms from the two different ground states to the same excited state. A *X* crossover is due to the probe beam and pump beam exciting atoms from two different ground states to two different excited states. For both and *X* crossovers, the pump beam “gives” atoms to the probe beam
 
 The three types of crossovers. A *V* crossover is due to the probe beam and pump beam exciting atoms from the same ground state to two different excited states. For a *V* crossover, the pump beam “steals” atoms from the probe beam. A $\Lambda$ crossover is due to the probe beam and pump beam exciting atoms from the two different ground states to the same excited state. A *X* crossover is due to the probe beam and pump beam exciting atoms from two different ground states to two different excited states. For both $\Lambda$ and *X* crossovers, the pump beam “gives” atoms to the probe beam
+
 ```
 
 ### 5.2.1 *V* Crossovers
 
 Suppose you have an atom with one ground state that can be excited to two different excited states, as shown in Fig. [](#fig-5-6). The two excited states have resonance frequencies $f_{r1}$ and $f_{r2}$. Using the arguments explored in Sect. [](#sec-5-1), you might expect transmission plots shown in Fig. [](#fig-5-7). In the “Pump off” plot, I also plotted the individual Doppler profiles for both transitions (red and blue dashes). If you add these two together you will get the black curve. With the pump beam on, you might (correctly) expect to get Lorentzian features at laser frequencies $f_{r1}$ and $f_{r2}$.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig6_HTML.png
-:name: fig-5-6
+:label: fig-5-6
+:alt: The experimental setup and energy levels to think about V crossovers
 
 The experimental setup and energy levels to think about V crossovers
-```
 
+```
 ```{figure} ../images/ch-05/541577_1_En_5_Fig7_HTML.png
-:name: fig-5-7
+:label: fig-5-7
+:alt: A very reasonable, but incorrect guess for a saturated absorption spectrum for an atom with one ground state and two excited states
 
 A very reasonable, but incorrect guess for a saturated absorption spectrum for an atom with one ground state and two excited states
+
 ```
 
 That prediction is close, but not quite correct. If you do the experiment, you will find that you have an additional Lorentzian shaped spectral feature exactly halfway between $f_{r1}$ and $f_{r2}$. This extra feature is called a *V* crossover. Let’s explore why this happens with an example. I always find it easier to use numbers, so let’s say that $f_{r2}$-$f_{r1}=600\,\text{MHz}$. The feature occurs when the laser frequency is set to 300 MHz above $f_{r1}$ and 300 MHz below $f_{r2}$. We are also going to define an atom moving right as positive velocity and an atom moving left as negative velocity.
 
 Your turn: Having the laser frequency precisely between $f_{r1}$ and $f_{r2}$, calculate the velocity that an atom would need in order to absorb from the pump beam to excited state #1, from the probe beam to excited state #1, from the pump beam to excited state #2, and from the probe beam to excited state #2. Use $\lambda = 500\,\text{nm}$ for the math. Make sure you have an answer before moving on. Here is a crossword puzzle to separate the question and answer.
 
-![](../images/ch-05/541577_1_En_5_Figa_HTML.png)
+![Crossword puzzle separating the V crossover velocity question from the answer](../images/ch-05/541577_1_En_5_Figa_HTML.png)
 
 (tbl-5-2)=
 **Table 5.2** Atoms that absorb from the probe beam and pump beam for each excited state
@@ -157,11 +164,12 @@ Your turn: Having the laser frequency precisely between $f_{r1}$ and $f_{r2}$, c
 First, notice that the pump and probe beams are exciting different atoms to excited state #1. The two beams are also exciting different atoms to excited state #2. Specifically, for an atom to be excited by the probe to excited state #1 it would have to be moving away from the probe beam at +150 m/s. An atom would have to be moving away from the pump beam at $-$150 m/s to be excited by the pump beam to excited state #1. The pump beam and probe beam are interacting with different atoms; nothing new here.
 
 Now notice that the pump beam is trying to excite atoms moving at +150 m/s to excited state #2 while the probe beam is trying to excite those same atoms to excited state #1. Those atoms that are moving at +150 m/s get to pick which laser to absorb from! They can absorb from the probe beam and be excited to excited state #1 or absorb from the pump beam and be excited to excited state #2. The atom is more likely to absorb a photon from the pump beam leaving fewer atoms for the probe to interact with. Even though the two lasers are trying to excite to different states, the pump beam still “steals” atoms from the probe beam meaning the transmission of the probe beam will increase at that frequency. Similarly, the atoms moving at $-$150 m/s also get to pick between the pump and the probe beam. Therefore, there will be an additional spectra feature that comes from two velocities of atoms (+150 m/s and $-$150 m/s) when the frequency of the laser is precisely between $f_{r1}$ and $f_{r2}$. With this new information, the transmission plot of the probe beam has three spectral features: two that correspond to the actual frequencies of the transitions and a third exactly halfway between that we call a crossover peak, see Fig. [](#fig-5-8).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig8_HTML.png
-:name: fig-5-8
+:label: fig-5-8
+:alt: A more accurate simulation of a saturated absorption spectrum with one ground state and two excited states. The amplitudes of the spectral features are made up; in a real experiment, all three features will have different amplitudes
 
 A more accurate simulation of a saturated absorption spectrum with one ground state and two excited states. The amplitudes of the spectral features are made up; in a real experiment, all three features will have different amplitudes
+
 ```
 
 The two real transitions come from atoms that have no velocity components in the direction of the laser beams. The crossover peak comes from atoms that are moving. I think now is a good time to remind everyone that the amplitudes of the peaks in the above graphs are completely made up. Because there are two sets of atoms contributing to the crossover peak ($v=+150\,\text{m/s}$ and $v=-150\,\text{m/s}$), the crossover peak often turns out to be larger than the actual transitions. Also, the amplitude for resonance 1 will not be the same as the amplitude for resonance 2.
@@ -169,19 +177,21 @@ The two real transitions come from atoms that have no velocity components in the
 $\blacktriangleright$ **Important Comment**
 
 If the two transitions are separated such that the Doppler profiles of each transition are separated, you will not have any crossovers because there are no atoms moving with the correct speeds to cause the crossover feature, see Fig. [](#fig-5-9).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig9_HTML.png
-:name: fig-5-9
+:label: fig-5-9
+:alt: A simulation of a saturated absorption spectrum with one ground state and two excited states, but the two excited states are separated by a large energy. There are no atoms with the correct velocity to create the *V* crossover. The amplitudes of the spectral features are made up; in a real experiment, the features will have different amplitudes
 
 A simulation of a saturated absorption spectrum with one ground state and two excited states, but the two excited states are separated by a large energy. There are no atoms with the correct velocity to create the *V* crossover. The amplitudes of the spectral features are made up; in a real experiment, the features will have different amplitudes
+
 ```
 
 If the vapor cell was heated to increase the Doppler width, the crossover peak would return, see Fig. [](#fig-5-10).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig10_HTML.png
-:name: fig-5-10
+:label: fig-5-10
+:alt: Now the vapor cell is heated so there are a few atoms with the correct velocity needed to create a *V* crossover
 
 Now the vapor cell is heated so there are a few atoms with the correct velocity needed to create a *V* crossover
+
 ```
 
 **Summary**
@@ -218,11 +228,12 @@ As before, the vapor cell needs atoms with a speed
 to create these features.
 
 There is one important difference for *X* crossovers. For *V* crossovers and $\Lambda$ crossovers, the pump and the probe beam are interchangeable. Consider an atom that has two ground states and three exited states, see Fig. [](#fig-5-11). We pick the ground states to have labels $F=1$ and $F=2$ and the excited states to have labels $F'=1$, $F'=2$, and $F'=3$.[^6] As a reminder, “The Rule” is that an atom can be excited as long as $\Delta F = 1$, 0, or -1 with the exception $F=0 \not \rightarrow F=0$. Suppose we have a $\Lambda$ crossover that comes from the two transitions $F=1 \rightarrow F'=2$ and $F=2 \rightarrow F'=2$. To add numbers, let’s say the vapor cell needs atoms with speed $v_{\parallel }=+35\,\text{m/s}$ or $-$35 m/s to produce this crossover. It doesn’t matter if the pump beam is exciting the first transition or the second. If the pump beam is exciting the first transition, it is “pumping” atoms with $v_{\parallel }=+35\,\text{m/s}$ from the $F=1$ ground state to the $F=2$ ground state via the $F'=2$ excited state. The probe beam is then exciting those extra atoms on the $F=2 \rightarrow F'=2$ transition. If the pump beam is exciting the second transition, it is “pumping” atoms with $v_{\parallel }=-35\,\text{m/s}$ from the $F=2$ ground state into the $F=1$ ground state via the $F'=2$ excited state. The probe beam is then exciting those extra atoms on the $F=1 \rightarrow F'=2$ transition. The important thing to notice here is that the excited state of both transitions can decay into either ground state. We say that there are two “velocity classes” of atoms that are contributing to that crossover feature: $+35\,\text{m/s}$ and $-35\,\text{m/s}$.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig11_HTML.png
-:name: fig-5-11
+:label: fig-5-11
+:alt: An atom with two ground states and three excited states
 
 An atom with two ground states and three excited states
+
 ```
 
 For *X* crossovers, there are some situations where the two transitions cannot be interchanged. Consider the two transitions: $F=1 \rightarrow F'=2$ and $F=2 \rightarrow F'=3$. If the pump beam is exciting the first transition, it is “pumping” atoms with, say, $v_{\parallel }=+25\,\text{m/s}$ from the $F=1$ ground state into the $F=2$ ground state via the $F'=2$ excited state. The probe beam is then exciting those extra atoms on the $F=2 \rightarrow F'=3$ transition. However, if the pump beam is exciting the second transition, which would be the atoms with $v_{\parallel }=-25\,\text{m/s}$, $F'=3$ cannot decay into the $F=1$ ground state. So, the probe beam transmission, which is exciting atoms on the $F=2 \rightarrow F'=3$ transition, is not changed. This crossover only has one “velocity class” that contributes to the crossover, so it tends to be smaller than a crossover with two velocity classes.
@@ -280,11 +291,12 @@ So, in this example, our transmission plot will have up to 15 spectral features.
 ## 5.3 Example with Cesium-133
 
 Cesium-133, which has 55 protons and 78 neutrons, is one of the most studied atoms on the periodic table. Figure [](#fig-5-12) shows a simplified energy level diagram for a transition that uses 455.6 nm light. The lower state, which has the label $6\text{s}\ { }^2 S_{1/2}$ (don’t worry about what that means right now, we will talk about the physical meaning behind the labeling starting in Chap. [](#ch-7)), has two closely spaced ground states with labels $F=3$ and $F=4$ (we will give meaning to these labels in Chaps. [](#ch-8) and [](#ch-9)). The separation of these two states is just over 9 GHz. In energy units, that would be $hf=(6.626\times 10^{-34}\,\text{Js})(9.192\times 10^{9}\,\text{Hz})=6.091\times 10^{-24}\,\text{J}=38\,\mu \text{eV}$.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig12_HTML.png
-:name: fig-5-12
+:label: fig-5-12
+:alt: A simplified energy level diagram for the transitions in cesium-133 near 455.6 nm
 
 A simplified energy level diagram for the transitions in cesium-133 near 455.6 nm
+
 ```
 
 **Fun Fact**
@@ -324,22 +336,24 @@ But what about *V* crossovers? What velocity does an atom have to have to create
 Assuming room temperature, $T=300\,\text{K}$, find the FWHM of the Maxwell Boltzmann distribution. What do you conclude? The answers are in the footnotes.[^7]
 
 For *V* crossovers, $|v_\parallel |$ is well within the full width half maximum of the Maxwell-Boltzmann velocity distribution. So, we are definitely going to have *V* crossovers. However, the $|v_\parallel |$ needed for $\Lambda$ crossovers and *X* crossovers is well outside the distribution, so we won’t see any $\Lambda$ crossovers or *X* crossovers. Figure [](#fig-5-13) is a saturated absorption plot between the $F=4$ ground state and the $F'=3$, $F'=4$, and $F'=5$ excited states. The three labeled peaks are the real transitions. Notice there are additional Lorentzian features exactly halfway between any two real transitions. Also notice that all of the amplitudes are different. The crossover between $F'=4$ and $F'=5$ is really big while the real transition from the $F=4$ ground state to the $F'=3$ excited state turns out to be really small. The peak directly to the right of $F'=3$ is the V crossover between $F'=4$ and $F'=5$. Even if this plot wasn’t labeled, we can still figure out which features are the real transitions and which are the crossovers. We just look for the features directly between two other features to find the crossovers. Also, the peaks at the smallest and largest frequency values have to be real transitions; a crossover has to be between two real transitions.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig13_HTML.png
-:name: fig-5-13
+:label: fig-5-13
+:alt: Experimental data taken by my research group showing a saturated absorption plot from the ground state of cesium-133 to the , , and excited states, see reference [1]. There are six spectral features. Three of them are real transitions and three are *V* crossovers
 
 Experimental data taken by my research group showing a saturated absorption plot from the $F=4$ ground state of cesium-133 to the $F'=3$, $F'=4$, and $F'=5$ excited states, see reference [1]. There are six spectral features. Three of them are real transitions and three are *V* crossovers
+
 ```
 
 (sec-5-4)=
 ## 5.4 Oxygen-16: A Spectrum Missing a Crossover
 
 A lot of laser spectroscopy is done from the ground state to an excited state. However, laser spectroscopy can also be performed between two excited states. Figure [](#fig-5-14)a shows a simplified Grotrian diagram for a transition in neutral atomic oxygen-16 (8 protons and 8 neutrons). The lower state, which we give the label $J=2$, can be excited to three different excited states, which we give the labels $J'=1$, $J'=2$, and $J'=3$. Like in the previous examples, just consider these labels for now. The Rule for these transitions are the same as before, we just replace *F* with *J*: $\Delta J=-1$, 0, or +1 with the exception that $J=0 \not \rightarrow J'=0$.[^8] We will explore what the labels actually mean in Chaps. [](#ch-7), [](#ch-8), and [](#ch-9). Oxygen, in its natural form, is a molecule composed of two oxygen atoms. A discharge (basically think about a “neon tube” filled with oxygen molecules) can be used to both dissociate the molecule into neutral atomic oxygen as well as excite the electrons into a variety of excited states. Most of the atoms are not in the $J=2$ lower state, but there are enough for us to do spectroscopy. It should be noted that the $J=2$ lower state also has a lifetime of about 27 ns, so the discharge needs to continually repopulate the lower state for us to do spectroscopy. Discharges are also typically hotter than room temperature.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig14_HTML.png
-:name: fig-5-14
+:label: fig-5-14
+:alt: (**a**) A simplified energy level diagram for a spectroscopic study in atomic oxygen-16 near 926 nm. The spectrum is taken between two excited states, which I call the lower state and the upper state. (**b**) Experimental data of a saturated absorption spectroscopy spectrum from the lower state of oxygen-16 to the , , and upper states. There are only five spectral features because the vapor cell wasn’t hot enough for the *V* crossover created by the and transitions; the Doppler profiles for these two transitions did not overlap
 
 (**a**) A simplified energy level diagram for a spectroscopic study in atomic oxygen-16 near 926 nm. The spectrum is taken between two excited states, which I call the lower state and the upper state. (**b**) Experimental data of a saturated absorption spectroscopy spectrum from the $J=2$ lower state of oxygen-16 to the $J'=1$, $J'=2$, and $J'=3$ upper states. There are only five spectral features because the vapor cell wasn’t hot enough for the *V* crossover created by the $J=2 \rightarrow J'=1$ and $J=2 \rightarrow J'=3$ transitions; the Doppler profiles for these two transitions did not overlap
+
 ```
 
 Next, take a look at Fig. [](#fig-5-14)b. There is a very visible V crossover created by the large $J=2 \rightarrow J'=3$ (real) transition and medium sized $J=2 \rightarrow J'=2$ (real) transition. Those transitions are about 3500 MHz apart, but the Doppler profiles of these individual transitions are large enough to create a crossover. This crossover is labeled as $J=2\rightarrow J'=3/2$.[^9] The V crossover with the label $J=2\rightarrow J'=2/1$ is created by the medium $J=2 \rightarrow J'=2$ and the small $J=2 \rightarrow J'=1$ transitions. It is also quite visible, although not as big as the $J=2\rightarrow J'=3/2$ *V* crossover. Those two transitions are about 3200 MHz apart. We did not see a *V* crossover created by the $J=2 \rightarrow J'=3$ and $J=2 \rightarrow J'=1$ transitions, which would have the label $J=2\rightarrow J'=3/1$. Those two transitions are about 6500 MHz apart. Because they are so far apart, the individual Doppler profiles don’t overlap resulting in no crossover feature.
@@ -348,36 +362,40 @@ Next, take a look at Fig. [](#fig-5-14)b. There is a very visible V crossover cr
 ## 5.5 Example with Europium-151
 
 Let’s explore a more complex example using europium-151. Consider a transition from the ground state to an excited state that we are going to call the $J'=5/2$ excited state. Because of nuclear spin, both the ground state and excited state have 6 closely spaced hyperfine levels, see Fig. [](#fig-5-15). As a reminder, if the nucleus had no angular momentum, there would be a single energy level called the center of gravity that would be located at 0 for both energy level diagrams. The frequency difference between the center of gravity of the excited state and that of the ground state is called the center of gravity frequency. Due to the closely spaced levels, there are a lot of possible transitions and a lot of possible crossovers.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig15_HTML.png
-:name: fig-5-15
+:label: fig-5-15
+:alt: Left: The 6 hyperfine energy levels for the ground state of europium-151. The 6 hyperfine energy levels for a particular excited state that is about 642.9 THz (466.3 nm) above the ground state. The numbers listed for are with respect to the center of gravity
 
 Left: The 6 hyperfine energy levels for the ground state of europium-151. The 6 hyperfine energy levels for a particular excited state that is about 642.9 THz (466.3 nm) above the ground state. The numbers listed for $\Delta f$ are with respect to the center of gravity
+
 ```
 
 Figure [](#fig-5-16) is a simulation of a transmission plot with just a probe beam (no pump beam) for a vapor cell with a temperature of 400 K. I plotted the individual transition Doppler broadened spectral features with blue-dashed lines. If you add up the blue curves, you get the black curve. The red vertical lines are the transition frequencies. Because of the temperature of the vapor cell, the individual transitions cannot be resolved. So, this is a good candidate for saturated absorption spectroscopy. The saturated absorption plot will have many transitions (15 of them) and many crossovers (up to 62 of them!). Unfortunately, many of these spectral features overlap with each other. Figure [](#fig-5-17) shows experimental results for a saturated absorption plot collected by my research group on this transition in europium-151. Look how complicated the spectrum is! Although it is a complicated plot, there are spectral features that we can try to attribute to each transition or crossover. Our job, as experimentalists, is to extract as much information as we can from these plots.
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig16_HTML.png
-:name: fig-5-16
+:label: fig-5-16
+:alt: A simulation of a transmission plot with a probe beam (no pump beam) traveling through a vapor cell of europium-151 atoms held at 400 K. There are 15 transitions in total. The Doppler profile for each transition is shown in blue-dashed lines. Some of the amplitudes are quite small and not really visible by eye in this plot. The sum of all the individual Doppler profiles is the black curve, which is what we would measure in the lab. The red vertical lines indicate the center of each transition. As you can see, no single spectral feature can be resolved
 
 A simulation of a transmission plot with a probe beam (no pump beam) traveling through a vapor cell of europium-151 atoms held at 400 K. There are 15 transitions in total. The Doppler profile for each transition is shown in blue-dashed lines. Some of the amplitudes are quite small and not really visible by eye in this plot. The sum of all the individual Doppler profiles is the black curve, which is what we would measure in the lab. The red vertical lines indicate the center of each transition. As you can see, no single spectral feature can be resolved
-```
 
+```
 ```{figure} ../images/ch-05/541577_1_En_5_Fig17_HTML.png
-:name: fig-5-17
+:label: fig-5-17
+:alt: Experimental results of performing saturated absorption spectroscopy on europium-151 atoms, see reference [2]. There are 15 real spectral features and up to 62 crossover features for a total of 77 possible spectral features!
 
 Experimental results of performing saturated absorption spectroscopy on europium-151 atoms, see reference [2]. There are 15 real spectral features and up to 62 crossover features for a total of 77 possible spectral features!
+
 ```
 
 (sec-5-6)=
 ## 5.6 Extra: Crossover-Free Spectroscopy
 
 Crossovers can be problematic because they introduce additional features into the spectrum. Many times, those crossover features overlap each other or overlap the features from real transitions. So, it isn’t too surprising that spectroscopists developed methods of getting sub-Doppler features without crossovers. The simplest idea is to use an atomic beam, see Fig. [](#fig-5-18).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig18_HTML.png
-:name: fig-5-18
+:label: fig-5-18
+:alt: A sketch of how experimentalists use an oven and collimators to make a collimated atomic beam. Since the atoms are not moving vertically, if we sent a laser perpendicular to the atomic beam, then
 
 A sketch of how experimentalists use an oven and collimators to make a collimated atomic beam. Since the atoms are not moving vertically, if we sent a laser perpendicular to the atomic beam, then $v_{\parallel }=0$
+
 ```
 
 An atomic beam is created by taking a sample, placing it in a vacuum-compatible oven,[^10] and heating the oven. The oven has a small hole to allow the atoms to escape. After the oven, metal pieces called collimators are typically used to block any atoms diverging at large angles. The ideal spectroscopy experiment would have an atomic beam with zero divergence, resulting in a column of atoms exiting the oven. In practice, there will always be some divergence of the atomic beam.
@@ -385,11 +403,12 @@ An atomic beam is created by taking a sample, placing it in a vacuum-compatible 
 The laser beam intersects perpendicular to the atomic beam. In this experimental design, there are no atoms moving towards or away from the laser so there are no Doppler shifts and there are no crossovers. This type of setup does have a few drawbacks. The first is that you really need to make sure the laser is perpendicular to the atomic beam. If there is a small angle, there will be no atoms moving perpendicular to the laser. And, you can’t really tell if there is a non-zero angle either. You still have atoms absorbing from the laser, but they will all be absorbing at the Doppler shifted frequency. So, the spectrum looks the same, but the resonant frequency is off. A common technique to address this issue is to perform saturated absorption spectroscopy on the atomic beam. The other issue you have to deal with is that the atomic beam is never perfectly collimated. Often times, the atomic beam will be diverging more in one direction than the other. That will cause an asymmetry in the spectral signal, even when using saturated absorption spectroscopy.
 
 Another clever method for doing spectroscopy is to have two laser beams that are traveling in the same direction, see Fig. [](#fig-5-19). Unlike typical saturated absorption spectroscopy, the two laser beams have independent frequency control. In saturated absorption spectroscopy, the pump and probe beams come from the same laser, so changing the frequency of the laser changes the frequency of both the pump and the probe beams. In this setup, the frequency of laser #1 is going to be fixed to a transition, and the frequency of laser #2 is scanned. The transmission of laser #1 is what we monitor. Laser #2 also has more laser power (a higher saturation parameter).
-
 ```{figure} ../images/ch-05/541577_1_En_5_Fig19_HTML.png
-:name: fig-5-19
+:label: fig-5-19
+:alt: A comparison between a saturated absorption spectroscopy experimental setup and a crossover-free setup. The crossover-free setup requires two separate lasers
 
 A comparison between a saturated absorption spectroscopy experimental setup and a crossover-free setup. The crossover-free setup requires two separate lasers
+
 ```
 
 One obstacle for this experimental setup is that you need two lasers, which can be expensive. The other is that laser #1 has to be at the resonance frequency for one of the transitions. If the frequency of laser #1 does not perfectly match a resonant frequency, the frequency scale of your spectrum will be off.
@@ -397,13 +416,12 @@ One obstacle for this experimental setup is that you need two lasers, which can 
 To better understand how the two-laser spectroscopy set up works, consider the following problem on producing a crossover-free spectrum that looks like a spectrum at 0 Kelvin. Figure [](#fig-5-20) shows a Grotrian diagram for a transition in europium-151. Laser #1 has a frequency that is fixed to the $F=5 \rightarrow F'=5$ transition. Laser #2 is going to scan from a frequency below the $F=1 \rightarrow F'=5$ transition to above the $F=6 \rightarrow F'=0$ transition. Note that neither of these transitions are allowed. I’m just giving an $f_{\text{min}}$ and an $f_{\text{max}}$ for our frequency scan. For these transitions, the wavelength of light is around $\lambda = 466\,\text{nm}$. We will monitor the transmission of Laser #1 as a function of frequency for Laser #2.
 
 1. Considering only the atoms moving with $v_{\parallel }=0$, explain why scanning the frequency of Laser #2 across the $F=5 \rightarrow F'=5$ transition results in a 0 Kelvin spectral feature on the transmission plot for Laser #1. Will you also get a spectral feature when Laser #2 scans across the $F=5 \rightarrow F'=4$ transition?
-
-   ```{figure} ../images/ch-05/541577_1_En_5_Fig20_HTML.png
-   :name: fig-5-20
+```{figure} ../images/ch-05/541577_1_En_5_Fig20_HTML.png
+:label: fig-5-20
+:alt: A Grotrian diagram to explore crossover-free spectroscopy. Laser #1 has a frequency that exactly matches the transition frequency. The frequency of Laser #2 is smoothly scanned from a frequency that is too small to excite any resonant transition to too large
 
    A Grotrian diagram to explore crossover-free spectroscopy. Laser #1 has a frequency that exactly matches the $F=5 \rightarrow F'=5$ transition frequency. The frequency of Laser #2 is smoothly scanned from a frequency that is too small to excite any resonant transition to too large
-   ```
-
+```
 2. When Laser #2 scans through the $F=6 \rightarrow F'=5$ transition, Laser #2 will excite atoms with $v_{\parallel }=0$ from the $F=6$ ground state to the $F'=5$ excited state. Even though Laser #1 is not resonant with that transition, there will be a spectral feature at that frequency on the transmission plot. Why?
 
 3. Now consider atoms that are moving at a speed $v_{\parallel }\approx 344\,\text{m/s}$ towards Laser #1 (and also towards Laser #2). The atoms are moving with the perfect speed to be excited by Laser #1 on the $F=5 \rightarrow F'=4$ transition. Laser #2 now has its frequency scanned. How do these atoms affect the transmission plot for Laser #1?
@@ -414,6 +432,7 @@ To better understand how the two-laser spectroscopy set up works, consider the f
 
 (sec-5-7)=
 ## 5.7 Problems
+
 
 ```{exercise}
 :label: prob-5-1
@@ -452,22 +471,21 @@ Consider a transition in an atom with three hyperfine ground states and two hype
 Figure [](#fig-5-21) shows energy levels for a transition in rubidium-87. The center of gravity for the ground and excited states are shown on the far left. The ground state labeled $F=1$ has an energy of $-$4271.676 MHz with respect to the center of gravity and the ground state labeled $F=2$ has an energy of +2563.005 MHz with respect to the center of gravity. The two ground states are separated by 6834.682 MHz, which is much larger than the width of the Doppler profile for these transitions, which is about 510 MHz, at 300 K. This means there will be no $\Lambda$ or *X* crossovers. However, all of the excited states are separated by frequencies smaller than the Doppler width, which means the saturated absorption spectrum will have *V* crossovers. The natural linewidth for this transition is 6 MHz.
 
 1. Make a saturated absorption plot using the above energy levels assuming atoms are only in the $F=1$ ground state. Remember to use The Rule: $\Delta F =-1$, 0, or +1 with the exception $F=0 \not \rightarrow F'=0$. As always, don’t worry about the amplitudes of the spectral features. The horizontal axis should be with respect to center of gravity of the excited state. On your plot, label which features are real transitions and which are crossovers.
-
-   ```{figure} ../images/ch-05/541577_1_En_5_Fig21_HTML.png
-   :name: fig-5-21
+```{figure} ../images/ch-05/541577_1_En_5_Fig21_HTML.png
+:label: fig-5-21
+:alt: A Grotrian diagram for a transition in rubidium-87
 
    A Grotrian diagram for a transition in rubidium-87
-   ```
-
+```
 2. Make a saturated absorption plot assuming atoms are only in the $F=2$ ground state.
 3. The plots in part (a) and part (b) are separated by about 6830 MHz, see Fig. [](#fig-5-22). The 0 on the horizontal axis in Fig. [](#fig-5-22) is with respect to center of gravity frequency. Let’s assume the rubidium atoms are really hot. So hot that the Doppler profiles from the two ground states are overlapping, which means we will have more crossovers. Where on the above graph would the crossover be due to the two transitions $F=1 \rightarrow F'=1$ and $F=2 \rightarrow F'=1$?
 
-   ```{figure} ../images/ch-05/541577_1_En_5_Fig22_HTML.png
-   :name: fig-5-22
+```{figure} ../images/ch-05/541577_1_En_5_Fig22_HTML.png
+:label: fig-5-22
+:alt: A simulation of a saturated absorption plot (i.e., a pump on - pump off plot) scanning across all possible transitions. The 0 on the horizontal axis is the center of gravity frequency 384.2 THz. The amplitudes for the spectral features are all set to be the same. In a real experiment, the amplitudes will all be different
 
    A simulation of a saturated absorption plot (i.e., a pump on - pump off plot) scanning across all possible transitions. The 0 on the horizontal axis is the center of gravity frequency 384.2 THz. The amplitudes for the spectral features are all set to be the same. In a real experiment, the amplitudes will all be different
-   ```
-
+```
 4. In the scenario outlined in part (c), why would there be no crossovers due to the two ground states and the $F=0$ excited state?
 ````
 
@@ -478,15 +496,15 @@ Figure [](#fig-5-21) shows energy levels for a transition in rubidium-87. The ce
 A transition in sodium-23 has a Grotrian diagram that is very similar to the transition studied in Problem [](#prob-5-4) for rubidium-87. The Grotrian diagram for the sodium transitions studied in this problem are shown in Fig. [](#fig-5-23): The difference is that the energy levels are much closer together. The natural linewidth for this transition is 10 MHz.
 
 1. Make a saturated absorption plot assuming atoms are only in the $F=1$ ground state. Assume we have some power broadening so that the width of the spectral features is 12 MHz. As always, don’t worry about the amplitude of the spectral features.
-
-   ```{figure} ../images/ch-05/541577_1_En_5_Fig23_HTML.png
-   :name: fig-5-23
+```{figure} ../images/ch-05/541577_1_En_5_Fig23_HTML.png
+:label: fig-5-23
+:alt: A Grotrian diagram for a transition in sodium-23
 
    A Grotrian diagram for a transition in sodium-23
-   ```
-
+```
 2. Reflect on your spectrum.
 3. Now assume you collected the spectrum but you used a crossover-free experimental setup. What does your spectrum look like now?
+
 ````
 
 ```{exercise}

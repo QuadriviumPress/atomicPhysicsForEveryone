@@ -72,11 +72,12 @@ As an example, we will soon talk about the electronic orbital angular momentum q
 Electrons, protons, and neutrons all have angular momentum. A classical analogy is thinking about the moon orbiting the earth.[^1] The moon has orbital angular momentum because it is orbiting the earth. The moon is also spinning on its own axis, so it also has “spin” angular momentum. So, the moon has two types of angular momentum: orbital and spin. Likewise, an electron in an atom can have orbital angular momentum and spin, which is sometimes called intrinsic angular momentum. Interestingly, an electron always has intrinsic angular momentum, but it does not always have orbital angular momentum. One of the craziest things about quantum mechanics is that we don’t have a great analogy to think about the orbital angular momentum or spin of the electron. The electron is not orbiting around the nucleus or spinning on its axis like the moon, but it has the same properties as if it were. The electron, as far as we can tell, has no size! So, how can it be spinning? Imagine how confusing that must have been when physicists were first trying to understand the electron.[^2] It has all the properties one would expect for a ball spinning on its axis, but it is not a ball and it is not spinning! Understanding electron spin is still a wonderful mystery.
 
 Since there are two types of angular momentum, we could ask the question, “What is the total electronic angular momentum of the electron in an atom?” The total electronic angular momentum is not a simple sum of orbital angular momentum and spin. In other words, you cannot just add the two angular momenta together like $2+3=5$. Angular momentum is something called a vector, which is something with magnitude (i.e., size or length) and direction. To get the total electronic angular momentum you have to add the orbital angular momentum and spin together in their vector forms. As a classical analogy, imagine you walk 30 m due north, see Fig. [](#fig-7-1). That is a vector because it has a magnitude (30 m) and a direction (due north). Next, you walk 40 m due west. Once again, that is a vector. If you were to add the two vectors together, you would be asking the question, “If I restarted my journey but took the shortest path, how far and in what direction would I walk?” The answer to this particular scenario is 50 m at $\tan ^{-1}\bigg (\frac {40\,\text{m}}{30\,\text{m}}\bigg )=53.1^{\circ }$ West of North.
-
 ```{figure} ../images/ch-07/541577_1_En_7_Fig1_HTML.png
-:name: fig-7-1
+:label: fig-7-1
+:alt: An example of adding two vectors together
 
 An example of adding two vectors together
+
 ```
 
 **The Super Important Take Home Message**
@@ -89,11 +90,12 @@ Let’s get back to talking about angular momentum in a quantum system. An elect
 ## 7.3 Orbital Angular Momentum of a Single Electron
 
 The magnitude of the orbital angular momentum vector for a single electron in an atom is represented by the quantum number $\ell$. The direction (or orientation) is also quantized and is represented by the quantum number $m_{\ell }$. Fig. [](#fig-7-2)a) shows an example of the three possible orientations of an orbital angular momentum vector represented by $\ell =1$. Each of these vectors has the same magnitude (they all have $\ell =1$), but they all point in different directions (they all have a different $m_{\ell }$ quantum number). While $\ell$ tells us the magnitude of the vector, $m_{\ell }$ tells us how much of the vector points along the *z*-axis; this is called the z-component or z-projection. Fig. [](#fig-7-2)a) has three values of $m_{\ell }$: $-$1, 0, and +1. The dashed blue circles are meant to indicate that the angular momentum vector points anywhere on that circle. Because the angular momentum vector can point anywhere on the circle, some people like to think of angular momentum as a cone, see Fig. [](#fig-7-2)b).[^3] These cones are also referred to as angular momentum states, which we will make more sense as we work our way through Chaps. [](#ch-7) and [](#ch-8).
-
 ```{figure} ../images/ch-07/541577_1_En_7_Fig2_HTML.png
-:name: fig-7-2
+:label: fig-7-2
+:alt: Two popular ways to think about angular momentum states for a quantum mechanical system, like an electron in an atom. (**a**) A vector representation of the three possible vector orientations for an electron with orbital angular momentum quantum number . (**b**) The same information using cones instead of a vector and a dotted circle
 
 Two popular ways to think about angular momentum states for a quantum mechanical system, like an electron in an atom. (**a**) A vector representation of the three possible vector orientations for an electron with orbital angular momentum quantum number $\ell =1$. (**b**) The same information using cones instead of a vector and a dotted circle
+
 ```
 
 Orientation of the angular momentum vector, height of the cone, or component/projection along the *z*-axis are all valid ways to think about $m_{\ell }$. After solving the math for quantum mechanics, we find the component of orbital angular momentum along the *z*-axis to be $m_{\ell }\hbar$. For the upside-down cone in Fig. [](#fig-7-2)b), the orbital angular momentum vector is represented by the two quantum numbers $\ell =1$ and $m_{\ell }=-1$, or the size of the orbital angular momentum is $\sqrt {1(1+1)}\hbar =\sqrt {2}\hbar$ and the amount of orbital angular momentum along the *z*-axis (or height of the cone) is $-\hbar$. The flat cone has the same size ($\ell =1$), but it has no component along the *z*-axis ($m_{\ell }=0$). Finally the upright cone has a component along the *z*-axis represented by $m_{\ell }=+1$. Since $m_{\ell }$ is the amount pointing along the *z*-axis, that number is also restricted by the value of $\ell$. For example, if $\ell =1$, $m_{\ell }$ cannot be 2. If it was, the amount pointing along the *z*-axis would be larger than the total magnitude!
@@ -165,11 +167,12 @@ There are also mathematical restrictions on the quantum numbers themselves. $\el
 **Example #1**
 
 An electron in an atom has orbital angular momentum represented by the quantum number $\ell =3$. There are 7 possible orientations (cone heights) of that vector represented by $m_{\ell }$= $-$3, $-$2, $-$1, 0, 1, 2, 3, see Fig. [](#fig-7-3). If we measure the magnitude of the orbital angular momentum, we will measure $\sqrt {3(3+1)}\hbar =\sqrt {12}\hbar$. If we measure the z-components, we will measure either $-3\hbar$, $-2\hbar$, $-\hbar$, 0, $\hbar$, $2\hbar$, or, $3\hbar$.
-
 ```{figure} ../images/ch-07/541577_1_En_7_Fig3_HTML.png
-:name: fig-7-3
+:label: fig-7-3
+:alt: A vector representation of the seven possible vector orientations for an electron with orbital angular momentum quantum number
 
 A vector representation of the seven possible vector orientations for an electron with orbital angular momentum quantum number $\ell =3$
+
 ```
 
 **Example #2**
@@ -342,11 +345,12 @@ We want to ask the question, which of these observables is compatible with energ
 - Incompatible with energy: $m_\ell$ and $m_s$
 
 That means if the system was in an energy state and we measured the z-component of the electron’s orbital angular momentum, the system is now in a superposition of energy states. But what makes $m_\ell$ and $m_s$ incompatible with $m_j$ and energy? While it isn’t obvious why $m_\ell$ and $m_s$ are incompatible with the energy state, we can visualize why they are incompatible with $m_j$. Fig. [](#fig-7-4) visualizes the incompatibility. This figure shows the addition of two angular momentum cones. Since $m_j$ is compatible with the energy state, we will define the *z*-axis to be along the cone for *j*. I want to point out a few things. First, notice that the cones for both $\ell$ and *s* are tilted with respect to the *z*-axis. This means that the height of those two cones (i.e., the result of a measurement of $m_\ell$ or $m_s$) are no longer perfect projections onto the *z*-axis. In other words, if we measured the z-component of spin with respect to this *z*-axis, we will be in a superposition of the $m_j$ basis set. Compare this to the measurement of the z-component of *j*. The cone for *j* has a rim that is constant along the *z*-axis, so we will always measure the same value of $m_j$. Since $m_j$ is compatible with the energy state, measuring $m_\ell$ or $m_s$ would also put the system into a superposition of energy states.
-
 ```{figure} ../images/ch-07/541577_1_En_7_Fig4_HTML.png
-:name: fig-7-4
+:label: fig-7-4
+:alt: An example of adding together a spin cone and a orbital angular momentum cone to get the total electronic angular momentum cone. Notice that the z-component of both the spin and orbital angular momentum cones is not the same value at all points of the cone tops. This means the z-component does not have a specific, discrete value, which means that both the z-component of spin and the z-component of orbital angular momentum are incompatible with the z-component of *j*
 
 An example of adding together a spin cone and a orbital angular momentum cone to get the total electronic angular momentum cone. Notice that the z-component of both the spin and orbital angular momentum cones is not the same value at all points of the cone tops. This means the z-component does not have a specific, discrete value, which means that both the z-component of spin and the z-component of orbital angular momentum are incompatible with the z-component of *j*
+
 ```
 
 The second thing I would like to point out is that the length of the both *s* and $\ell$ are constants. If we were to measure the slant height of either cone, we will always get the same answer. In other words, both *s* and $\ell$ are compatible with *j* and energy.
@@ -371,9 +375,10 @@ The electron in the hydrogen is in the state $|{2~1~\frac {1}{2}~\frac {3}{2}\,\
 - (b) If we measured the z-component of the electron’s orbital angular momentum, what might we get?
 
 The solutions are below the crossword.
-
 ```{figure} ../images/ch-07/541577_1_En_7_Figa_HTML.png
-:name: fig-7-a
+:label: fig-7-a
+:alt: Crossword puzzle for the angular momentum exercise solutions
+
 ```
 
 :::{admonition} Solution

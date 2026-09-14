@@ -44,41 +44,51 @@ Imagine we have a bunch of atoms in a vapor cell, which is a sealed glass tube c
 - Every atom has only 2 energy states. The state with lower energy is called the ground state. The state with higher energy is called the excited state. This simplified atom has a very descriptive label: the two-level atom.
 
 Now, we do spectroscopy. We start by sending a laser through the vapor cell and detecting how much light makes it through, see Fig. [](#fig-3-1). At the beginning of the thought experiment, the photons in the laser do not have enough energy to excite the atoms from the ground state to the excited state. In other words, the frequency of the laser is lower than the resonance frequency. As such, we don’t expect the atoms to absorb photons from the laser beam. Next, we will smoothly increase the frequency of the laser until the photons in the laser beam have more energy than the energy difference between the ground and excited states. In going from too small to too big, the laser frequency will, at some point, be just right so that the photons have the right amount of energy to excite the atom, which we call resonance. In the lab, smoothly changing the laser frequency over time is referred to as “scanning the laser.”
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig1_HTML.png
-:name: fig-3-1
+:label: fig-3-1
+:alt: The experimental setup for the thought experiment
 
 The experimental setup for the thought experiment
+
+
 ```
 
 A transmission plot is a plot of the fraction of photons that make it through the vapor cell as a function of laser frequency. The question is, what does our transmission plot look like for this thought experiment? Based on what we’ve learned so far, a completely reasonable guess would be that the atoms completely ignore the photons unless the photons have the perfect energy to excite the atom from the ground state to the excited state. So, you might guess that our transmission plot looks like the sharp dip in Fig. [](#fig-3-2). The plot has a single, sharp dip that occurs at the resonance frequency. If the laser has any other frequency the photons do not have the correct energy to excite the atom. However, this is not quite right. A more realistic transmission plot can be seen in Fig. [](#fig-3-3)a. The transmission plot does indeed have a dip at the resonance frequency, but the dip has a width. This width is called the **natural linewidth** of the transition and is represented by the lowercase Greek letter gamma, $\gamma$. The natural linewidth is a frequency, so it has units of hertz. Spectroscopists often just say “linewidth” instead of “natural linewidth.” In an experiment, we would see our atoms start to glow as the laser frequency passes through resonance, see Fig. [](#fig-3-3)b.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig2_HTML.png
-:name: fig-3-2
+:label: fig-3-2
+:alt: A completely reasonable, but incorrect, guess for the transmission plot. For a transmission plot, 100% means that no photons are absorbed by the atoms, 50% means that half of the photons are absorbed, and 0% means that all of the photons are absorbed by the atoms
 
 A completely reasonable, but incorrect, guess for the transmission plot. For a transmission plot, 100% means that no photons are absorbed by the atoms, 50% means that half of the photons are absorbed, and 0% means that all of the photons are absorbed by the atoms
-```
 
+
+```
 ```{figure} ../images/ch-03/541577_1_En_3_Fig3_HTML.jpg
-:name: fig-3-3
+:label: fig-3-3
+:alt: (**a**) A more accurate transmission plot for the thought experiment. (**b**) A picture of a laser beam whose frequency matches a resonance frequency near 459 nm (blue light) passing through a vapor cell of cesium atoms. As we scan the laser frequency from below the resonance frequency to above the resonance frequency, we visually see no glowing cylinder, followed by a glowing cylinder (resonance), followed by no glowing cylinder. On resonance, the transmission decreases as shown in (**a**) because the atoms take photons from the laser and re-emit them in all directions, and almost none of these re-emitted photons continue along their original path to the detector. Note that the transmission plot in (**a**) is a theory plot assuming that the atoms are at rest. In the vapor cell the atoms are not frozen in place. Chapter [](#ch-4) will explore a transmission plot for atoms moving around
 
 (**a**) A more accurate transmission plot for the thought experiment. (**b**) A picture of a laser beam whose frequency matches a resonance frequency near 459 nm (blue light) passing through a vapor cell of cesium atoms. As we scan the laser frequency from below the resonance frequency to above the resonance frequency, we visually see no glowing cylinder, followed by a glowing cylinder (resonance), followed by no glowing cylinder. On resonance, the transmission decreases as shown in (**a**) because the atoms take photons from the laser and re-emit them in all directions, and almost none of these re-emitted photons continue along their original path to the detector. Note that the transmission plot in (**a**) is a theory plot assuming that the atoms are at rest. In the vapor cell the atoms are not frozen in place. Chapter [](#ch-4) will explore a transmission plot for atoms moving around
+
+
 ```
 
 Often times spectroscopists would rather look at an absorption plot instead of a transmission plot, see Fig. [](#fig-3-4). An absorption plot is the fraction of photons lost as a function of laser frequency. It looks very similar to a transmission plot, but it has a bump instead of a dip. Both an absorption plot and a transmission plot tell us the same information: atoms absorb (and re-emit) photons from the laser around the resonance frequency. If you add absorption to transmission, you should get 100% for all laser frequencies.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig4_HTML.png
-:name: fig-3-4
+:label: fig-3-4
+:alt: An illustrative example of an absorption plot (left) and a transmission plot (right). If you add these two plots together, you would get 100% for all laser frequencies
 
 An illustrative example of an absorption plot (left) and a transmission plot (right). If you add these two plots together, you would get 100% for all laser frequencies
+
+
 ```
 
 The natural linewidth is the full width at half the maximum (FWHM) of the absorption bump, see Fig. [](#fig-3-5). It is a property of the transition that we cannot change. As an analogy, think about the charge or mass of an electron. The charge of the electron is simply the charge of the electron, which is $1.602\times 10^{-19}\,\text{coulombs}$. The mass of the electron is simply the mass of the electron, which is $9.11\times 10^{-31}\,\text{kg}$. These are intrinsic properties of the electron that we cannot change. The natural linewidth of a transition is inherent for that transition, and we cannot change it.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig5_HTML.png
-:name: fig-3-5
+:label: fig-3-5
+:alt: A zoom in of a spectral feature. The natural linewidth is the full width half maximum of this feature
 
 A zoom in of a spectral feature. The natural linewidth is the full width half maximum of this feature
+
+
 ```
 
 The shape of the bump (or dip in the transmission plot) is often referred to as a **spectral feature** or spectral profile. For completeness, the width of the spectral feature we measure in the lab is always larger than the natural linewidth because of various “broadening” mechanisms. One of these broadening mechanisms is laser power, which we will discuss in Sect. [](#sec-3-5). If the laser power was the only broadening mechanism, we would find that as the laser power gets smaller and smaller, the width gets narrower and narrower until it reaches the natural linewidth. The natural linewidth is the *minimum* possible FWHM of a spectral feature.
@@ -185,11 +195,13 @@ e^{-t/\tau},
 ```
 
 where $\tau$ (this is the Greek letter lowercase tau) is called the lifetime of the excited state. This function is called an exponential decay. Like the natural linewidth of a transition, $\tau$ has a unique value for every transition in an atom. The lifetime of the excited state used for the decay in the graph is $\tau =6.25\,\text{ns}$, which means that after $6.25\,\text{ns}$ about 63% of the atoms have decayed. There is nothing special about 63%; it is just what physicists decided to define as the lifetime. Mathematically it is a nice definition because when $t=\tau$, the fraction of atoms that have not decayed is $e^{-1}=0.368$, or 36.8%. After two lifetimes $(2\times 6.25\,\text{ns}=12.5\,\text{ns})$, about 86.5% of the atoms have decayed leaving $e^{-2}=0.135$, or 13.5%, of the atoms in the excited state.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig6_HTML.png
-:name: fig-3-6
+:label: fig-3-6
+:alt: The excited state fraction as a function of time for an excited state that has a lifetime of 6.25 ns
 
 The excited state fraction as a function of time for an excited state that has a lifetime of 6.25 ns
+
+
 ```
 
 Amazingly, the natural linewidth and the lifetime are related! The formula relating the two quantities is:
@@ -210,12 +222,15 @@ As you can imagine, atomic physicists and spectroscopists often use the angular 
 **Definitions**
 
 - **Waist of a laser:** The half width of the intensity plot where the intensity is 13.5% of the maximum intensity, see Fig. [](#fig-3-7). We use the variable *w* to represent waist.
+```{figure} ../images/ch-03/541577_1_En_3_Fig7_HTML.png
+:label: fig-3-7
+:alt: (**a**) The intensity of a laser beam on the wall. (**b**) The intensity along any one of the axes. The waist is the half width of the intensity plot when the intensity is 13.5% of the maximum intensity
 
-  ```{figure} ../images/ch-03/541577_1_En_3_Fig7_HTML.png
-  :name: fig-3-7
+(**a**) The intensity of a laser beam on the wall. (**b**) The intensity along any one of the axes. The waist is the half width of the intensity plot when the intensity is 13.5% of the maximum intensity
 
-  (**a**) The intensity of a laser beam on the wall. (**b**) The intensity along any one of the axes. The waist is the half width of the intensity plot when the intensity is 13.5% of the maximum intensity
-  ```
+
+
+```
 
 - **Intensity:** The intensity of a laser beam is the power of the laser divided by the cross sectional area of the laser beam, denoted as $I=P/A$.
 
@@ -237,13 +252,12 @@ We are interested in the following question: Given a laser and a particular tran
 How many photons an atom scatters depends upon a few different ideas: (1) how far the laser frequency is from the resonance frequency *relative to* the natural linewidth, (2) how long an atom spends in an excited state, and (3) how a transition reacts to photons from a laser whose frequency matches the resonance frequency. Let’s unpack all of these ideas.
 
 1. We now know that the shape of the absorption bump has the mathematical form of a Lorenztian function. For spectroscopists, the natural linewidth really matters. Suppose an atom has a natural linewidth of $\gamma = 100\,\text{MHz}$ and the laser is $25\,\text{MHz}$ below the resonance frequency, see the left spectral profile in Fig. [](#fig-3-8). For this transition, the atom will “scatter” (i.e., absorb and re-emit) many photons from the laser. The right spectral profile in Fig. [](#fig-3-8) corresponds to a transition that has a natural linewidth of $\gamma = 1\,\text{MHz}$. For this narrower transition, the atom will not scatter many photons at all even though the laser frequency is still set to $25\,\text{MHz}$ below the resonance frequency.
-
-   ```{figure} ../images/ch-03/541577_1_En_3_Fig8_HTML.png
-   :name: fig-3-8
+```{figure} ../images/ch-03/541577_1_En_3_Fig8_HTML.png
+:label: fig-3-8
+:alt: Two examples for how light from a laser interacts with two different transitions. The left transition has a large natural linewidth while the right transition has a small natural linewidth. The laser frequency (red dashed line) is 25 MHz below the resonance frequency for both transitions
 
    Two examples for how light from a laser interacts with two different transitions. The left transition has a large natural linewidth while the right transition has a small natural linewidth. The laser frequency (red dashed line) is 25 MHz below the resonance frequency for both transitions
-   ```
-
+```
    To quantify how far the laser frequency is from the resonance frequency, we define a new parameter called **detuning**. Detuning, which is represented by the lowercase Greek letter delta $\delta$ in normal frequency units and capital delta $\Delta =2\pi \delta$ for angular frequency units, gives us this information. Mathematically, detuning is $\delta =f-f_{r}$, where *f* is the frequency of the laser. Notice that if $f<f_{r}$, then $\delta <0$. In the lab, we call this “red detuning,” which will make more sense after we discuss the Doppler effect in Chap. [](#ch-4). Likewise, if $f>f_{r}$, then $\delta >0$, which we call “blue detuning.” In our thought experiment, the atoms will absorb the largest number of photons when $\delta = 0$ (the laser frequency exactly matches the resonance frequency). In the absence of power broadening (i.e., when the laser power is kept low), the atoms will absorb half as many photons when $\delta = \gamma /2$ or $\delta = -\gamma /2$ compared to when $\delta =0$.
 
    As discussed above and displayed in Fig. [](#fig-3-8), detuning is important, but so is the natural linewidth. What we really want to know is how far the laser frequency is from the resonance frequency *relative to* the natural linewidth. For example, if we set the laser frequency such that $\delta =-\gamma /2$, the laser will lose half as many photons compared to when $\delta = 0$. This is true for any transition. The quantity that matters for the scattering rate is the *ratio* of detuning to natural linewidth. So, we expect $\delta /\gamma$ to show up in the relevant scattering rate equation.
@@ -263,6 +277,8 @@ How many photons an atom scatters depends upon a few different ideas: (1) how fa
 To quantify points (2) and (3), we introduce a parameter known as the **saturation intensity** $I_{s}$. The saturation intensity contains all the information about a particular transition that helps us understand how easily an atom interacts with photons in a laser beam whose frequency matches the resonance frequency of a transition (we will quantify this statement soon). Suppose we send a laser beam whose frequency matches the resonance frequency for some transition through a sample of atoms. If an atom absorbs a photon, it will spend some amount of time in the excited state before decaying back to the ground state, where it is free to absorb another photon. The saturation intensity is the laser intensity for an on-resonance laser ($f=f_r$) such that 25% of the atoms are in the excited state at any given time. A transition with a small saturation intensity means that we only need a small laser intensity to have 25% of the atoms in the excited state. A transition with a large saturation intensity means we need a large laser intensity to make that happen.
 
 The ratio of the intensity of light to the saturation intensity is called the **saturation parameter** $s=I/I_s$. We like to use *s* because, like $\delta /\gamma$, it means the same thing for every transition. Saying $s=1$ means that we set the laser intensity equal to the saturation intensity. Some transitions might have a high saturation intensity, like a transition in the beryllium atom that has $I_{s}=885\,\text{mW}/\text{cm}^2$, while other transitions have a low saturation intensity, like a transition in the cesium atom that has $I_{s}=0.40\,\text{mW}/\text{cm}^2$. For that transition in the beryllium atom, we would need $885\,\text{mW}$ of power for a laser with cross sectional area $A=1\,\text{cm}^2$ to have $s=1$, which means 25% of the atoms are in the excited state. 885 mW is a lot of laser power! For the transition in the cesium atom, we only need $0.40\,\text{mW}$ of power to have 25% of atoms in the excited state. The formula for the saturation intensity is:[^4]
+
+
 
 ```{math}
 :label: eq-3-10
@@ -325,11 +341,13 @@ r_{\gamma}(\delta,s)= \Bigl( \frac{s}{1+s} \Bigr) \frac{\pi \gamma}{1+\frac{4\de
 This is now a Lorentzian function with amplitude $\frac {s}{1+s} \pi \gamma$ and FWHM of $\gamma _{s}=\gamma \sqrt {1+s}$. As we increase the saturation parameter *s* (i.e., increase the laser intensity), the FWHM of the scattering rate becomes larger by a factor of $\sqrt {1+s}$. Therefore, the width of a spectral feature increases by the same amount. Also notice that when $s \rightarrow 0$, the FWHM reaches its minimum value of the natural linewidth.
 
 Next, let’s analyse the amplitude. As the saturation parameter gets larger and larger, $1+s\approx s$, so $\frac {s}{1+s}\rightarrow 1$. The amplitude saturates! As the laser power increases, the amplitude approaches the maximum scattering rate of $\pi \gamma$. However, the FWHM never saturates; it continues to broaden, as shown in Fig. [](#fig-3-9).
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig9_HTML.png
-:name: fig-3-9
+:label: fig-3-9
+:alt: The scattering rate for a transition with as a function of detuning for different saturation parameters. The red dashed line is the maximum possible scattering rate
 
 The scattering rate for a transition with $\gamma =5.22\,\text{MHz}$ as a function of detuning for different saturation parameters. The red dashed line is the maximum possible scattering rate
+
+
 ```
 
 Finally, let’s put some numbers in to start getting comfortable with real scattering rate numbers. For the example in Fig. [](#fig-3-9), I used the natural linewidth for a transition in the cesium atom near 852 nm. The natural linewdith is about $\gamma =5.22\,\text{MHz}$. The on-resonance $(\delta =0)$ scattering rate is 8.2 million photons absorbed (and re-emitted) per second for $s=1$; 14.9 million photons per second for $s=10$; 16.2 million photons per second $s=100$. For a typical transition, scattering hundreds of thousands to millions of photons per second is not unusual. Notice that when *s* is small, the scattering rate at $\delta =-20\,\text{MHz}$ is almost 0; mathematically, it is about 270,000 photons/sec for $s=1$. However, the scattering rate for $s=100$ remains quite sizable.
@@ -342,11 +360,13 @@ For completeness, there are other factors that can broaden the width of a transi
 A lot has happened in this chapter, but two of the important concepts are that (1) the scattering rate tells us how many photons per second an atom absorbs (and emits) from the laser and (2) the cumulative effect of all the atoms taking photons results in the absorption profile. Let’s solidify these concepts with an example. Throughout this example, we will also introduce some commonly used language in atomic physics. A lot of the language will be explored in more detail as we work our way through this book.
 
 A particular type of barium atom[^7] called barium-135 has one ground state and three closely spaced excited states, see Fig. [](#fig-3-10). The spacing between the excited states is called hyperfine splitting, which will be explored in detail in Chap. [](#ch-9). The reason there are three excited hyperfine states is because the nucleus has angular momentum, a concept we will begin exploring in Chap. [](#ch-7). If the nucleus did not have angular momentum, there would be only one excited state.[^8] Again, we will learn the physics behind hyperfine splitting starting in Chap. [](#ch-7). Before we do an example, we need a few more definitions.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig10_HTML.png
-:name: fig-3-10
+:label: fig-3-10
+:alt: A simplified Grotrian diagram for a transition in the atom known as barium-135. The energy spacings are not to scale. The energy spacings between the excited hyperfine levels are calculated from the results of Baird et al.[1]. The center of gravity frequency is extracted using numbers from both Baird et al. [1] and Karlsson et al. [2]. The uncertainty in the center of gravity frequency is about 30 MHz. [2] While that isn’t a terrible uncertainty, modern day spectroscopic methods can do better!
 
 A simplified Grotrian diagram for a transition in the atom known as barium-135. The energy spacings are not to scale. The energy spacings between the excited hyperfine levels are calculated from the results of Baird et al.[1]. The center of gravity frequency is extracted using numbers from both Baird et al. [1] and Karlsson et al. [2]. The uncertainty in the center of gravity frequency is about 30 MHz. [2] While that isn’t a terrible uncertainty, modern day spectroscopic methods can do better!
+
+
 ```
 
 **Definitions**
@@ -385,11 +405,13 @@ First, we calculate the resonance frequency for each transition:
 ```
 
 These are the center frequencies of each spectral feature, and each feature has a Lorentzian lineshape with a width of $\gamma \sqrt {1+s}=(19\,\text{MHz})\sqrt {1+1.5}=30\,\text{MHz}$. Figure [](#fig-3-11) shows the simulated results. The horizontal axis represents the laser frequency relative to the center of gravity frequency, $f_{\text{cog}} = 541{,}432{,}745\,\text{MHz}$.
-
 ```{figure} ../images/ch-03/541577_1_En_3_Fig11_HTML.png
-:name: fig-3-11
+:label: fig-3-11
+:alt: A simulated absorption plot for a transition in barium-135. In this example, we are assuming that all the atoms are at rest and the experimental setup is shown in Fig. [](#fig-3-1). The horizontal axis is the laser frequency with respect to the center of gravity frequency
 
 A simulated absorption plot for a transition in barium-135. In this example, we are assuming that all the atoms are at rest and the experimental setup is shown in Fig. [](#fig-3-1). The horizontal axis is the laser frequency with respect to the center of gravity frequency
+
+
 ```
 
 :::
@@ -478,15 +500,16 @@ Rubidium-80 is an atom with 37 protons (all isotopes of rubidium have 37 protons
 The transition we are interested in is shown in Fig. [](#fig-3-12). There are two ground state hyperfine levels labeled $\left |g_{F=1/2}\right \rangle$ and $\left |g_{F=3/2}\right \rangle$. The excited state has three hyperfine levels labeled $\left |e_{F=1/2}\right \rangle$, $\left |e_{F=3/2}\right \rangle$, and $\left |e_{F=5/2}\right \rangle$. The natural linewidth of this transition is $\gamma = 5\,\text{MHz}$ and we set the laser intensity such that $s=3$.
 
 1. Using the rule shown in Eq. [](#eq-3-15), find the resonance frequency for all possible transitions (there are five of them).
-
-   ```{figure} ../images/ch-03/541577_1_En_3_Fig12_HTML.png
-   :name: fig-3-12
+```{figure} ../images/ch-03/541577_1_En_3_Fig12_HTML.png
+:label: fig-3-12
+:alt: A simplified Grotrian diagram for a transition in the atom known as rubidium-80. The energy spacings are not to scale. The energy spacings are taken from the work of Thibault et al. [3]
 
    A simplified Grotrian diagram for a transition in the atom known as rubidium-80. The energy spacings are not to scale. The energy spacings are taken from the work of Thibault et al. [3]
-   ```
-
+```
 2. What is the width of each spectral feature?
 3. Make an absorption plot with respect to the center of gravity frequency; see Fig. [](#fig-3-11) for an example. Make all the amplitudes the same. There is a formula to calculate the relative amplitudes, but we won’t talk about that until Chap. [](#ch-9).
+
+
 ````
 
 ## References

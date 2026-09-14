@@ -24,8 +24,10 @@ By the end of this chapter, you should be able to understand:
 ## 1.1 What Is Atomic Physics?
 
 Before we discuss **atomic physics**,[^1] we should first ask a more fundamental question: What is **physics**? Before you read further, pause and think for a few minutes. If someone was to ask you, “What is physics?”, how would you respond? My answer is below the word search:
-
 ```{figure} ../images/ch-01/541577_1_En_1_Figa_HTML.png
+:alt: Word search puzzle; the answer to what physics is appears below
+
+Word search puzzle; the answer to what physics is appears below
 ```
 
 My answer: Physics is a branch of science that tries to understand the universe. We do this through exploring physical concepts and often explain those concepts using the language of mathematics.
@@ -47,11 +49,13 @@ This book is aims to teach **quantum mechanics**, atomic physics, and **spectros
 Atomic physicists try to reach this goal by starting with a simple system and building up complexity over time. One of our simplest systems is a single electron orbiting a single proton, also known as a hydrogen atom. More complicated systems include helium (2 electrons and 2 protons), lithium (3 electrons and 3 protons), neodymium (60 electrons and 60 protons), europium (63 electrons and 63 protons), and californium (98 electrons and 98 protons). Other fields of physics start with complicated systems and either “build up” or “build down” in complexity. For example, condensed matter physics, which includes subfields like superconductivity, has incredibly complex systems!
 
 [](#fig-1-1) is a flowchart for how I like to explain how we, as scientists, try to understand something. For atomic physicists, our goal is to try to understand the world of the super small. We start with a simple system, for example the hydrogen atom. Next, we use theory that is based on previous knowledge to make a prediction. If the theory is good, the prediction should be confirmed by experiment. Once experimentalists make their first measurement, they start to improve the experimental setup to measure things better and better. While the experimentalists are improving their setup, the theorists are also improving their models. This process continues over and over and over until we, as a community, conclude that (1) the model is doing a really good job predicting the simple system, and (2) we run out of ways to make the experiment or theory more precise. If, after all that time stuck in that loop, we find that experiment and theory agree, we give out high fives and conclude we understand this simple system. If theory and experiment start to deviate from each other, physicists start to get excited because there is something we don’t understand.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig1_HTML.jpg
-:name: fig-1-1
+:label: fig-1-1
+:alt: A flowchart for trying to understand something. This is a version of the scientific method showing the interplay between experiment and theory
 
 A flowchart for trying to understand something. This is a version of the scientific method showing the interplay between experiment and theory
+
+
 ```
 
 Once the atomic physics community is happy with the simple system, we make the system slightly more complex. For example, after we conclude that we understand hydrogen (1 electron, 1 proton, 0 neutrons), we move on to trying to understand deuterium (1 electron, 1 proton, 1 neutron) or helium (2 electrons, 2 protons, 2 neutrons). The most important thing to emphasize here is that if the model/theory is good, it should predict the experimental results before the experimentalists go and measure. If the theorists and experimentalists disagree, either the theorists messed up the math, the experimentalists messed up their experiment, or the theory is simply incomplete or all together wrong. The most exciting time in physics is when this last one happens.
@@ -66,27 +70,33 @@ In this book, we are going to think about atoms in their gaseous form, so we don
 We are not going to discuss the Standard Model right now. We are going to keep things a bit simpler and discuss, conceptually, the atom. Later on in the book, we will add to our conceptual model to make things more complete. So, what does quantum mechanics say about the atom?
 
 To answer that question, let’s first think about an electron that is orbiting around a nucleus, as shown in [](#fig-1-2). The electron has negative charge and the nucleus has positive charge. According to electromagnetic theory, the electron should radiate away energy. Imagine if you were flying a hand glider and you slowly lost energy. In this scenario you would slowly drift down until you landed on the ground. According to electromagnetic theory, the electron will also lose energy and should orbit closer and closer to the nucleus until it collides with the nucleus. Experiment shows this is not true. In fact, if it were true, we wouldn’t be here reading this book because atoms wouldn’t exist and thus the universe wouldn’t exist,[^6] which disagrees with experimental observation.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig2_HTML.png
-:name: fig-1-2
+:label: fig-1-2
+:alt: A helpful conceptual, but incorrect, way of thinking about atoms. The model where the electrons orbiting around the nucleus is called the Bohr model, named after Danish physicist Niels Bohr
 
 A helpful conceptual, but incorrect, way of thinking about atoms. The model where the electrons orbiting around the nucleus is called the Bohr model, named after Danish physicist Niels Bohr
+
+
 ```
 
 There were some amazing experiments conducted in the late 1800s and early 1900s that seemed to imply that the electron is *not* like the moon orbiting around the earth. One of my favorite experiments that showed this behavior is called the double-slit experiment. If we assume electrons are like little sticky balls and send them through two small slits in a barrier, as shown in [](#fig-1-3), we expect to have two strips of balls stuck to the screen. However, that isn’t what is seen experimentally!
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig3_HTML.png
-:name: fig-1-3
+:label: fig-1-3
+:alt: A double-slit experiment where the electrons behave like little sticky balls. In panel A, the electrons are moving towards a barrier that has two small slits in it. Behind the barrier with two small slits is a screen with no holes. In panel B, the electrons have crashed into or passed through the barrier to crash into the screen. Panel C shows a front view of the electrons that passed through the barrier and crashed into the screen
 
 A double-slit experiment where the electrons behave like little sticky balls. In panel A, the electrons are moving towards a barrier that has two small slits in it. Behind the barrier with two small slits is a screen with no holes. In panel B, the electrons have crashed into or passed through the barrier to crash into the screen. Panel C shows a front view of the electrons that passed through the barrier and crashed into the screen
+
+
 ```
 
 Before we get to the real experimental results, we need to define some important terms and explore the concept of **wave interference**. Below are three important definitions about waves. [](#fig-1-4) is a visual representation of two of those definitions: wavelength and frequency.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig4_HTML.jpg
-:name: fig-1-4
+:label: fig-1-4
+:alt: A visual description of wavelength and frequency. Wavelength is the distance between two “like” points on the wave, for example the distance between two adjacent peaks or two adjacent troughs. If the wave is moving towards the right, frequency is how many peaks pass through the dashed line every second. If both waves are moving with the same speed, the upper wave has a higher frequency than the lower wave since more peaks pass the dashed line in 1 second
 
 A visual description of wavelength and frequency. Wavelength is the distance between two “like” points on the wave, for example the distance between two adjacent peaks or two adjacent troughs. If the wave is moving towards the right, frequency is how many peaks pass through the dashed line every second. If both waves are moving with the same speed, the upper wave has a higher frequency than the lower wave since more peaks pass the dashed line in 1 second
+
+
 ```
 
 **Definitions**
@@ -98,27 +108,33 @@ A visual description of wavelength and frequency. Wavelength is the distance bet
 **Wave Interference**
 
 Wave interference happens whenever two or more waves overlap. Those waves can be traveling in the same direction, opposite directions, or at an angle with each other. In fact, they don’t even have to look like the waves in [](#fig-1-4). They could instead be single pulses like in [](#fig-1-5). In this example, the two pulses, represented by the blue and red dashed lines, are on the same rope (the thicker gray line) and traveling in opposite directions. When the pulses overlap, they constructively add to make a larger pulse. The is known as constructive interference. However, if we have a positive amplitude pulse and a negative amplitude pulse, we will get destructive interference, see [](#fig-1-6).
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig5_HTML.png
-:name: fig-1-5
+:label: fig-1-5
+:alt: Two pulses that constructively interfere with each other: The thick gray line is what we would actually see. The blue dashed line shows the pulse traveling to the right while the red dashed line shows the pulse traveling to the left. When they pass through one another, they add to create a larger pulse. At s, this is 100% constructive interference. At all other times, the pulses are only partially constructively interfering
 
 Two pulses that constructively interfere with each other: The thick gray line is what we would actually see. The blue dashed line shows the pulse traveling to the right while the red dashed line shows the pulse traveling to the left. When they pass through one another, they add to create a larger pulse. At $t = 1.0$ s, this is 100% constructive interference. At all other times, the pulses are only partially constructively interfering
-```
 
+
+```
 ```{figure} ../images/ch-01/541577_1_En_1_Fig6_HTML.png
-:name: fig-1-6
+:label: fig-1-6
+:alt: Two pulses that destructively interfere with each other: The thick gray line is what we would actually see. The blue dashed line shows the pulse traveling to the right while the red dashed line shows the pulse traveling to the left. When they pass through one another, they perfectly cancel each other out creating no disturbance on the actual rope for a brief period of time. At s, this is 100% destructive interference. At all other times, the pulses are only partially destructively interfering
 
 Two pulses that destructively interfere with each other: The thick gray line is what we would actually see. The blue dashed line shows the pulse traveling to the right while the red dashed line shows the pulse traveling to the left. When they pass through one another, they perfectly cancel each other out creating no disturbance on the actual rope for a brief period of time. At $t = 1.0$ s, this is 100% destructive interference. At all other times, the pulses are only partially destructively interfering
+
+
 ```
 
 **Try This**
 
 Find a piece of thin rope or a slinky and a stopwatch. If you have a friend nearby, have them hold one end of the rope or slinky. If not, tie or connect one end of the rope or slinky to a door knob. Stand a distance apart so that there is a bit of tension on the rope or slinky. Send a pulse down the rope or slinky and watch what happens when the pulse reflects off your friend or the doorknob. Next, start creating a sine wave motion with your hand, see [](#fig-1-4). Try to move your arm up and down so that the rope or slinky creates the shapes seen in [](#fig-1-7).
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig7_HTML.png
-:name: fig-1-7
+:label: fig-1-7
+:alt: The first three standing waves of a one dimensional rope or slinky. Each standing wave is drawn with the same amplitude *A*. Interestingly, the frequency of a standing wave is independent of the amplitude of the standing wave
 
 The first three standing waves of a one dimensional rope or slinky. Each standing wave is drawn with the same amplitude *A*. Interestingly, the frequency of a standing wave is independent of the amplitude of the standing wave
+
+
 ```
 
 You will find that your hand has to move up and down with a very specific frequency to create these shapes, which are called standing waves. When you produce standing waves, the wave that you are creating with your hand is constructively interfering with the reflected wave. No other frequencies produce perfect constructive interference. Using your stopwatch, find the time for ten full oscillations (the time it takes for your hand to move up and down ten times) for each of the first three standing waves. The period of the standing wave is that time divided by 10. If you count twenty full oscillations, you would divide the time by 20 to find the period. Next use the formula $f=1/T$ to find the frequency needed to produce that standing wave. The frequency of the standing wave with one “loop” (the left picture) is called the fundamental frequency. You should find that the second picture with two loops has twice the fundamental frequency. The third picture with three loops should have a frequency that is three times the fundamental frequency. In general, $f_n = n f_1$, where *n* is how many loops the standing wave has. Notice that the higher mode standing waves (the waves with more loops) require more shaking energy! This will be important later.
@@ -126,19 +142,23 @@ You will find that your hand has to move up and down with a very specific freque
 **Back to the Double-Slit Experiment**
 
 Ok, let’s run a different experiment. Instead of little, sticky balls, let’s send a wave towards the screens, as shown in [](#fig-1-8). Panel A shows the wave traveling towards the slits. The vertical lines are supposed to indicate the peaks of the wave. The troughs are halfway between each peak, so you are visualizing the wavelength of the wave. Panel B shows the wave as it passes through the slits. The straight wave turns into two arc waves, one coming from each slit. The arc waves are basically half circles with the center of the circle at the slit. I changed the color of one of the circular waves to better visualize the evolution of each wave. The two circular waves interfere with each other on the screen. Places where peaks of the waves overlap, indicated by the black lines between the slits and the screen, are where the two circular waves constructively interfere. Half way between the points of constructive interference are points of perfect destructive interference. Panel C shows what we see on the screen. The bright parts are where the two waves constructively interfere. The dark parts are where the two waves destructively interfere. At the very center of the dark parts, the waves are 100% destructively interfering.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig8_HTML.jpg
-:name: fig-1-8
+:label: fig-1-8
+:alt: A double-slit experiment using waves
 
 A double-slit experiment using waves
+
+
 ```
 
 Now, let’s do the experiment with electrons! Real experimental results can be seen in [](#fig-1-9). The electron behaves like a wave! There is actually a lot more to the double-slit experiment, but we aren’t going to go into any more detail in this book. You will learn much more about it if you take a Modern Physics class. The really important thing we need to conceptually understand is that the electron has wavelike behavior. This is incredibly important information for us because an electron that is orbiting a nucleus is *not* like the moon orbiting the earth, which is depicted in [](#fig-1-2). Experiments show that electrons behave like waves.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig9_HTML.jpg
-:name: fig-1-9
+:label: fig-1-9
+:alt: Experimental results of a double-slit experiment with electrons. Image Credit: Dr. Tonomura and Belsazar from Wikimedia Commons CC BY-SA 3.0
 
 Experimental results of a double-slit experiment with electrons. Image Credit: Dr. Tonomura and Belsazar from Wikimedia Commons CC BY-SA 3.0
+
+
 ```
 
 $\blacktriangleright$ **Important Concept**
@@ -146,11 +166,13 @@ $\blacktriangleright$ **Important Concept**
 Electrons in atoms behave like waves, so we need to think about interference effects.
 
 This is a really hard concept to wrap our brains around, but experiments seem to indicate this idea is correct. How does a wave “orbit” around a nucleus? As an analogy, imagine a wave that wraps around upon itself in a circle, see [](#fig-1-10). This figure is just a conceptual example since there is no start or end to the wave. But to explore this concept we are going to wrap the electron wave counter-clockwise around the nucleus, and the wave is going to interfere with itself. If the electron wave does not perfectly wrap back around so that two peaks don’t overlap perfectly, the electron will destructively interfere with itself. If an electron destructively interferes with itself, there is no wave! If there is no wave, then there is no electron. Since electrons exist, the electron wave must constructively interfere with itself.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig10_HTML.png
-:name: fig-1-10
+:label: fig-1-10
+:alt: A conceptual exploration of an electron wave orbiting a nucleus that would result in destructive interference. In (**a**), we imagine the electron wave starting at the top of the circle and traveling counter-clockwise. In (**b**), the electron wave has made one full orbit, but notice that the wave does not line up with its starting point. For (**c**), the wave continues and should be interfering with itself, but we aren’t going to add the waves together quite yet. In (**d**), the wave continues for 12 orbits. To explore destructive interference, (**e**) shows adding together this wave after 4 full rotations. (**f**) shows destructive interference of this wave after 10 full rotations
 
 A conceptual exploration of an electron wave orbiting a nucleus that would result in destructive interference. In (**a**), we imagine the electron wave starting at the top of the circle and traveling counter-clockwise. In (**b**), the electron wave has made one full orbit, but notice that the wave does not line up with its starting point. For (**c**), the wave continues and should be interfering with itself, but we aren’t going to add the waves together quite yet. In (**d**), the wave continues for 12 orbits. To explore destructive interference, (**e**) shows adding together this wave after 4 full rotations. (**f**) shows destructive interference of this wave after 10 full rotations
+
+
 ```
 
 A lot has happened, so let’s do a quick recap. We have learned that:
@@ -171,21 +193,25 @@ A note played on a trumpet or saxophone also produces standing waves, but the st
 **Conclusion**
 
 The electron must constructively interfere with itself. This idea is conceptually shown in [](#fig-1-11).
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig11_HTML.png
-:name: fig-1-11
+:label: fig-1-11
+:alt: Four conceptual examples of an electron wave orbiting a nucleus that would result in constructive interference. Going from left to right is going from a lower energy state to higher energy states
 
 Four conceptual examples of an electron wave orbiting a nucleus that would result in constructive interference. Going from left to right is going from a lower energy state to higher energy states
+
+
 ```
 
 An electron can only “orbit” around the nucleus if it satisfies a standing wave condition. Each standing wave has an energy associated with it. Just like how the standing wave on a string with 2 loops has a shorter wavelength and requires more shaking energy than the standing wave with 1 loop, the higher energy “states” of an electron have shorter wavelengths. Thus the allowed energies of the electron are “discrete”: they can only have the specific values corresponding to these standing waves.
 
 We call the discrete energies an electron orbiting a nucleus can have “energy levels” or “energy states” and describe them in diagrams like [](#fig-1-12). The lowest energy state is called the ground state of the atom, or the ground state for short. States with higher energy are called excited states. These energy level pictures are sometimes called Grotrian diagrams, named after German astronomer and astrophysicist Walter Grotrian. The SI unit for energy is a joule, which is named after the English physicist James Joule. A joule is shortened to $\text{J}$.[^8] A joule is shorthand for $\text{kg}\,\text{m}^2/\text{s}^2$. For reference, the energy of a baseball moving at 50 mph is about 36 joules. The energy of an apple moving at 1 meter/second is about 0.05 joules.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig12_HTML.png
-:name: fig-1-12
+:label: fig-1-12
+:alt: A conceptual picture that shows an atom with a single ground state and three excited states. A real atom has many excited states
 
 A conceptual picture that shows an atom with a single ground state and three excited states. A real atom has many excited states
+
+
 ```
 
 **Important Comment**
@@ -270,19 +296,23 @@ where *N* is how many photons per second that leave the laser and $E_{\text{ph}}
 The frequency of light tells us how many times that light wave oscillates up and down in 1 second. Polarization tells us the direction the light is oscillating. There are three major groupings of light polarization: linear, circular, and elliptical. Linearly polarized light is the most common light we use in spectroscopy, so we aren’t going to talk about circularly or elliptically polarized light here. However, there are types of spectroscopy experiments that do use circularly polarized light. If you are curious about them, image search the phrases to find some neat animated gifs showing light with different polarizations moving through space. For now, we will focus on linearly polarized light.
 
 Linear polarization is light that is oscillating up and down in a single plane. There are two specific types of linearly polarized light: horizontal and vertical. Horizontal light oscillates …horizontally with respect to some surface, and vertical light oscillates …vertically to that surface, see [](#fig-1-13) Remarkably, we can use these two polarizations to describe any linearly polarized light. For example, suppose the light was oscillating at a 45${ }^\circ$ angle. We would describe the light as half horizontal and half vertical.
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig13_HTML.png
-:name: fig-1-13
+:label: fig-1-13
+:alt: Examples of oscillating electric fields propagating along the z-direction. The left picture shows horizontal linear light while the right picture shows vertical linear light
 
 Examples of oscillating electric fields propagating along the z-direction. The left picture shows horizontal linear light while the right picture shows vertical linear light
+
+
 ```
 
 In the lab, there are optical devices called half-waveplates, sometimes written as $\lambda /2$ plate or just $\lambda /2$. A half-waveplate can rotate the linear polarization of light. If you have horizontally polarized light, you can use a half-waveplate to change the polarization so that it is 10% vertical and 90% horizontal, 50% vertical and 50% horizontal, 75% vertical and 25% horizontal, etc. You can even make the light exiting the half-waveplate be completely vertical. That might seem like a neat trick, but the real usefulness comes when we put a second optical device after the halfwave plate called a polarizing beam splitter (PBS), see [](#fig-1-14).
-
 ```{figure} ../images/ch-01/541577_1_En_1_Fig14_HTML.png
-:name: fig-1-14
+:label: fig-1-14
+:alt: Using a half-waveplate and a polarizing beam splitter, we can create two beams of light. You can rotate the half-waveplate to control the ratio of light in each path. In normal spectroscopy setups, you are looking down on the light and optics from above. In this orientation, p-polarized light is horizontal, indicated by the blue arrows and s-polarized light is vertical, indicated by the dotted circles
 
 Using a half-waveplate and a polarizing beam splitter, we can create two beams of light. You can rotate the half-waveplate to control the ratio of light in each path. In normal spectroscopy setups, you are looking down on the light and optics from above. In this orientation, p-polarized light is horizontal, indicated by the blue arrows and s-polarized light is vertical, indicated by the dotted circles
+
+
 ```
 
 By tradition, the light that bounces off the PBS is called s-polarized light while the light that passes through is called p-polarized light.[^13] This is because the PBS can technically be in any spatial orientation. For safety reasons, we almost always keep the light in a horizontal plane. In this typical setup, s-polarized light is vertically polarized light while p-polarized light is horizontally polarized light. If you were to rotate the PBS so that the s-polarized light was going straight up (don’t do this, it is an eye hazard!!), that s-polarized light is now horizontally polarized while the p-polarized light is now vertically polarized. This is why we use “s” and “p”.

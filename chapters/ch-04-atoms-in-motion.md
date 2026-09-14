@@ -25,11 +25,13 @@ By the end of this chapter, you should be able to understand:
 ## 4.1 The Doppler Effect
 
 The Doppler effect is likely a phenomenon you have encountered before. When an ambulance, police car, or racecar travels past you, the sound you hear changes pitch. This happens because the motion of the vehicle compresses or extends the sound waves. Figure [](#fig-4-1) shows the sound waves emitted by a stationary ambulance (left) and a moving ambulance (right). Let’s focus on the stationary ambulance. Imagine that you are standing in front of or behind the ambulance. The wavelength of the sound wave that hits your ear is the same for both scenarios, so you would hear the same pitch independent of where you are standing. Now, imagine the ambulance is moving. If you were standing in front of the ambulance (OK, maybe a bit to the side …we don’t want you to get hit, even in a thought experiment), the wavelength of the sound wave that reaches your ear is shorter compared to the stationary ambulance. If you were standing behind the moving ambulance, the wavelength is longer compared to the stationary ambulance. The formula that relates the frequency (pitch) that you hear to the wavelength should look really familiar. It is $v_{s}=f\lambda$, where $v_{s}$ is the speed of sound in air (replace $v_{s}$ with *c* and you have Eq. [](#eq-1-1) from p. 19). The apparent shift in frequency due to an object moving is known as the Doppler effect, named after Austrian physicist and mathematician Christian Doppler. It is a very important concept in spectroscopy.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig1_HTML.jpg
-:name: fig-4-1
+:label: fig-4-1
+:alt: Left: An ambulance at rest emitting a sound wave from its siren. The wavelength and frequency of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
 
 Left: An ambulance at rest emitting a sound wave from its siren. The wavelength $\lambda _0$ and frequency $f_0$ of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
+
+
 ```
 
 The Doppler effect occurs for any type of wave. Whether it is a sound wave, a light wave, or a water wave created by a duck swimming in a pond, the relative motion of the object with respect to the observer will change the wavelength, and thus the frequency of the wave. The EMT driving the ambulance hears no change in pitch because they are stationary with respect to the siren. If you yelled positive encouragement at the ambulance as it passed, the driver would hear your pitch change as they passed by you. Likewise, you don’t hear your pitch change as the ambulance passes by you. What is important here is that the Doppler effect is something experienced by the observer because the source of the wave is moving with respect to them.
@@ -50,11 +52,13 @@ Specifically, in the absence of any broadening mechanism (like laser power), if 
 Frequency, energy, and wavelength are all the same quantity. Each of these parameters is related to the other parameters only by constants.
 
 Imagine a laser beam traveling to the right, as shown in Fig. [](#fig-4-2). Also imagine there are three atoms: atom 2 is traveling to the left, atom 1 is stationary, and atom 3 is traveling to the right. For this thought experiment, we will assume the speeds of atom 2 and atom 3 are the same, just in opposite directions.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig2_HTML.jpg
-:name: fig-4-2
+:label: fig-4-2
+:alt: A simple experimental to explore how motion of atoms impacts the interactions between the atoms and laser light
 
 A simple experimental to explore how motion of atoms impacts the interactions between the atoms and laser light
+
+
 ```
 
 In this experiment, the atom is the observer because it is interacting with the laser light and not producing it. To understand the Doppler effect, it is important to recognize that each atom perceives itself as stationary. Atom 2 would claim that atom 1 is moving to the right and that atom 3 is moving twice as fast as we (as the scientists looking from the outside) would say atom 3 is moving. Both atom 1 and us, as the observing scientists, will agree on the frequency of the laser. Because of the Doppler effect, atoms 2 and 3 will disagree. To make this idea a little clearer, let’s say that the laser frequency is $652.0000\times 10^{12}\,\text{Hz}=652.0000\,\text{THz}$ (terahertz) and that this is the resonance frequency for the atom. Both the scientists and atom 1 will agree that the laser frequency is $652.0000\,\text{THz}$; atom 1 will absorb photons from the laser beam. However, atom 2 and atom 3 will disagree with this claim since atom 2 is moving towards the laser and atom 3 is moving away from the laser.
@@ -62,8 +66,10 @@ In this experiment, the atom is the observer because it is interacting with the 
 **Two Minute Question**
 
 Will atom 2 perceive the laser is higher in frequency or lower in frequency than what we and atom 1 perceive? Decide on an answer before reading on.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Figa_HTML.png
+:alt: Illustration for a Doppler shift thought experiment with atoms and a laser
+
+Illustration for a Doppler shift thought experiment with atoms and a laser
 ```
 
 **Answer** Atom 2 is moving towards the laser source, so it will perceive the laser frequency as higher than it actually is. Atom 2 will only absorb a photon from the laser if it thinks the laser frequency matches the resonance frequency. Therefore, we, in the observing frame, need to set the laser frequency *smaller* than the resonance frequency $(652.0000\,\text{THz})$ so that the actual laser frequency plus the frequency shift due to the Doppler effect results in the resonance frequency in the frame of atom 2. In equation form, this is represented as:
@@ -120,11 +126,13 @@ Comparing Eqs. [](#eq-4-1) and [](#eq-4-3), we find the formula for the Doppler 
 ```
 
 **A Bit More About Velocity Components** The velocity component in the direction of the laser beam is an important, but sometimes confusing, idea when you first encounter it. So, let’s spend a bit more time thinking this idea through using Fig. [](#fig-4-3). In Fig. [](#fig-4-3)a, the first atom’s velocity is pointing directly towards the laser, so $v_{\parallel }<0$. For this atom, there is no perpendicular component to the atom, $v_{\perp }=0$. If the laser was traveling towards the left, $v_{\parallel }>0$ for this atom because the sign of $v_{\parallel }$ only depends upon if the atom is moving towards or away from the laser beam.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig3_HTML.jpg
-:name: fig-4-3
+:label: fig-4-3
+:alt: (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, . As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
 
 (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, $v_{\parallel }$. As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
+
+
 ```
 
 The second atom has both a perpendicular component and a parallel component. Only the parallel component causes the Doppler shift, and the parallel component tells us the atom is moving towards the laser source, so $v_{\parallel }<0$. Notice the parallel component for the two first two atoms are the same size and pointing in the same direction. Therefore, they will have the same Doppler shift.
@@ -139,8 +147,10 @@ In high precision spectroscopy, we want to extract information from atoms that h
 ## 4.3 How the Velocity of an Atom Affects the Spectral Feature
 
 Let’s go back to a simplified picture where we have 3 atoms.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Figb_HTML.jpg
+:alt: Three atoms at rest, moving toward the laser, or moving away at equal speed
+
+Three atoms at rest, moving toward the laser, or moving away at equal speed
 ```
 
 Atom 1 is at rest, atom 2 is traveling towards the laser at speed *v*, and atom 3 is moving away from the laser at the same speed as atom 2. For this thought experiment, each atom that experiences a Doppler shift will have $|\Delta f_{D}|=150\,\text{MHz}$.
@@ -148,11 +158,13 @@ Atom 1 is at rest, atom 2 is traveling towards the laser at speed *v*, and atom 
 What do the transmission and absorption plots look like? Spend a few moments thinking about it, make a prediction, and then read on! Hint: There are only 3 atoms, so the fraction of light lost is very, very small.
 
 The answer is shown in Fig. [](#fig-4-4). There are three spectral features. Each spectral feature is identical except for a horizontal offset determined by the Doppler shift formula. Since atom 2 is traveling towards the laser beam, it perceives a higher laser frequency compared to what we measure in the lab. Therefore, atom 2 will absorb photons when the laser frequency is below the resonance frequency. The spectral feature from atom 2 is at $\delta =-150\,\text{MHz}$. Likewise, atom 3 is traveling away from the laser, so it is seeing a lower laser frequency compared to what we measure in the lab. Therefore, atom 3 will absorb photons when the laser frequency is above the resonance frequency. The spectral feature for atom 3 is at $\delta =+150\,\text{MHz}$. This important information is summarized in Table [](#tbl-4-1).
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig4_HTML.png
-:name: fig-4-4
+:label: fig-4-4
+:alt: A simulated transmission plot (left) and absorption plot (right) for the three atoms
 
 A simulated transmission plot (left) and absorption plot (right) for the three atoms
+
+
 ```
 
 (tbl-4-1)=
@@ -170,11 +182,13 @@ In a real vapor cell, atoms are moving with all sorts of different velocities. U
 ## 4.4 The Maxwell-Boltzmann Velocity Distribution
 
 Within a gaseous cloud of atoms, there is a distribution of velocities. This distribution depends on the temperature and mass of the atoms. The distribution of velocities in the direction of the laser beam, which is known as the Maxwell-Boltzmann velocity distribution,[^2] is shown by the blue line in Fig. [](#fig-4-5). The Maxwell-Boltzmann velocity distribution often uses the function $f(v)$ to represent the distribution of velocities. This is not the *f* we use for frequency. A good rule of thumb is that if it is a function, like $f(v)$, the “*f*” is probably referring to a distribution. If the “*f*” is all by itself in a formula, it is probably referring to a frequency.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig5_HTML.png
-:name: fig-4-5
+:label: fig-4-5
+:alt: A cloud of gaseous atoms will have a distribution of velocities given by this graph. This distribution, which is derived from thermodynamics, is known as the Maxwell-Boltzmann velocity distribution
 
 A cloud of gaseous atoms will have a distribution of velocities given by this graph. This distribution, which is derived from thermodynamics, is known as the Maxwell-Boltzmann velocity distribution
+
+
 ```
 
 The full width at half maximum of a Maxwell-Boltzmann velocity distribution, which is a velocity with units m/s, is:
@@ -191,8 +205,10 @@ where $k_{B}=1.38\times 10^{-23}\,\text{J/K}$ is the Boltzmann constant, *T* is 
 To use a distribution, you ask questions like, “What fraction of atoms have a positive parallel velocity component?”, “What fraction of atoms have a parallel velocity component between $-$2 and 10 m/s?”, or more generally, “What fraction of atoms have a parallel velocity component between $v_{a}$ and $v_{b}$?”, where $v_{a}$ and $v_{b}$ are any velocities we choose.
 
 The answer is the area under the distribution between $v_a$ and $v_b$. If we want to know the total number of atoms from the sample that have velocity components between those two values, we multiply that fraction by the total number of atoms in the sample. For example, here are three plots with different choices of $v_{a}$ and $v_{b}$:
-
 ```{figure} ../images/ch-04/541577_1_En_4_Figc_HTML.png
+:alt: Three Maxwell-Boltzmann velocity distribution plots with shaded velocity intervals
+
+Three Maxwell-Boltzmann velocity distribution plots with shaded velocity intervals
 ```
 
 Suppose we have 5000 atoms in our sample. As shown in the first plot, there are $5000 \times 0.726 = 3630\,\text{atoms}$ with parallel velocity components between $v_{a}=-100\,\text{m/s}$ and $v_{b}=+200\,\text{m/s}$. As shown in the second plot, there are $5000 \times 0.061 = 305\,\text{atoms}$ with parallel velocity components between $v_{a}=-200\,\text{m/s}$ and $v_{b}=-150\,\text{m/s}$, and in the third plot there are $5000 \times 0.347 = 1735\,\text{atoms}$ with parallel velocity components larger than 50 m/s.
@@ -209,11 +225,13 @@ f_{v_{\parallel}}= \bigg ( \frac{m}{2\pi k_{B}T} \bigg)^{1/2} e^{-\frac{m v_{\pa
 ```
 
 A Gaussian looks similar to the Lorentzian function that models the shape of a spectral feature, but the two functions are different. Figure [](#fig-4-6) shows a plot of both a Gaussian function and a Lorentzian function with the same area and FWHM. Notice the Lorentzian has larger “tails” and is more spread out compared to the Gaussian function. Both functions are very common in physics and math.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig6_HTML.png
-:name: fig-4-6
+:label: fig-4-6
+:alt: A comparison between a Gaussian function and a Lorentzian function. Each function has an area under the curve of 1 and a FWHM of 1
 
 A comparison between a Gaussian function and a Lorentzian function. Each function has an area under the curve of 1 and a FWHM of 1
+
+
 ```
 
 **Extra Math for Those Who Have Taken Statistics** In statistics, Gaussian functions are written as $e^{-\frac {v^2}{2\sigma ^2}}$, where $\sigma$ is called the standard deviation. For the Maxwell-Boltzmann velocity distribution, the standard deviation is $\sqrt {\frac {k_{B}T}{m}}$. The FWHM of a Gaussian function defined using the standard deviation is:
@@ -233,11 +251,13 @@ A comparison between a Gaussian function and a Lorentzian function. Each functio
 - **Doppler width:** The FWHM of a Doppler profile.
 
 In Sects. [](#sec-4-2) and [](#sec-4-3), we explored a transmission plot with only three atoms with different velocities. What if we had one hundred thousand atoms? Figure [](#fig-4-7) shows the results for a simulation of transmission plots as we add more and more atoms to a vapor cell. For this simulation, I assumed that we had a two-level atom with a mass of $m=2.33\times 10^{-26}\,\text{kg}$ (this is the mass of a nitrogen atom), a vapor cell temperature of $T=400\,\text{K}$, an excitation wavelength of $\lambda = 940\,\text{nm}$ ($f \approx 319\,\text{THz}$), and a natural linewidth of $\gamma =5\,\text{MHz}$. I randomly picked a velocity component using the Maxwell-Boltzmann velocity distribution for each atom I add to the cell.
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig7_HTML.png
-:name: fig-4-7
+:label: fig-4-7
+:alt: Building a Doppler profile from individual atoms
 
 Building a Doppler profile from individual atoms
+
+
 ```
 
 Note that each transmission plot has a different vertical scale. Individually, a single atom isn’t going to absorb a large fraction of a laser’s photons. However, the more atoms you have interacting with the light, the more spectral features you have piling up on each other. Ultimately, you get a transmission plot that looks like it has a single feature.
@@ -413,11 +433,13 @@ where $f_{\text{obs}}$ is the frequency measured by the observer and $f_{\text{e
 :enumerator: 4.8
 
 Figure [](#fig-4-8) is a picture of the spectrum from a distant galaxy that you can download from the Sky Server database.[^5] The Sky Server ID for this galaxy is 582102012537667624. The galaxy is emitting a number of photons from different elements including hydrogen, oxygen, and magnesium. We are going to focus on the hydrogen lines. On earth, we measure those hydrogen lines to have wavelengths that are given in Table [](#tbl-4-2).
-
 ```{figure} ../images/ch-04/541577_1_En_4_Fig8_HTML.png
-:name: fig-4-8
+:label: fig-4-8
+:alt: Light collected on earth from galaxy 582102012537667624
 
 Light collected on earth from galaxy 582102012537667624
+
+
 ```
 
 (tbl-4-2)=

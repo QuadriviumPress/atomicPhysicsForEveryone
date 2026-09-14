@@ -43,21 +43,23 @@ As we talked about and explored in Part 1 of this book, atoms have *discrete* en
 Two minute question: What does that mean?
 
 Here is my answer: If we measure the energy of a quantum mechanical system, we will always find the system to have one value from a set of specific energies. The whole purpose of Part 1 of this book was how we experimentally find the energy between two of these discrete energy states. An electron in an atom can have energy $E_{1}$, $E_{2}$, $E_{3}$, etc. We will never find the electron with any other energy. We represent these discrete energy states in energy level diagrams throughout Part 1 of this book. Figure [](#fig-6-1) is a copy of Fig. [](#fig-5-12) as a helpful reminder. This is so important that I want to say it again: An electron in an atom can have energy $E_{1}$, $E_{2}$, $E_{3}$, etc. We will ***never*** measure the energy to be somewhere between $E_{1}$ and $E_{2}$.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig1_HTML.png
-:name: fig-6-1
+:label: fig-6-1
+:alt: A simplified energy level diagram for the transitions in cesium-133 near 455.6 nm
 
 A simplified energy level diagram for the transitions in cesium-133 near 455.6 nm
+
 ```
 
 Everything we can measure, which we call an observable, is represented by a state. The state of an observable is described by a mathematical function. Examples of things we can measure include energy, position, and momentum. As such, there are energy states, position states, and momentum states. Every energy we can measure is associated with some energy state. For example, suppose a system is in an energy state described by the state function $\psi _{1}$. If we measure the energy of that system, we will find the system has energy $E_1$. We will never measure any other value for energy. Often those states are discrete (like the energy of an electron in an atom) and sometimes they are continuous (like the position of an electron hanging out by itself in free space). *If we measure an observable, the quantum mechanical system will be in a state corresponding to that observable after the measurement.*
 
 To help explore the idea of energy states, we will use a classical analogy that will serve as a helpful visualization tool. Imagine a string fixed at both ends, vibrating to create different standing waves, see Fig. [](#fig-6-2). These are the same standing waves we discussed in Chap. [](#ch-1) as a means of illustrating wave interference.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig2_HTML.png
-:name: fig-6-2
+:label: fig-6-2
+:alt: The first three standing waves of a one dimensional rope or slinky. For this example, the rope is fixed at and
 
 The first three standing waves of a one dimensional rope or slinky. For this example, the rope is fixed at $x=-L$ and $x=+L$
+
 ```
 
 Now, let’s shift our perspective from the classical realm to the quantum mechanical domain. If we were to treat this system quantum mechanically and measure its energy, we’d find discrete energy levels. These energy levels correspond to specific configurations of the standing wave—for instance, one loop, two loops, three loops, and so on as shown in Fig. [](#fig-6-2). Unlike in the classical scenario where the wave can have any arbitrary energy, in the quantum realm, the energy is constrained to certain discrete values.
@@ -71,11 +73,12 @@ Returning to our example of the vibrating quantum mechanical string, we can now 
 If a quantum mechanical system has a particular energy, we say the system is in an energy state. Mathematically, that energy state is described by the wavefunction $\psi _n$. If a quantum mechanical system is in an energy state described by the wavefunction $\psi _n$ and we measure its energy, we will measure the system’s energy to be $E_n$. We will never measure anything else.
 
  For the example in this section, *n* represents how many loops of energy the system has, so $\psi _3$ is the third picture in Fig. [](#fig-6-2). In bra-ket notation, see Sect. [](#sec-3-6), we would write either $|{\psi _n}\rangle$ or $|{n}\rangle$. There are other quantities (obersvables) that we can measure, and each thing we measure can change the shape of the wavefunction. Figure [](#fig-6-3) shows an example of three position states. If we measure the position of a quantum mechanical particle, we would find the particle somewhere between the start and end of the string. Mathematically, we label those position states $\psi$ with a subscript, like $\psi _x$. Notice that the position wavefunction is zero everywhere except for where the particle was measured. For the first example, the particle was measured to have a position at $x=0$. For the second example, the particle was measured to have a position at $x=-0.4~L$.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig3_HTML.png
-:name: fig-6-3
+:label: fig-6-3
+:alt: Examples of 3 different position states. Each position state has a specific position associated with it
 
 Examples of 3 different position states. Each position state has a specific position associated with it
+
 ```
 
 **Super Important**
@@ -132,11 +135,12 @@ Another really important concept to understand is superposition. Let’s explore
 What we will do is “build” a position state by cleverly adding together all of the energy states. Using more mathematical language, we will construct a position state from a superposition of states from the energy basis set. Although this sounds strange–since energy states have loops and the position state we are interested in is a spike–we can, remarkably, build a spike from loops!
 
 To help understand this concept, let’s do a thought experiment where we put the system into a state that isn’t a position state, but is mathematically simpler, in order to explore the concept of superposition. At the end of this section, I will show graphs to build the position state seen in the top right of Fig. [](#fig-6-3) from the energy basis set. The example state we will use to explore superposition is shown in Fig. [](#fig-6-4)a.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig4_HTML.png
-:name: fig-6-4
+:label: fig-6-4
+:alt: (**a**) The state for our thought experiment. (**b**) The amplitude of each energy state needed to construct the state. (**c**) The probability that, upon measurement of energy, we find the system in a particular energy state
 
 (**a**) The state for our thought experiment. (**b**) The amplitude of each energy state needed to construct the state. (**c**) The probability that, upon measurement of energy, we find the system in a particular energy state
+
 ```
 
 Mathematically, the energy states (those shown in Fig. [](#fig-6-2) plus all the other possible energy states) can be added together to construct the desired state. More formally, we say that a state can be constructed as a superposition of the energy basis set:
@@ -148,11 +152,12 @@ Mathematically, the energy states (those shown in Fig. [](#fig-6-2) plus all the
 ```
 
 where $A_i$ is the amplitude of $\psi _i$ that is mathematically determined to reconstruct the desired state $\psi$. The set of all states $\psi _i$ is called the energy basis set. This equation represents the concept of superposition. We are constructing a specific state from a superposition of states from the energy basis set. The math required to calculate the amplitudes $A_i$ is complicated and requires integrals, so I am just going to show you the results of the math in Fig. [](#fig-6-4)b. In practical terms, we start with the energy state with 1 loop (left picture in Fig. [](#fig-6-2)) and set the amplitude to 0.44. Next, we take the energy state with 2 loops (middle picture in Fig. [](#fig-6-2)), set the amplitude to 0.14, and add it to the energy state with 1 loop that had an amplitude of 0.44. We then take the energy state with 3 loops, set the amplitude to $-0.38$, and add it to the first two energy states. This process repeats, and the more energy states we include, the closer we get to the actual state. This is illustrated in Fig. [](#fig-6-5). Adding the first two energy states together (top row) with the appropriate amplitude doesn’t resemble the desired state, but after adding the first 30 energy states (third row), the resultant graph starts to look like the desired state. A superposition of the first 200 energy states (bottom row) results in a close reconstruction. Remarkably, loops can construct this state! Even more astonishingly, you can create any state you want (as long as it is a well-defined single-valued function) from the energy basis set. In other words, you can construct any state from a superposition of energy states.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig5_HTML.png
-:name: fig-6-5
+:label: fig-6-5
+:alt: An illustrative example of adding more and more energy states together to build the desired state. The amplitude of the energy state with 1 loop is 0.44, the amplitude of the energy state with 2 loops is 0.14, 3 loops has an amplitude of , etc. For the bottom row, the energy state with 200 loops looks flat to our eye, but it has a very small amplitude of 0.019
 
 An illustrative example of adding more and more energy states together to build the desired state. The amplitude of the energy state with 1 loop is 0.44, the amplitude of the energy state with 2 loops is 0.14, 3 loops has an amplitude of $-0.38$, etc. For the bottom row, the energy state with 200 loops looks flat to our eye, but it has a very small amplitude of 0.019
+
 ```
 
 Since we can construct a state out of energy states, we say that the state is a superposition of states from the energy basis set. Similarly, we could construct an energy state from a superposition of states from the position basis set. All we need is some mathematical method to determine the amplitudes of each of the position states so that when we add them all together we get the desired energy state.
@@ -178,11 +183,12 @@ Interestingly, we can use superposition to answer this question. Suppose energy 
 For the system we are exploring, building the energy state from a superposition of *A* states is really easy! $\psi _3$ and $\psi _{A,3}$ are literally the same sate. The probability that, upon measurement of *A*, we find the system with $A_1$ (the value associated with $\psi _{A,1}$) is 0%. The probability that, upon measurement of *A*, we find the system with value $A_{3}$ (the value associated with $\psi _{A,3}$) is 100%. The system is already in that state! Constructing the energy state from the *A* basis set is easy because there is one state from the *A* basis set that perfectly matches the energy state.
 
 Now that we have explored the concept of superposition, let’s build a more realistic position state, similar to the top right graph in Fig. [](#fig-6-3), from the energy states. Figure [](#fig-6-6) shows the mathematical results needed to construct that position state from the energy basis set. As you can see, we needed at least twice as many energy states to get a good approximation for a position state. Despite needing many more energy states to accurately reconstruct a single position state, the result remains the same: if the quantum mechanical system were in that position state and we measured its energy, we could get many different answers with probabilities given by the squared amplitudes.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig6_HTML.png
-:name: fig-6-6
+:label: fig-6-6
+:alt: Constructing the position state from the middle picture in Figure [](#fig-6-3). We need over 400 energy states to build this one state! Notice the position state in blue is noticeably taller than the reconstructed states even when we use the first 200 energy states. The position state is still a bit taller even with 400 energy states!
 
 Constructing the position state from the middle picture in Figure [](#fig-6-3). We need over 400 energy states to build this one state! Notice the position state in blue is noticeably taller than the reconstructed states even when we use the first 200 energy states. The position state is still a bit taller even with 400 energy states!
+
 ```
 
 **The Uncertainty Principle Part 2**
@@ -220,19 +226,21 @@ States and superposition of states are core concepts in quantum mechanics. Let�
 ## 6.4 The Energy Basis Set for a Quantum Harmonic Oscillator
 
 The quantum harmonic oscillator is one of the first quantum systems learners encounter in a quantum mechanics class, and it is a very practical system to study. It can be used to model many physical systems including molecular vibrations, see Fig. [](#fig-6-7). Consider two atoms connected by chemical bonds to form a single molecule. A classical model for this system is to have the two atoms connected by a spring. If the two atoms are not moving and the spring is not stretched or compressed, the system would just sit there at rest and not vibrate. However, if the spring is stretched slightly, it tries to pull the atoms back closer together. As the atoms move closer, the spring passes its equilibrium length and compresses. Once compressed, the spring tries to push the atoms apart until it stretches past equilibrium again, and the process repeats. This is an oscillation. In a quantum mechanical version, this system will have discrete energy levels, meaning it will have specific energy states. If the spring from this classical analogy were behaving quantum mechanically, the spring would only oscillate at specific frequencies.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig7_HTML.png
-:name: fig-6-7
+:label: fig-6-7
+:alt: Left: Two atoms connected by a spring. This is a model for two atoms connected by molecular bonds. Right: The separation of the atoms as a function of time
 
 Left: Two atoms connected by a spring. This is a model for two atoms connected by molecular bonds. Right: The separation of the atoms as a function of time
+
 ```
 
 We can use the Schrödinger equation to find the energy states and their energies for the quantum harmonic oscillator. The energy states with the four smallest energies for the quantum harmonic oscillator are shown in Fig. [](#fig-6-8). Notice the similarities with the standing waves on a string example in Sect. [](#sec-6-1). Although the shape of the states look different, the lowest energy state has 1 loop, the second lowest energy state has 2 loops, etc. If we measure the vibrational energy of a molecule modeled by the quantum harmonic oscillator, we would find the system in one of the energy states such as those shown in Fig. [](#fig-6-8). Each state has a defined, discrete energy. All of the same bullet points that summarized Sect. [](#sec-6-3) are still true! Observables that are compatible with energy, for example the frequency of vibration, have the same basis set, allowing us to measure all compatible observables repeatedly without disturbing the outcome of measuring other compatible observables. Observables that are incompatible with energy have different basis sets. If we measure energy, the system will be in a state from the energy basis set and a superposition of states for the incompatible observable’s basis set. The amplitudes in the superposition formula allow us to calculate the probability of what we will measure for the incompatible observable.
-
 ```{figure} ../images/ch-06/541577_1_En_6_Fig8_HTML.png
-:name: fig-6-8
+:label: fig-6-8
+:alt: The energy states with the four smallest energies for the quantum harmonic oscillator. Each of these energy states also corresponds to a specific energy or frequency of vibration of the atoms in the molecule
 
 The energy states with the four smallest energies for the quantum harmonic oscillator. Each of these energy states also corresponds to a specific energy or frequency of vibration of the atoms in the molecule
+
 ```
 
 (sec-6-5)=
@@ -402,10 +410,13 @@ Write Eq. [](#eq-6-1) using bra-ket notation.
 Just for fun, here is a crossword with some terms from this chapter. For each word, write a clue.
 
 ```{figure} ../images/ch-06/541577_1_En_6_Figa_HTML.png
-:name: fig-6-a
+:label: fig-6-a
+:alt: Crossword puzzle with quantum mechanics terms from this chapter
+
+Crossword puzzle with quantum mechanics terms from this chapter
 ```
 
-
+````
 
 [^1]: In quantum mechanics, we prefer the phrase wavefunction over state function.
 [^2]: As we work through the next few chapters, we will add more parameters to describe the state. Eventually, the state will look something like $|{n~\ell ~s~j~m_{j}}\rangle$. The 3 in this example is the *n*.

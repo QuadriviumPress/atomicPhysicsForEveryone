@@ -27,19 +27,21 @@ By the end of this chapter, you should be able to understand:
 ## 8.1 Energy Level Spacings
 
 Figure [](#fig-8-1) shows the energy levels for hydrogen, helium, lithium, and europium. As a reminder, hydrogen has 1 electron, helium has 2, lithium has 3, and europium has 63. Notice how different the energy levels are! Hydrogen’s first excited state is over 80,000 $\text{cm}^{-1}$ above the ground state, while helium’s first excited state is around 160,000 $\text{cm}^{-1}$ above the ground state![^1] The hydrogen states seem to get closer and closer to each other as the energy increases, but helium seems to “clump” a bit more. And look at Europium; there seems to be a big gap between the ground state before a really dense set of energy levels, a gap, and then even more! The red line on each element is the energy needed to rip an electron from the atom. We call this the **ionization threshold**.
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig1_HTML.png
-:name: fig-8-1
+:label: fig-8-1
+:alt: The energy levels of hydrogen, helium, lithium, and europium. The red line at the top of each element is the ionization threshold, which is the energy required to remove an electron from the atom
 
 The energy levels of hydrogen, helium, lithium, and europium. The red line at the top of each element is the ionization threshold, which is the energy required to remove an electron from the atom
+
 ```
 
 Even though the energy levels are so densely packed, they are still discrete. The energy levels looking like a solid band is just an artifact of making a picture with many, many discrete energy levels (the europium diagram has 500 levels in it). Figure [](#fig-8-2) is a zoom in of the Europium energy levels from 40,210 $\text{cm}^{-1}$ to 40,250 $\text{cm}^{-1}$, which is right in the middle of one of the dense patches. As you can see, these 7 levels are very close together, but still discrete. Plotting all 500 levels together really highlights the groupings.
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig2_HTML.png
-:name: fig-8-2
+:label: fig-8-2
+:alt: A zoom in on some of the denser states in Europium. Even though there are many states, they are still discrete
 
 A zoom in on some of the denser states in Europium. Even though there are many states, they are still discrete
+
 ```
 
 **Guiding Question**
@@ -65,11 +67,12 @@ The **Coulomb interaction** is how we describe the interaction between charged p
 Lithium has 3 electrons and europium has 63. Like helium, we can think about the nucleus of lithium as 1 particle with a charge of +3. Even though europium has 63 protons in the nucleus, we can still think of the nucleus as 1 particle with a charge of +63.[^3] Now we have a lot of interactions. Each electron has a Coulomb interaction with every other electron and each electron has a Coulomb interaction with the nucleus. One of the homework problems for this chapter will have you count the number of Coulomb interactions for the first few atoms in the periodic table.
 
 The second major contribution comes from something called **electron shells**, which are made up of **electron subshells**. The first shell is called 1, and it contains 1 subshell labelled 1s, see Fig. [](#fig-8-3). The second shell is 2 and has two shells. The third shell is 3 and has 3 subshells and so on. In Fig. [](#fig-8-3), we stop showing all possible subshells on shell 5. There is a 5g subshell, 6f, 6g, 6h, etc. that is not shown. In quantum mechanics and atomic physics, the shell number $(1,~2,~3,~\dots )$ is a quantum number called the principal quantum number, represented by the letter *n*. This is the same quantum number *n* explored in Chap. [](#ch-6).
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig3_HTML.png
-:name: fig-8-3
+:label: fig-8-3
+:alt: How electrons fill shells. This diagram is often called Madelung energy ordering rule, named after the German physicist Erwin Madelung. The top row is the shell and has one subshell. The second row is the shell and has two subshells. The third row is the shell and has three subshells, and so on
 
 How electrons fill shells. This diagram is often called Madelung energy ordering rule, named after the German physicist Erwin Madelung. The top row is the $n=1$ shell and has one subshell. The second row is the $n=2$ shell and has two subshells. The third row is the $n=3$ shell and has three subshells, and so on
+
 ```
 
 The electron subshells come about because an electron in an atom can have orbital angular momentum and spin. The letter accompanying the principal quantum number is the orbital angular momentum quantum number for the electron in that subshell. The subshells use the historical letter designations discussed in Chap. [](#ch-7). As a reminder, if an electron has the label s, it has $\ell =0$. If it has a label p, it has $\ell =1$, and so on. For example, 3p tells us that $n=3$ and $\ell =1$. From solving the Schrödinger equation, we find that *n* is the upper limit on possible values for $\ell$. As a reminder, $\ell$ is a zero or a positive integer. From the math, we find $\ell _{\text{max}}=n-1$. For example, if $n=3$, then $\ell =0$, 1, or 2. That means the $n = 3$ shell has three subshells: 3s, 3p, and 3d. There is no 3f subshell since $\ell =n$, which is not allowed.
@@ -98,19 +101,21 @@ An electron with the label *d* means that $\ell =2$. There are 5 possible orient
 ```
 
 Figure [](#fig-8-4) are Bohr model pictures of hydrogen, helium, and lithium in their lowest energy state (the ground state). Remember that electrons are actually more like waves, but I like to draw them as little balls to explore this concept. Hydrogen has 1 electron so the 1s subshell is half filled. Helium has 2 electrons that fully fill this 1s subshell. If we move up the periodic table to lithium (3 electrons), 2 electrons fill the 1s shell while the last electron is in the 2s shell.
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig4_HTML.png
-:name: fig-8-4
+:label: fig-8-4
+:alt: A Bohr model picture of hydrogen, helium, and lithium. Electrons will first fill the 1s subshell. Hydrogen half fills the 1s subshell, while Helium fills the 1s subshell completely. Lithium has 3 electrons that completely fill the 1s subshell leaving a single electron in the 2s subshell
 
 A Bohr model picture of hydrogen, helium, and lithium. Electrons will first fill the 1s subshell. Hydrogen half fills the 1s subshell, while Helium fills the 1s subshell completely. Lithium has 3 electrons that completely fill the 1s subshell leaving a single electron in the 2s subshell
+
 ```
 
 So, why does this affect the energy levels in the atom? The answer is every time we fill a shell, it is like creating a new nucleus with a reduced charge. For example, let’s look at a picture of lithium in Fig. [](#fig-8-4). I added a red dashed line between the 1s and 2s shells. Inside this red dashed line, the effective charge is +1 (2 electrons and 3 protons). For all it knows, that 1 electron sitting in the 2s subshell is all by itself interacting with a nucleus with charge +1. This is just like the hydrogen atom with a few key differences. The first is the nucleus of lithium has a lot more mass than the nucleus of hydrogen. The second is that the outermost electron in lithium is farther away from the nucleus. The reduced Coulomb force means the energy levels for lithium are not as widely spaced compared to hydrogen. This is why the hydrogen atom and the lithium atom energy levels look so similar, but the lithium energy levels are closer together, see Fig. [](#fig-8-5). All of the atoms in the first column of the periodic table (hydrogen, lithium, potassium, rubidium, cesium, and francium) have 1 electron sitting outside a closed shell. Therefore, the energy levels of these atoms are very similar to hydrogen.
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig5_HTML.png
-:name: fig-8-5
+:label: fig-8-5
+:alt: The energy levels for the first column of the periodic table. Each of these elements has fully closed shells except for a single electron in an s-shell
 
 The energy levels for the first column of the periodic table. Each of these elements has fully closed shells except for a single electron in an s-shell
+
 ```
 
 We write the **electron configuration** with superscripts that tell us how many electrons are in a subshell; if there is no superscript present, there is only 1 electron in that subshell. For example, the electronic configuration for the ground state of helium is $1\text{s}^2$; there are 2 electrons in the 1s subshell. If we excite the atom so that 1 electron moves to the 3d subshell, the electronic configuration is 1s3d; 1 electron is in the 1s subshell and 1 is in the 3d subshell.
@@ -258,17 +263,19 @@ The orientation and size of the angular momentum vectors matter.
 ## 8.4 Connecting Angular Momentum to Orbitals
 
 You may have learned about orbitals in high school chemistry. Orbitals are visual representations of different energy states for an electron in a hydrogen atom. Figures [](#fig-8-6) and [](#fig-8-7) show some orbital pictures for different energy states in hydrogen. These are analogous to the shaking energy modes we studied in Chap. [](#ch-1) (Fig. [](#fig-1-7)) and Chap. [](#ch-6) (Fig. [](#fig-6-2)). There are 3 numbers on each plot given in bra-ket notation. The first number is the principal quantum number (also called the shell number). The second is the orbital angular momentum quantum number, and the last is the projection of the orbital angular momentum quantum number along the *z*-axis (orientation). For example, $|4~3\ \text{-}1\rangle$ means $n=4$, $\ell =3$, and $m_\ell =-1$. You can think of all of these orbitals as different standing waves of the electron. The “loops” are a bit harder to see in 3-dimensional space, so in Fig. [](#fig-8-6) we plot a few different orbitals in 3D and in Fig. [](#fig-8-7) we plot a few cross sectional views. The reason they are so hard to visualize is that we only have 3 dimensions to view 4 dimensions of information.
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig6_HTML.png
-:name: fig-8-6
+:label: fig-8-6
+:alt: 3D illustrations of different electron orbitals in a hydrogen atom. The darker the shade the larger the amplitude of the standing wave
 
 3D illustrations of different electron orbitals in a hydrogen atom. The darker the shade the larger the amplitude of the standing wave
-```
 
+```
 ```{figure} ../images/ch-08/541577_1_En_8_Fig7_HTML.png
-:name: fig-8-7
+:label: fig-8-7
+:alt: A cross sectional view of different electron orbitals in the Hydrogen atom. The closer the color is to white, the larger the amplitude of the standing wave
 
 A cross sectional view of different electron orbitals in the Hydrogen atom. The closer the color is to white, the larger the amplitude of the standing wave
+
 ```
 
 For example, if you look at Fig. [](#fig-6-2) you’ll see that we need two dimensions to see the energy state for 1 dimension of shaking energy. The vertical axis shows the amplitude of the energy state while the horizontal shows position in 1 dimension. An example of a 2 dimensional standing wave would be a drum head vibrating. To visualize a 2 dimensional standing wave, we need a 3 dimensional plot: 1 dimension for the amplitude and 2 for the position dimensions. We run into a problem for 3 dimensional energy states. We now need to plot 3 dimensions of position, but we also need to visualize the amplitude. Figures [](#fig-8-6) and [](#fig-8-7) attempt to show the amplitude by shading.
@@ -349,11 +356,12 @@ Appendix B has a list of all of the elements with their ground state electronic 
 :enumerator: 8.5
 
 If we ionized (removed 1 electron) from beryllium, its electronic structure would look just like lithium, see Fig. [](#fig-8-8). While the energy level spacings are proportionally similar, lithium is more compact. Why?
-
 ```{figure} ../images/ch-08/541577_1_En_8_Fig8_HTML.png
-:name: fig-8-8
+:label: fig-8-8
+:alt: Energy levels for a neutral lithium atom and a singly ionized beryllium atom
 
 Energy levels for a neutral lithium atom and a singly ionized beryllium atom
+
 ```
 ````
 

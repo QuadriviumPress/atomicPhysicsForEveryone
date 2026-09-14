@@ -107,11 +107,12 @@ Since we made $A'=87$ and $A=85$, a positive result means that rubidium-87 would
 The experimental value of the isotope shift between rubidium-87 and rubidium-85 for this transition is $(77.583\pm 0.012)\,\text{MHz}$, see reference [1]. We found the normal mass contribution was 55.6 MHz. The remaining shift comes from the other two contributions that are, unfortunately, difficult to calculate. However, we can try to extract information about the nucleus by measuring a large number of isotopes for a particular element.
 
 To visually compare different isotopes, we can make a plot of the isotope shifts for a particular transition as a function of neutron number. This plot is called a King plot[^4] and is a nice way to visualize how changing the number of neutrons in a nucleus affects the spectrum. Figure [](#fig-10-1) shows an example of experimentally measured isotope shifts for a transition in the krypton atom that is excited using a laser near 760 nm. It was collected by Keim et al. in 1995, see reference [2]. All of the isotope shifts are measured with respect to krypton-86. Notice there is a “kink” in the graph at $A'=86$. As physicists, we want to know why! If we truly understand the system, we should be able to calculate the isotope shifts using Eq. [](#eq-10-2) and predict such a graph. The reason for the “kink” at $A'=86$ is that nucleons fill shells in the nucleus just like electrons fill shells. We discuss nuclear shells in Sect. [](#sec-10-6). There is a nuclear shell for neutrons that fills at 50 neutrons. Since krypton has 36 protons, this neutron shell fills at $A'=86$. The “kink” at $A'=75$ is not from a shell filling. That “kink” is thought to come from the nucleus itself beginning to deform due to lack of neutrons. There is so much one could ask and explore with this data. What questions would you ask? The wonderful thing about physics is that if we understand the system, we can interpret the data. If there is something we don’t understand, this sort of data gives us a starting point to explore and learn more.
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig1_HTML.png
-:name: fig-10-1
+:label: fig-10-1
+:alt: The isotope shift of a transition in krypton near 760 nm using data from reference [2]. The isotope shifts are measured with respect to the isotope with mass number
 
 The isotope shift of a transition in krypton near 760 nm using data from reference [2]. The isotope shifts are measured with respect to the isotope with mass number $A=86$
+
 ```
 
 (sec-10-2)=
@@ -246,11 +247,12 @@ Consider the radioactive decay of carbon-14:
 ```
 
 The daughter nucleus, nitrogen-14, has lower energy than the parent, carbon-14. The decay happens because carbon-14 is a higher energy state than nitrogen-14, see Fig. [](#fig-10-2). The higher energy state has a lifetime of about 5700 years. After that characteristic time, it will decay to nitrogen-14. We will discuss the mechanisms behind radioactive decay in Sects. [](#sec-10-4), [](#sec-10-5) and [](#sec-10-6).
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig2_HTML.png
-:name: fig-10-2
+:label: fig-10-2
+:alt: An example of how to think about why carbon-14 decays to nitrogen-14
 
 An example of how to think about why carbon-14 decays to nitrogen-14
+
 ```
 
 All unstable isotopes have a characteristic time for decay, known as the half-life, represented by the parameter $t_{1/2}$. Radioactive decay is a random process, but we can state probabilities for whether an isotope has decayed. Half-life is defined as the time it takes for there to be a 50% probability that the isotope has decayed. If the radioactive sample is large enough, the half-life can also be thought of as the time it takes for half of the parent nuclei to decay to the daughter nucleus. The number of remaining parents as a function of time is given by the formula: 
@@ -286,17 +288,19 @@ Carbon-14 is a radioactive isotope of carbon with a half-life of about 5700 year
 ## 10.3 The Table of Isotopes
 
 The table of isotopes, also known as the table of nuclides, is similar to the periodic table, but includes all known elements and isotopes. Figure [](#fig-10-3) is a screenshot of the table of isotopes from a website maintained by the International Atomic Energy Agency (IAEA).[^8] Figure [](#fig-10-4) is a zoom in for the lighter elements. The vertical axis represents the number of protons in the isotope, while the horizontal axis represents the number of neutrons in the isotope. The entire row with 2 protons consists of helium isotopes; the entire row with 63 protons are europium isotopes. The black boxes indicate stable isotopes, and the colors representing the various types of radioactive decay are shown as insets in both Figs. [](#fig-10-3) and [](#fig-10-4). The interactive table is a lot of fun to play with.
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig3_HTML.png
-:name: fig-10-3
+:label: fig-10-3
+:alt: A screenshot of the entire table of isotopes from the Live Chart of Nuclides maintained by the IAEA: [https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html](https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html) Note: I added the axes and the legend. Some isotopes have more than one type of decay. The legend shows the dominate decay
 
 A screenshot of the entire table of isotopes from the Live Chart of Nuclides maintained by the IAEA: [https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html](https://www-nds.iaea.org/relnsd/vcharthtml/VChartHTML.html) Note: I added the axes and the legend. Some isotopes have more than one type of decay. The legend shows the dominate decay
-```
 
+```
 ```{figure} ../images/ch-10/541577_1_En_10_Fig4_HTML.png
-:name: fig-10-4
+:label: fig-10-4
+:alt: A zoom in screenshot of the lighter elements from the table of isotopes. Note: I added the axes and the legend
 
 A zoom in screenshot of the lighter elements from the table of isotopes. Note: I added the axes and the legend
+
 ```
 
 (sec-10-4)=
@@ -313,11 +317,12 @@ The helium-4 nucleus has 2 protons and 2 neutrons. Since both protons have posit
 However, the protons inside a helium-4 nucleus do not fly apart.[^9] Therefore, there must be some other attractive force that is larger than the repulsive Coulomb force to stop the protons from being pushed out of the nucleus. An intuitive guess is that maybe gravity is keeping the protons in the nucleus. After all, gravity is the attractive force that we interact with everyday. Remarkably, gravity is an extremely weak force. You will explore just how weak gravity is in Problem [](#prob-10-6). In addition, neutrons have no charge, so they don’t feel any Coulomb force. What is keeping neutrons in the nucleus?
 
 The force keeping the nucleons “glued” to one another is the strong nuclear force.[^10] The strong nuclear force acts on both neutrons and protons, and it can be either an attractive or repulsive force. At a distance of 1 femtometer, the strong nuclear force is attractive and approximately 100 times stronger than the repulsive Coulomb force. Figure [](#fig-10-5) shows a graph of both the Coulomb force and the strong nuclear force.[^11] At short distances, both the strong nuclear force and the Coulomb force are repulsive. Somewhere around 0.85 fm, the nucleons start to be attracted by the strong nuclear force. The really important thing to take from this graph is that at around 1 fm, the strong nuclear force is more attractive than the Coulomb force is repulsive. The total force is the sum of the two, which for small distances, is attractive. Outside of about 5 fm, the strong nuclear force is basically 0 and the Coulomb force will dominate, pushing the protons away from each other.
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig5_HTML.png
-:name: fig-10-5
+:label: fig-10-5
+:alt: An illustrative plot showing the forces between nucleons inside the nucleus. The strong nuclear force is attractive (negative force) above about 0.85 fm but falls off very quickly. The Coulomb force between two protons, which is increased by a factor of 10 for visibility, is always repulsive (positive force)
 
 An illustrative plot showing the forces between nucleons inside the nucleus. The strong nuclear force is attractive (negative force) above about 0.85 fm but falls off very quickly. The Coulomb force between two protons, which is increased by a factor of 10 for visibility, is always repulsive (positive force)
+
 ```
 
 Figure [](#fig-10-5) is also useful for understanding why we cannot have a stable atom with more than about 200 nucleons. A proton near the edge of a large nucleus is far away from the nucleons that are on the other side of the nucleus. Because the strong nuclear force goes to zero so quickly, that proton does not feel any attractive strong nuclear force from the distant nucleons. It does, however, still feel the repulsive Coulomb force from all the other protons. Consequently, this proton near the edge will be repelled away. This is why the periodic table does not have any stable elements above lead-208. The next atom on the periodic table is bismuth. Bismuth has no stable isotopes, although bismuth-209 is super long-lived with a half-life of $2\times 10^{19}$ years.
@@ -463,21 +468,23 @@ Protons and neutrons are also fermions with a spin quantum number of $1/2$. Ther
 The configuration of the nuclear shells is very different from the electron shells because the nuclear shells are determined by both the strong nuclear force and the electromagnetic force. However, every proton (or neutron) in the nucleus has a unique set of quantum numbers and fills the proton (or neutron) shells. The last magic number for protons (114) is smaller than the last magic number for neutrons (126). This is because protons have an additional Coulomb force acting on them, and that additional force causes a different structure for the shells. I want to emphasize that these are not electron shells! Protons and neutrons do not fill up their nuclear shells according to the Madelung rule (see Fig. [](#fig-8-3)).
 
 Let’s use this as a starting point to understand nuclear stability. Figure [](#fig-10-6) shows a planetary model for protons and neutrons filling their respective shells. As a reminder, the planetary model is not correct. Protons and neutrons are quantum mechanical particles that have wave-like properties. Nonetheless, this nuclear shell model can help us understand the stability of the nucleus.
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig6_HTML.png
-:name: fig-10-6
+:label: fig-10-6
+:alt: The nuclear shells for protons and neutrons. Starting from the left, helium-4 is a stable isotope. The system is in its lowest energy state. The middle diagram is an example of decay. The right diagram is an example of proton emission
 
 The nuclear shells for protons and neutrons. Starting from the left, helium-4 is a stable isotope. The system is in its lowest energy state. The middle diagram is an example of $\beta -$ decay. The right diagram is an example of proton emission
+
 ```
 
 The number of nucleons that can occupy a subshell is indicated on the left. The lowest energy proton shell can hold two protons (one spin up and one spin down) and the lowest energy neutron shell can hold two neutrons. This is the first magic number, 2. The next shell can hold a total of six nucleons distributed among two subshells. The sum of all protons (or neutrons for the neutron shells) that completely fill the first two shells is the second magic number, $2+6=8$. The third grouping of subshells holds a total of twelve nucleons, a magic number of $2+6+12=20$, and so on. Notice that as the energy increases, the neutron shells are lower in energy than the proton shells. This is because the Coulomb force acts on the protons, but not on the neutrons, and also because neutrons have a slightly larger mass than protons. It should be noted that the energy spacings are not correct; they are greatly simplified for us to explore concepts. There are also higher energy shells that are not shown in these diagrams.
 
 Starting from the left diagram in Fig. [](#fig-10-6), we see that helium-4 is a stable isotope. In fact, this is a super-stable, doubly magic nucleus because it perfectly fills the lowest nuclear shell for both the protons and the neutrons. There isn’t any place of lower energy for any of the nucleons. The helium-4 nucleus is also the $\alpha$ particle from $\alpha$ decay. The middle diagram is an example of $\beta ^-$ decay. The system has a place of lower energy if the highest-energy neutron transforms into a proton (plus a $\beta ^-$ particle and anti-electron neutrino). One could ask the question, “Why is this $\beta ^-$ decay and not neutron emission?” The answer always come back to energy. For this scenario, it is energetically more favorable for the weak nuclear force to facilitate $\beta ^-$ decay than the neutron to just leave the nucleus. The right diagram is an example of proton emission. The highest-energy proton has a place to go to bring the system to a point of lower energy. It can leave the nucleus or undergo $\beta ^+$ decay. In this scenario, the Coulomb force makes proton emission energetically more favorable than $\beta ^+$ decay, so that is what happens. Finally, the left diagram in Fig. [](#fig-10-7) shows an example of $\beta ^+$ decay. In this scenario, it is energetically more favorable for the weak nuclear force to facilitate the decay of scandium-41 to calcium-41. And this is the essence of stable versus unstable nuclei. If there is a state of lower energy, the system will try to get there. Sometimes the mechanism is proton emission, neutron emission, $\alpha$ decay, or spontaneous fission. Other times, the weak nuclear force facilitates the annihilation and creation of particles. In the end, if there is a state of lower energy, the nucleus will decay to this lower state.
-
 ```{figure} ../images/ch-10/541577_1_En_10_Fig7_HTML.png
-:name: fig-10-7
+:label: fig-10-7
+:alt: Starting from the left, scandium-41 is an example of decay. The middle diagram and right diagram are examples of stable nuclei. Oxygen-16 is stable and has 8 protons and 8 neutrons. Germanium-72 is also stable, but it needs 40 neutrons to balance the energy of the 32 protons. The three dots on the subshell that can hold 8 nucleons are indicating the shell is filled; I couldn’t fit 8 nucleons on the line
 
 Starting from the left, scandium-41 is an example of $\beta ^+$ decay. The middle diagram and right diagram are examples of stable nuclei. Oxygen-16 is stable and has 8 protons and 8 neutrons. Germanium-72 is also stable, but it needs 40 neutrons to balance the energy of the 32 protons. The three dots on the subshell that can hold 8 nucleons are indicating the shell is filled; I couldn’t fit 8 nucleons on the line
+
 ```
 
 There is another interesting concept I’d like to explore with you. For smaller mass, stable nuclei, there are roughly equal numbers of neutrons and protons. This can be seen by the black boxes (stable nuclei) in Fig. [](#fig-10-3), which make a linear line with a slope of one for smaller mass nuclei. This is because, for smaller masses, the nuclear energy levels for the protons and neutrons are about the same. This is shown in the left diagram in Fig. [](#fig-10-6) for helium-4 and the middle diagram in Fig. [](#fig-10-7) for oxygen-16. However, as more protons are packed into the nucleus, the Coulomb force becomes larger and larger, increasing the nuclear energy levels for the protons. As such, more neutrons are needed to balance the energy of the protons and neutrons. This is an equivalent way of saying more neutrons are needed to provide a larger strong nuclear force to overcome this increase in the Coulomb force repulsion. An example of a heavier nucleus is shown in the right diagram of Fig. [](#fig-10-7). Germanium-72 needs eight more neutrons than protons to create a stable balance between the total proton energy and the total neutron energy. In fact, germanium-70, -72, -73, and -74 are all stable.[^15] Notice how the diagrams for all the stable nuclei have approximately equal energy for the highest-energy neutrons and protons while the unstable nuclei do not.

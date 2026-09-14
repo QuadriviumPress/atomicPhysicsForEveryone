@@ -51,11 +51,12 @@ Table [](#tbl-9-1) is a copy of a table from Chap. [](#ch-7) that summarizes all
 - **Center of gravity:** The energy of a state if there was no nuclear spin.
 
 The nuclear spin quantum number for oxygen-17 is $I=5/2$. The nuclear spin quantum number for both oxygen-16 and oxygen-18 is $I=0$. Therefore oxygen-17 will have hyperfine structure while the other two isotopes do not. All isotopes of oxygen have a ground state term symbol of ${ }^{3}\text{P}_{2}$, or $S=1$ ($2S+1=3$), $L=1$, and $J=2$. However, the ground state of oxygen-17 looks different compared to the other two isotopes, see Fig. [](#fig-9-1). If oxygen-17 had no nuclear spin, it would have a single level precisely at 0. Nuclear spin “splits” this single level into 5 hyperfine levels. For example, the level labeled $F=7/2$ has a slightly smaller energy than the center of gravity while the $F=5/2$ state has a higher energy. Both oxygen-16 and oxygen-18 have no nuclear spin, so they have a single ground state that would be labeled 0 energy and have no F quantum number designation.
-
 ```{figure} ../images/ch-09/541577_1_En_9_Fig1_HTML.png
-:name: fig-9-1
+:label: fig-9-1
+:alt: The hyperfine structure of the ground state of oxygen-17. The hyperfine levels are shown with respect to the center of gravity of the ground state
 
 The hyperfine structure of the ground state of oxygen-17. The hyperfine levels are shown with respect to the center of gravity of the ground state
+
 ```
 
 Adding together nuclear spin, represented by the quantum number *I*, and the total electronic angular momentum, represented by the quantum number *J*, results in a new angular momentum vector that we call the total angular momentum of the atom, represented by the quantum number *F*. Hyperfine structure generally has a much smaller energy splitting compared to fine structure. Like every angular momentum vector we have encountered, the *F* vector can also point in different orientations. For example, an $F=3/2$ state has four possible orientations described by the quantum numbers $m_F=$3/2, 1/2, $-$1/2, and $-$3/2. All four of those orientations have the same energy.
@@ -127,11 +128,12 @@ Let’s consider the two stable isotopes of europium: europium-151 and europium-
 
 1. The radioactive isotope europium-152 has a nuclear spin quantum number of $I=3$. How many hyperfine levels will the ground state have, and what are their *F* quantum numbers?
 2. Beryllium-9 has a nuclear spin quantum number of $I=3/2$ with a ground state total electronic angular momentum quantum number of $J=0$. How many hyperfine levels will the ground state have, and what are their F quantum numbers? The answers are below the maze shown in Fig. [](#fig-9-2).
-
 ```{figure} ../images/ch-09/541577_1_En_9_Fig2_HTML.png
-:name: fig-9-2
+:label: fig-9-2
+:alt: A fun maze to separate the quiz from the answers
 
 A fun maze to separate the quiz from the answers
+
 ```
 
 The answers are:
@@ -164,11 +166,12 @@ The magnetic dipole term (the term with *A*) in Eq. [](#eq-9-5) tends to be larg
 ## 9.3 Transition Frequencies
 
 Suppose we have an atom with a nuclear spin quantum number of $I = 3/2$. To help distinguish between the lower and upper states, we will use primes on the quantum numbers for the excited states. In this example, the lower state has a total angular momentum quantum number of $J = 1/2$ and the upper state has $J' = 1/2$. Our goal is to write an equation for the transition frequency between two hyperfine levels. We first need to find the possible values for F, which can range from $3/2 + 1/2 = 2$ to $|3/2 - 1/2| = 1$ in integer steps, giving $F = 1$ and $F = 2$. Since $J' = 1/2$ as well, the possible values for $F'$ are $F' = 1$ and $F' = 2$, see Fig. [](#fig-9-3). In this hypothetical example, the $F=1$ hyperfine level has a smaller energy than the $F=2$ hyperfine level while the order is reversed in the excited state; the ordering of the quantum number all depends upon the interaction with the nucleus.
-
 ```{figure} ../images/ch-09/541577_1_En_9_Fig3_HTML.png
-:name: fig-9-3
+:label: fig-9-3
+:alt: A simple Grotrian diagram for a made-up atom
 
 A simple Grotrian diagram for a made-up atom
+
 ```
 
 Next, we want to find the transition frequency from the $F=2$ hyperfine level to the $F'=1$ hyperfine level. Using Eq. [](#eq-9-5), we can calculate the hyperfine energy splitting. We will use “LS” for lower state and “US” for upper state. Note that since $J=1/2$ and $J'=1/2$, both $B_{\text{LS}}=0$ and $B_{\text{US}}=0$. Evaluating Eq. [](#eq-9-5) with the given quantum numbers, we find $\Delta E_{\text{LS},F=2}=\frac {3}{4} A_{\text{LS}}$ and $\Delta E_{\text{US},F'=1}=-\frac {5}{4}A_{\text{US}}$. According to Fig. [](#fig-9-3), the $F=2$ state has more energy than the center of gravity for the lower level, meaning $\Delta E_{\text{LS},F=2}>0$. Since $\Delta E_{\text{LS},F=2}=\frac {3}{4} A_{\text{LS}}$, we also learn that $A_{\text{LS}}>0$. For the upper state, the hyperfine energy splitting is also positive. For this state, the formula is $\Delta E_{\text{US},F'=1}=-\frac {5}{4} A_{\text{US}}$, which implies that $A_{\text{US}}<0$ in order to make $\Delta E_{\text{US},F'=1}>0$.
@@ -190,11 +193,12 @@ For many learners, the signs of the shifts can be confusing, so let’s explore 
 ## 9.4 Example with Cesium-133
 
 Figure [](#fig-9-4) shows a spectrum from a paper we published in 2018,[^3] in which we performed saturated absorption spectroscopy on cesium-133. Cesium-133 has a nuclear spin quantum number of $I=7/2$. The first five shells of cesium are completely filled, leaving a single electron in the 6s subshell. The ground state has the term symbol ${ }^{2}\text{S}_{1/2}$ while the excited state has a term symbol ${ }^{2}\text{P}_{3/2}$. So, the ground state has two hyperfine levels, $F=3$ and $F=4$, while the excited state has four hyperfine levels, $F'=$ 2, 3, 4, and 5. The $F=3$ and $F=4$ ground hyperfine levels are well separated from each other ($\sim$9.192 GHz), which is much larger than the Doppler width for transitions from either state. Therefore, we will not have any $\Lambda$ crossovers despite having two lower states.
-
 ```{figure} ../images/ch-09/541577_1_En_9_Fig4_HTML.png
-:name: fig-9-4
+:label: fig-9-4
+:alt: Experimental spectroscopic results of the transition in neutral cesium-133. This is an experimental result from my research group, see reference [1]. A simplified Grotrian diagram for the transition can be found in Fig. [](#fig-5-12)
 
 Experimental spectroscopic results of the transition in neutral cesium-133. This is an experimental result from my research group, see reference [1]. A simplified Grotrian diagram for the transition can be found in Fig. [](#fig-5-12)
+
 ```
 
 We performed spectroscopy from the $F=4$ ground hyperfine level, which has an energy approximately 4.021 GHz above the center of gravity for the ground state. Given The Rule (Eq. [](#eq-3-15)) $\Delta F= -1$, 0, or 1 with the exception $F=0 \not \rightarrow F=0$, we can excite an atom from the ground state hyperfine level with $F=4$ to the excited state hyperfine levels with $F'=$3, 4, or 5.[^4] Each of these three real transitions has a Lorentzian lineshape. We also have three V crossovers. For a review of crossovers, see Chap. [](#ch-5), Sect. [](#sec-5-2). The first crossover comes from the two real transitions $F=4 \rightarrow F'=3$ and $F=4 \rightarrow F'=4$. We often write this crossover in shorthand form: $F=4 \rightarrow F'=3/4$. The other two crossovers are the $F=4 \rightarrow F'=4/5$ and $F=4 \rightarrow F'=3/5$ crossovers. Despite having 6 spectroscopic features, the frequencies of all 6 features depend on only five parameters: the two hyperfine constants for the ground state, the two hyperfine constants for the excited state, and the transition frequency between the center of gravity for the ground state and the center of gravity for the excited state, see Eq. [](#eq-9-6). I should point out that the width and amplitude of each peak are also free parameters, but we didn’t really care about those. Our main goal was to measure the center of gravity frequency and the hyperfine constants. Having 5 parameters to determine the position of all spectroscopic features is typical. The experimental data from our group on a transition in europium-151 had up to 77 spectral features in that spectrum![^5] Even still, the center of each feature is determined by only 5 free parameters.
@@ -280,11 +284,12 @@ Let’s find $I_r$ for all three real transitions in the cesium-133 example we h
 3. $F=4 \rightarrow F'=5:~I_r=(2(4)+1)(2(4)+1) \begin {Bmatrix} \frac {1}{2} & \frac {7}{2} & 4 \\ 5 & 1 & \frac {3}{2} \end {Bmatrix}^2 = \frac {11}{4} = 2.75$
 
 From this math we see that the $F=4 \rightarrow F'=5$ is the largest transition. Using this largest transition as the reference, we can compare the size of the other two transitions to it. The $F=4 \rightarrow F'=4$ transition, which is the peak around 5 MHz in Fig. [](#fig-9-5), is $\frac {21/16}{11/4}=\frac {21}{44}=0.47$ times smaller than the $F=4 \rightarrow F'=5$ transition. Finally, the $F=4 \rightarrow F'=3$ transition is $\frac {7/16}{11/4}=\frac {7}{44}=0.16$ times smaller than the $F=4 \rightarrow F'=5$ transition. If you look at the amplitudes of the real transitions, you’ll see that these estimates are pretty close to what was measured experimentally.
-
 ```{figure} ../images/ch-09/541577_1_En_9_Fig5_HTML.png
-:name: fig-9-5
+:label: fig-9-5
+:alt: Experimental spectroscopic results of the transition in neutral cesium-133. This is an experimental result from my research group. A simplified Grotrian diagram for the transition can be found in Fig. [](#fig-5-12)
 
 Experimental spectroscopic results of the transition in neutral cesium-133. This is an experimental result from my research group. A simplified Grotrian diagram for the transition can be found in Fig. [](#fig-5-12)
+
 ```
 
 While it is possible to calculate the amplitudes of the crossovers, it is much more complicated. One reason is that the number of atoms with a particular velocity, which creates the crossovers, depends on the temperature of your vapor cell. However, we at least have a fairly straightforward way of finding the relative amplitudes of the real transitions.
@@ -402,9 +407,11 @@ Oxygen-17 has a nuclear spin quantum number of $I=5/2$, resulting in hyperfine s
 Consider the $3\text{s}~{ }^{2}\text{S}_{1/2}\rightarrow 3\text{p}~{ }^{2}\text{P}_{3/2}^{\circ }$ transition in sodium-23. The little circle on the excited state term symbol is the parity of the state, a topic we don’t cover in this book. Parity is an advanced topic that is easy to say in words, but hard to understand.[^9] Fig. [](#fig-9-6) is a Grotrian diagram that shows the hyperfine structure of both states. We will call the hyperfine constants for the ground state $A_{2S}$ and $B_{2S}$ and the hyperfine constants for the excited state $A_{2P}$ and $B_{2P}$.
 
 ```{figure} ../images/ch-09/541577_1_En_9_Fig6_HTML.png
-:name: fig-9-6
+:label: fig-9-6
+:alt: A Grotrian diagram for a transition in sodium-23
 
 A Grotrian diagram for a transition in sodium-23
+
 ```
 
 (a) What is the nuclear spin quantum number for sodium-23?

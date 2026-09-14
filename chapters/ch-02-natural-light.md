@@ -35,19 +35,23 @@ By the end of this chapter, you should be able to understand:
 - **Diffraction:** when waves bend around the corners of an obstacle.
 
 A spectrometer only needs two items: a dispersive element and a screen. A dispersive element is anything that takes light and spatially separates it into its spectral components. A common dispersive element is a prism, as shown in [](#fig-2-1), which works due to refraction. If you send white light into a dispersive prism, you will see a rainbow exiting because each spectral component refracts at a different angle. For a prism, the smaller the wavelength of light, the larger the refraction angle. So, blue light ($\lambda _{\text{b}} =$ 400–490 nm) refracts at a larger angle than red light ($\lambda _{\text{r}} =$ 620–750 nm). If you calibrate the prism so that you know at what angle each wavelength refracts, you can send in an unknown wavelength, measure the angle of refraction, and use math to determine the wavelength of the light. You can also send in light from, for example, a hydrogen lamp and see what wavelengths or spectral components are in that light. Knowing how each wavelength refracts allows you to determine what wavelengths make up the hydrogen lamp spectrum.
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig1_HTML.jpg
-:name: fig-2-1
+:label: fig-2-1
+:alt: A dispersive prism takes white light, which enters the prism from the left, and makes a rainbow. Each wavelength is refracted at a different angle. The white light source I used to make this picture is a tungsten lamp
 
 A dispersive prism takes white light, which enters the prism from the left, and makes a rainbow. Each wavelength is refracted at a different angle. The white light source I used to make this picture is a tungsten lamp
+
+
 ```
 
 In spectroscopy, the most common dispersive element is an optical grating, which works due to diffraction. Optical gratings commonly come in two types: transmission and reflection, see [](#fig-2-2). Either way, the optical grating is a dispersive element that will spatially separate light into its spectral components because each spectral component diffracts at a different angle.
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig2_HTML.png
-:name: fig-2-2
+:label: fig-2-2
+:alt: (**a**) An example of white light, which is composed of many spectral components, reflecting off a reflection grating. For illustrative purposes, *d*, which is usually very small, is greatly enlarged. We also only show one order to keep the example a little cleaner. (**b**) An example of white light diffracting through a transmission grating. Again, *d* is greatly enlarged and we only show one order. (**c**) An example of blue light with hitting perpendicular to the transmission grating and being diffracted. In this example, we show all diffraction orders. The angles of diffraction are calculated using [](#eq-2-1)
 
 (**a**) An example of white light, which is composed of many spectral components, reflecting off a reflection grating. For illustrative purposes, *d*, which is usually very small, is greatly enlarged. We also only show one order to keep the example a little cleaner. (**b**) An example of white light diffracting through a transmission grating. Again, *d* is greatly enlarged and we only show one order. (**c**) An example of blue light with $\lambda =455\,\text{nm}$ hitting perpendicular to the transmission grating and being diffracted. In this example, we show all diffraction orders. The angles of diffraction are calculated using [](#eq-2-1)
+
+
 ```
 
 To create the diffraction, both types of gratings have small structures separated by a distance *d*. A reflection grating has a bunch of small tilted mirrors called rulings while a transmission grating has a bunch of small slits. The only physical criterion for a grating is that $d>\lambda$. The size of *d* in [](#fig-2-2) has been greatly enlarged for visual purposes. While *d* must be larger than $\lambda$, in practice we also make sure that *d* is typically less than about $5 \lambda$ to ensure suitable diffraction angles.
@@ -115,11 +119,13 @@ If you know how your dispersive optic bends (diffracts or refracts) different wa
 ## 2.2 Blackbody Radiation
 
 I pointed a commercial spectrometer at the sky, see [](#fig-2-3). Collecting this data was spectroscopy! A few important notes before we continue:
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig3_HTML.png
-:name: fig-2-3
+:label: fig-2-3
+:alt: The spectral components of light from the sun after it passes through the atmosphere
 
 The spectral components of light from the sun after it passes through the atmosphere
+
+
 ```
 
 - This spectrometer has a dispersive element that was pre-calibrated, so the angle the light hits the detector is automatically converted to a wavelength.
@@ -145,11 +151,13 @@ M(\lambda,T)=\frac{2\pi hc^2}{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda \: k_B T}
 where $h=6.626\times 10^{-34}\,\text{Js}$ is Planck’s constant, *c* is the speed of light, $k_{B}=1.38\times 10^{-23}\,\text{J/K}$ is a constant known as Boltzmann’s constant,[^2] and *T* is the temperature of the object. For temperature, we use the unit kelvin, which is named after British mathematician, physicist, and engineer Lord William Thomson. The unit for Boltzmann’s constant is joule/kelvin. Using this model to fit the data from the spectrometer, we can measure the temperature of the surface of the sun to be about 5800 kelvin. We call $M(\lambda ,T)$ “spectral radiant exitance”, and it tells us how much radiant energy per second is leaving the object per unit area per unit wavelength.[^3] The units for $M(\lambda ,T)$ are $\text{W}/\text{m}^{3}$. I should note that this equation is for a “perfect” blackbody, which doesn’t exist in real life. Not having a perfect blackbody is equivalent to saying there is no such thing as a room with perfectly parallel and reflective walls. However, it still does a pretty good job with modeling the spectrum emitted by objects.
 
 It isn’t just the sun that emits a blackbody spectrum. A hot pan on the stove does, you do, and I do as well. The amount of light that is emitted as well as the peak wavelength of the blackbody spectrum only depends upon the temperature of the object. Remarkably, everything else in this model is either a constant or wavelength, which is our horizontal axis. [](#fig-2-4) shows a few different plots of the spectral radiant exitance for different temperatures. For objects near 5000 K, like the sun, they emit light that is visible to our human eye. For cooler objects, like us, the maximum spectral radiant exitance occurs more near $10{,}000\,\text{nm}$, which is $10\,\mu \text{m}$. There are special cameras that can see this wavelength of light. You may have seen thermal imaging or watched the Predator movies. I did not include the vertical scale in this plot because the numbers are big and hard to interpret without really digging into the spectral radiant exitance formula. But hotter objects do emit more light. The maximum spectral radiant exitance for a 6000 K object is about 3 million times larger than for a 310 K object.
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig4_HTML.png
-:name: fig-2-4
+:label: fig-2-4
+:alt: Left: Blackbody spectrum for very hot objects. The surface of the sun is 5800 K. Right: Your blackbody spectrum, assuming you are human (310 K is about 98 F). Notice the horizontal axis is a very different scale
 
 Left: Blackbody spectrum for very hot objects. The surface of the sun is 5800 K. Right: Your blackbody spectrum, assuming you are human (310 K is about 98 F). Notice the horizontal axis is a very different scale
+
+
 ```
 
 **The Stefan–Boltzmann Law and Wien’s Displacement Law**
@@ -175,11 +183,13 @@ where $b=2.898\times 10^{6}\,\text{nm K}.$ This formula was later derived from t
 **What About Those Dips?**
 
 Let’s return to the experimental data we took for the spectrum of the sky, see [](#fig-2-3). Blackbody radiation explains the overall shape, but what about the dips? What do you think is making those dips? The answer is below the fun little puzzle in [](#fig-2-5).
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig5_HTML.png
-:name: fig-2-5
+:label: fig-2-5
+:alt: A fun little puzzle to separate the question from the answer
 
 A fun little puzzle to separate the question from the answer
+
+
 ```
 
 There are two sources of the dips: atoms and molecules in our atmosphere and the sun itself. For example, the dip near 750 nm is due to oxygen molecules in the atmosphere. There are photons coming from the sun that have the perfect energy to excite oxygen molecules. Because oxygen molecules absorb only photons with the perfect energy, some light is lost at very specific wavelengths before it reaches our spectrometer.
@@ -192,11 +202,13 @@ This leads to one method of performing spectroscopy with a spectrometer. You tak
 ## 2.3 Discharge Lamps
 
 Another method of spectroscopy using a spectrometer is to point the spectrometer at a lamp filled with an element. [](#fig-2-6) shows the spectrum of a helium discharge lamp collected using a commercial spectrometer. The spectrum is not continuous like that of a blackbody. Instead, we observe individual spikes at very specific wavelengths. And, we already know the source of these spikes! Atoms have energy levels, and the atoms will only absorb and emit at specific wavelengths. Filling a lamp with a specific element, or the combination of a few elements, and collecting the emitted light with a spectrometer was the most common form of spectroscopy before the invention of the laser. After the spectrum was collected, physicists had to be very clever to back out the energy levels from all of those lines.
-
 ```{figure} ../images/ch-02/541577_1_En_2_Fig6_HTML.jpg
-:name: fig-2-6
+:label: fig-2-6
+:alt: Spectrum collected from a helium discharge lamp collected using a spectrometer with an accuracy of 0.5 nm
 
 Spectrum collected from a helium discharge lamp collected using a spectrometer with an accuracy of 0.5 nm
+
+
 ```
 
 Whether you use a white light source and look for lost photons or you collect light from a discharge lamp, you gain the same information, which is the wavelengths of light needed to have an atom go from one energy level to another.
@@ -313,7 +325,7 @@ The sun has a surface temperature of $5772\,\text{K}$ with a radius of $r_{s}=69
 - (f) A refrigerator needs 200 watts of power to run. What area solar panel do you need to run the refrigerator? If the solar panel was a square, what are the dimensions of that square?
 ```
 
-```{exercise}
+````{exercise}
 :label: prob-2-9
 :enumerator: 2.9
 
@@ -321,14 +333,15 @@ The sun has a surface temperature of $5772\,\text{K}$ with a radius of $r_{s}=69
 
 - (a) [](#fig-2-7) is an amazing figure made by Robert A. Rohde. It shows the spectrum from the sun collected using an amplitude corrected spectrometer. The vertical axis is the spectral irradiance.[^5] Included in the graph is a good approximation of what the sun would emit if it were a perfect blackbody. Using your favorite graphing program, estimate the temperature of the surface of the sun by plotting the spectral radiant exitance. Don’t worry about the vertical scale. What you are most concerned about is getting the spectral radiant exitance to be a maximum around 500 nm.
 
-  ```{figure} ../images/ch-02/541577_1_En_2_Fig7_HTML.png
-  :name: fig-2-7
+```{figure} ../images/ch-02/541577_1_En_2_Fig7_HTML.png
+:label: fig-2-7
+:alt: The spectrum from the sun both before the light enters the atmosphere (yellow) and at the surface of the earth (red). A perfect blackbody spectrum is shown by the black curve. Image Credit: Robert A. Rohde, CC BY-SA 3.0 via Wikimedia Commons
 
-  The spectrum from the sun both before the light enters the atmosphere (yellow) and at the surface of the earth (red). A perfect blackbody spectrum is shown by the black curve. Image Credit: Robert A. Rohde, CC BY-SA 3.0 via Wikimedia Commons
-  ```
+The spectrum from the sun both before the light enters the atmosphere (yellow) and at the surface of the earth (red). A perfect blackbody spectrum is shown by the black curve. Image Credit: Robert A. Rohde, CC BY-SA 3.0 via Wikimedia Commons
+```
 
 - (b) Use Wien’s displacement law to assess your answer. (In other words, does Wien’s displacement law confirm the peak of your graph in part (a)?)
-```
+````
 
 ```{exercise}
 :label: prob-2-10
