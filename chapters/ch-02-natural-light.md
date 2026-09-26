@@ -44,7 +44,7 @@ A dispersive prism takes white light, which enters the prism from the left, and 
 
 ```
 
-In spectroscopy, the most common dispersive element is an optical grating, which works due to diffraction. Optical gratings commonly come in two types: transmission and reflection, see [](#fig-2-2). Either way, the optical grating is a dispersive element that will spatially separate light into its spectral components because each spectral component diffracts at a different angle.
+In spectroscopy, the most common dispersive element is an optical grating, which works due to diffraction. Optical gratings commonly come in two types: transmission and reflection; see [](#fig-2-2). Either way, the optical grating is a dispersive element that will spatially separate light into its spectral components because each spectral component diffracts at a different angle.
 ```{figure} ../images/ch-02/541577_1_En_2_Fig2_HTML.png
 :label: fig-2-2
 :alt: (**a**) An example of white light, which is composed of many spectral components, reflecting off a reflection grating. For illustrative purposes, *d*, which is usually very small, is greatly enlarged. We also only show one order to keep the example a little cleaner. (**b**) An example of white light diffracting through a transmission grating. Again, *d* is greatly enlarged and we only show one order. (**c**) An example of blue light with a wavelength of 455 nm hitting perpendicular to the transmission grating and being diffracted. In this example, we show all diffraction orders. The angles of diffraction are calculated using [](#eq-2-1)
@@ -75,7 +75,7 @@ For $m=+1$, we plug in numbers to find $\theta _{+1,b}=26.7^{\circ },\theta _{+1
 
 **Quick Math Aside**
 
-Let’s put the screen $10\,\text{cm}$ from the grating. On the screen is a ruler that will serve as our z-axis. If the grating wasn’t in place, all spectral components would hit the screen at the same place. Let’s call this spot $z = 0\,\text{cm}$. With the grating in place and the white light hitting the grating perpendicular, the blue light, which diffracts at $26.7^\circ$, hits the screen at $z=(10 \,\text{cm})\tan 26.7^\circ =5.04\,\text{cm}$ while the green light hits the screen $z=6.28\,\text{cm}$. You could also skip the angle calculation and use the formula:
+Let’s put the screen $10\,\text{cm}$ from the grating. On the screen is a ruler that will serve as our z-axis. If the grating wasn’t in place, all spectral components would hit the screen at the same place. Let’s call this spot $z = 0\,\text{cm}$. With the grating in place and the white light hitting the grating perpendicular, the blue light, which diffracts at $26.7^\circ$, hits the screen at $z=(10 \,\text{cm})\tan 26.7^\circ =5.04\,\text{cm}$ while the green light hits the screen at $z=6.28\,\text{cm}$. You could also skip the angle calculation and use the formula:
 
 ```{math}
 :label: eq-2-2
@@ -162,7 +162,7 @@ Left: Blackbody spectrum for very hot objects. The surface of the sun is 5800 K.
 
 **The Stefan–Boltzmann Law and Wien’s Displacement Law**
 
-Imagine you have a blackbody with surface area *A*. Besides the spectrum of the blackbody, you can also measure the total power emitted by the object. The total power emitted is proportional to the area under a spectral radiant exitance graph. After some math (calculus), the total power emitted by a blackbody:
+Imagine you have a blackbody with surface area *A*. Besides the spectrum of the blackbody, you can also measure the total power emitted by the object. The total power emitted is proportional to the area under a spectral radiant exitance graph. After some math (calculus), the total power emitted by a blackbody is:
 
 ```{math}
 :label: eq-2-6
@@ -317,12 +317,12 @@ The sun has a surface temperature of $5772\,\text{K}$ with a radius of $r_{s}=69
 - (a) Find the total power output of the sun.
 - (b) The light from the sun spreads out radially in all directions. A small fraction of that light hits the earth. The earth is $d=1.496\times 10^{8}\,\text{km}$ from the sun. Assuming the earth is a solid disk with radius $r_{e}=6371\,\text{km}$, what fraction of the total power leaving the sun hits the earth?
 
-  Hint: We first want to find the ratio of the area of the earth disk ($\pi r_{e}^2$) to the surface area of a sphere with the radius equal to the earth-sun distance: $\frac {\pi r_{e}^2}{4\pi d^2}$ That ratio tells us fraction of light emitted from the sun that hits the earth.
+  Hint: We first want to find the ratio of the area of the earth disk ($\pi r_{e}^2$) to the surface area of a sphere with the radius equal to the earth-sun distance: $\frac {\pi r_{e}^2}{4\pi d^2}$ That ratio tells us the fraction of light emitted from the sun that hits the earth.
 
 - (c) For solar energy, we care about how much power per area is hitting the solar panel. Power per area is called intensity. Find how much power from the sun is hitting a 1 square meter area of land. This is the intensity of sunlight on the earth.
 - (d) You have a 10 cm by 10 cm solar panel. Determine the power of sunlight hitting that solar panel.
 - (e) Your solar panel is 20% efficient at converting sunlight into usable electric power. What is the power output of your solar panel? Is it enough to power a 10 watt LED light bulb?
-- (f) A refrigerator needs 200 watts of power to run. What area solar panel do you need to run the refrigerator? If the solar panel was a square, what are the dimensions of that square?
+- (f) A refrigerator needs 200 watts of power to run. What area of solar panel do you need to run the refrigerator? If the solar panel was a square, what are the dimensions of that square?
 ```
 
 ````{exercise}
@@ -349,7 +349,7 @@ The spectrum from the sun both before the light enters the atmosphere (yellow) a
 
 **(Advanced Problem)**
 
-- (a) Using your favorite numerical program, numerically find and plot the wavelength of maximum spectral wavelength ($\lambda _{\text{peak}}$) for temperatures between 3000 and 6000 K in steps of 100 K.[^6]
+- (a) Using your favorite numerical program, numerically find and plot the wavelength of maximum spectral radiant exitance ($\lambda _{\text{peak}}$) for temperatures between 3000 and 6000 K in steps of 100 K.[^6]
 - (b) Fit your data to b/T to find b. Be sure to use the speed of light accurate to, at least, 5 digits.
 ```
 
@@ -362,7 +362,7 @@ The spectrum from the sun both before the light enters the atmosphere (yellow) a
 Requires calculus.
 
 - (a) Find the transcendental equation that you would need to numerically solve to find Wien’s displacement law.
-- (b) Convert the spectral radiant exitance from a function of wavelength to a function of frequency. To do this, you need to use the formula. $M_{\lambda }(\lambda ,T)d\lambda =-M_{f}(f,T)df$, which guarantees that the same amount of total energy is in a spectral interval $d\lambda$ as in the corresponding interval *df*. The minus sign is because decreasing wavelength increases frequency.
+- (b) Convert the spectral radiant exitance from a function of wavelength to a function of frequency. To do this, you need to use the formula: $M_{\lambda }(\lambda ,T)d\lambda =-M_{f}(f,T)df$, which guarantees that the same amount of total energy is in a spectral interval $d\lambda$ as in the corresponding interval *df*. The minus sign is because decreasing wavelength increases frequency.
 - (c) Find the spectral radiant exitance as a function of wavenumber (inverse wavelength).
 ```
 

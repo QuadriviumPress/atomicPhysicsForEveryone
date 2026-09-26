@@ -67,7 +67,7 @@ We often care about what observables are compatible with energy. At the end of C
 
 **Important Reminder**
 
-The observables represented by $m_\ell$ and $m_s$ are not compatible energy.
+The observables represented by $m_\ell$ and $m_s$ are not compatible with energy.
 
 Let’s update our ket with information we have learned from this chapter. When we add together nuclear spin and total electronic angular momentum, the cones representing those angular momenta are tilted with respect to the total atomic angular momentum (F). Just like when we added orbital and electron spin, the cone heights of I and J, which are represented by the quantum numbers $m_I$ and $m_J$, are no longer compatible with energy. Therefore, our new ket is $|{n~\ell ~s~j~I~F~m_F}\rangle$.
 
@@ -92,7 +92,7 @@ So, the ground state of hydrogen has two hyperfine levels represented by the qua
 1\text{s}^2 2\text{s}^2 2\text{p}^6 3\text{s}^2 3\text{p}^6 3\text{d}^{10} 4\text{s}^2 4\text{p}^6 4\text{d}^{10} 5\text{s}^2 5\text{p}^6 6\text{s}^2 4\text{f}^7~{}^{8}\text{S}_{7/2}
 ```
 
-to have 0 energy. However, both stable isotopes of europium have nuclear spin: europium-151 (63 electrons, 63 protons, 88 neutrons, and $I=5/2$) and europium-153 (63 electrons, 63 protons, 90 neutrons, and $I=5/2$). Other isotopes of europium will have different nuclear spin. For example, europium-152, which is radioactive with a half-life of 13.5 years, has a nuclear spin quantum number of $I=3$. Each of these europium isotopes have hyperfine levels.
+to have 0 energy. However, both stable isotopes of europium have nuclear spin: europium-151 (63 electrons, 63 protons, 88 neutrons, and $I=5/2$) and europium-153 (63 electrons, 63 protons, 90 neutrons, and $I=5/2$). Other isotopes of europium will have different nuclear spin. For example, europium-152, which is radioactive with a half-life of 13.5 years, has a nuclear spin quantum number of $I=3$. Each of these europium isotopes has hyperfine levels.
 
 **Summary**
 
@@ -150,22 +150,22 @@ Using quantum mechanics, we can derive the energy splitting of a hyperfine level
 \begin{array}{c} \Delta E = \frac{1}{2} K A+ \frac{\frac{3}{2} K(K+1)-2I(I+1)J(J+1)}{2I(2I-1)2J(2J-1)} B \\ K=F(F+1)-I(I+1)-J(J+1) \\ A=0 \text{ unless both } I>0 \text{ and } J>0 \\ B=0 \text{ unless both } I>1/2 \text{ and } J>1/2 \end{array}
 ```
 
-where *A* is called the magnetic dipole hyperfine constant and *B* is called the electric quadrupole hyperfine constant. Notice that everything else in the above equation apart from *A* and *B* is a quantum number. Theorists can calculate the hyperfine constants *A* and *B* while experimentalists measure them. When we perform spectroscopy on an atom with hyperfine structure, we can measure the energy spacing between all of the hyperfine levels and use the above equation to back out experimental values of *A* and *B*. Some hyperfine constants were measured many years ago while others have yet to be measured. For example, the ground state hyperfine constants for europium-151 and europium-153 were measured for the first-time way back in 1960 by P.G.H. Sandars and G.K. Woodgate and published in the journal *Proceedings of the Royal Society A*.[^1] Sandars and Woodgate found that the magnetic dipole hyperfine constant and the electric quadrupole hyperfine constant for the ground state of europium-151 is $A=-20.0523\pm 0.0002$ MHz and $B=-0.7012\pm 0.0035$ MHz. To convert those numbers into energy, just plug the hyperfine constants into the above equation and multiply the result by Planck’s constant, *h*. If someone already measured those numbers, we can use those as a starting point for our fitting algorithms. If not, we have to determine them ourselves.
+where *A* is called the magnetic dipole hyperfine constant and *B* is called the electric quadrupole hyperfine constant. Notice that everything else in the above equation apart from *A* and *B* is a quantum number. Theorists can calculate the hyperfine constants *A* and *B* while experimentalists measure them. When we perform spectroscopy on an atom with hyperfine structure, we can measure the energy spacing between all of the hyperfine levels and use the above equation to back out experimental values of *A* and *B*. Some hyperfine constants were measured many years ago while others have yet to be measured. For example, the ground state hyperfine constants for europium-151 and europium-153 were measured for the first-time way back in 1960 by P.G.H. Sandars and G.K. Woodgate and published in the journal *Proceedings of the Royal Society A*.[^1] Sandars and Woodgate found that the magnetic dipole hyperfine constant and the electric quadrupole hyperfine constant for the ground state of europium-151 are $A=-20.0523\pm 0.0002$ MHz and $B=-0.7012\pm 0.0035$ MHz. To convert those numbers into energy, just plug the hyperfine constants into the above equation and multiply the result by Planck’s constant, *h*. If someone already measured those numbers, we can use those as a starting point for our fitting algorithms. If not, we have to determine them ourselves.
 
 For every state in an atom, the electrons have different quantum numbers. States with higher *n* tend to be farther from the nucleus while the angular momentum quantum numbers represent different orbitals. Therefore, for an atom with nuclear spin, every state in that atom will have different hyperfine constants resulting in a different hyperfine splitting. Even the same state in two different isotopes that happen to have the same nuclear spin will have different hyperfine constants because the nuclei of the two isotopes are slightly different.
 
 **Summary**
 
-The “splitting” of the center of gravity into hyperfine levels is described by Eq. [](#eq-9-5). The magnetic dipole hyperfine constant *A* is zero unless both $I>0$ and $J>0$. The magnetic quadrupole hyperfine constant *B* is zero unless both $I>1/2$ and $J>1/2$.
+The “splitting” of the center of gravity into hyperfine levels is described by Eq. [](#eq-9-5). The magnetic dipole hyperfine constant *A* is zero unless both $I>0$ and $J>0$. The electric quadrupole hyperfine constant *B* is zero unless both $I>1/2$ and $J>1/2$.
 
 **One Final Thing**
 
-The magnetic dipole term (the term with *A*) in Eq. [](#eq-9-5) tends to be larger than the electric quadrupole term (the term with *B*). For example, the $F=6$ ground hyperfine state of europium-151 has a splitting $\Delta E = (-175.458\,\text{MHz}) + (-0.175\,\text{MHz})=-175.633\,\text{MHz}$. The first term in parentheses is from the magnetic dipole term and the second is from electric quadrupole term. There are additional terms to Eq. [](#eq-9-5), but they are very small compared to the electric quadrupole term. The next term in the formula is the magnetic octupole term, which contains quantum numbers and the magnetic octupole hyperfine constant *C*. This term is generally unnecessary unless you have exceptionally good data. The magnetic octupole constant is zero unless both $I>1$ and $J>1$.
+The magnetic dipole term (the term with *A*) in Eq. [](#eq-9-5) tends to be larger than the electric quadrupole term (the term with *B*). For example, the $F=6$ ground hyperfine state of europium-151 has a splitting $\Delta E = (-175.458\,\text{MHz}) + (-0.175\,\text{MHz})=-175.633\,\text{MHz}$. The first term in parentheses is from the magnetic dipole term and the second is from the electric quadrupole term. There are additional terms to Eq. [](#eq-9-5), but they are very small compared to the electric quadrupole term. The next term in the formula is the magnetic octupole term, which contains quantum numbers and the magnetic octupole hyperfine constant *C*. This term is generally unnecessary unless you have exceptionally good data. The magnetic octupole constant is zero unless both $I>1$ and $J>1$.
 
 (sec-9-3)=
 ## 9.3 Transition Frequencies
 
-Suppose we have an atom with a nuclear spin quantum number of $I = 3/2$. To help distinguish between the lower and upper states, we will use primes on the quantum numbers for the excited states. In this example, the lower state has a total angular momentum quantum number of $J = 1/2$ and the upper state has $J' = 1/2$. Our goal is to write an equation for the transition frequency between two hyperfine levels. We first need to find the possible values for F, which can range from $3/2 + 1/2 = 2$ to $|3/2 - 1/2| = 1$ in integer steps, giving $F = 1$ and $F = 2$. Since $J' = 1/2$ as well, the possible values for $F'$ are $F' = 1$ and $F' = 2$, see Fig. [](#fig-9-3). In this hypothetical example, the $F=1$ hyperfine level has a smaller energy than the $F=2$ hyperfine level while the order is reversed in the excited state; the ordering of the quantum number all depends upon the interaction with the nucleus.
+Suppose we have an atom with a nuclear spin quantum number of $I = 3/2$. To help distinguish between the lower and upper states, we will use primes on the quantum numbers for the excited states. In this example, the lower state has a total angular momentum quantum number of $J = 1/2$ and the upper state has $J' = 1/2$. Our goal is to write an equation for the transition frequency between two hyperfine levels. We first need to find the possible values for F, which can range from $3/2 + 1/2 = 2$ to $|3/2 - 1/2| = 1$ in integer steps, giving $F = 1$ and $F = 2$. Since $J' = 1/2$ as well, the possible values for $F'$ are $F' = 1$ and $F' = 2$, see Fig. [](#fig-9-3). In this hypothetical example, the $F=1$ hyperfine level has a smaller energy than the $F=2$ hyperfine level while the order is reversed in the excited state; the ordering of the quantum numbers all depends upon the interaction with the nucleus.
 ```{figure} ../images/ch-09/541577_1_En_9_Fig3_HTML.png
 :label: fig-9-3
 :alt: A simple Grotrian diagram for a made-up atom
@@ -256,7 +256,7 @@ where $f_{F=4 \rightarrow \text{cog}}$ is the frequency of light needed to go fr
 (sec-9-4-2)=
 ### 9.4.2 Crossover Transitions
 
-For this spectrum, there are three V crossovers: $F=4 \rightarrow F'=3/4$, $F=4 \rightarrow F'=4/5$, and $F=4 \rightarrow F'=3/5$. The center of the spectral feature due to the $F=4 \rightarrow F'=3/4$ crossover is found using the same procedures we learned about in Chap. [](#ch-5), which is adding the two real transitions and dividing by 2:
+For this spectrum, there are three V crossovers: $F=4 \rightarrow F'=3/4$, $F=4 \rightarrow F'=4/5$, and $F=4 \rightarrow F'=3/5$. The center of the spectral feature due to the $F=4 \rightarrow F'=3/4$ crossover is found using the same procedure we learned about in Chap. [](#ch-5): adding the two real transitions and dividing by 2:
 
 ```{math}
 :label: eq-9-9

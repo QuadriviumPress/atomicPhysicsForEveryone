@@ -29,7 +29,7 @@ The Doppler effect is likely a phenomenon you have encountered before. When an a
 :label: fig-4-1
 :alt: Left: An ambulance at rest emitting a sound wave from its siren. The wavelength (lambda_0) and frequency (f_0) of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
 
-Left: An ambulance at rest emitting a sound wave from its siren. The wavelength $\lambda _0$ and frequency $f_0$ of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
+Left: An ambulance at rest emitting a sound wave from its siren. The wavelength $\lambda _0$ and frequency $f_0$ of the sound wave are the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
 
 
 ```
@@ -54,14 +54,14 @@ Frequency, energy, and wavelength are all the same quantity. Each of these param
 Imagine a laser beam traveling to the right, as shown in Fig. [](#fig-4-2). Also imagine there are three atoms: atom 2 is traveling to the left, atom 1 is stationary, and atom 3 is traveling to the right. For this thought experiment, we will assume the speeds of atom 2 and atom 3 are the same, just in opposite directions.
 ```{figure} ../images/ch-04/541577_1_En_4_Fig2_HTML.jpg
 :label: fig-4-2
-:alt: A simple experimental to explore how motion of atoms impacts the interactions between the atoms and laser light
+:alt: A simple experiment to explore how motion of atoms impacts the interactions between the atoms and laser light
 
-A simple experimental to explore how motion of atoms impacts the interactions between the atoms and laser light
+A simple experiment to explore how motion of atoms impacts the interactions between the atoms and laser light
 
 
 ```
 
-In this experiment, the atom is the observer because it is interacting with the laser light and not producing it. To understand the Doppler effect, it is important to recognize that each atom perceives itself as stationary. Atom 2 would claim that atom 1 is moving to the right and that atom 3 is moving twice as fast as we (as the scientists looking from the outside) would say atom 3 is moving. Both atom 1 and us, as the observing scientists, will agree on the frequency of the laser. Because of the Doppler effect, atoms 2 and 3 will disagree. To make this idea a little clearer, let’s say that the laser frequency is $652.0000\times 10^{12}\,\text{Hz}=652.0000\,\text{THz}$ (terahertz) and that this is the resonance frequency for the atom. Both the scientists and atom 1 will agree that the laser frequency is $652.0000\,\text{THz}$; atom 1 will absorb photons from the laser beam. However, atom 2 and atom 3 will disagree with this claim since atom 2 is moving towards the laser and atom 3 is moving away from the laser.
+In this experiment, the atom is the observer because it is interacting with the laser light and not producing it. To understand the Doppler effect, it is important to recognize that each atom perceives itself as stationary. Atom 2 would claim that atom 1 is moving to the right and that atom 3 is moving twice as fast as we (as the scientists looking from the outside) would say atom 3 is moving. Both atom 1 and we, as the observing scientists, will agree on the frequency of the laser. Because of the Doppler effect, atoms 2 and 3 will disagree. To make this idea a little clearer, let’s say that the laser frequency is $652.0000\times 10^{12}\,\text{Hz}=652.0000\,\text{THz}$ (terahertz) and that this is the resonance frequency for the atom. Both the scientists and atom 1 will agree that the laser frequency is $652.0000\,\text{THz}$; atom 1 will absorb photons from the laser beam. However, atom 2 and atom 3 will disagree with this claim since atom 2 is moving towards the laser and atom 3 is moving away from the laser.
 
 **Two Minute Question**
 
@@ -125,7 +125,7 @@ Comparing Eqs. [](#eq-4-1) and [](#eq-4-3), we find the formula for the Doppler 
 \Delta f_{D}=-\frac{v_{\parallel}}{\lambda}.
 ```
 
-**A Bit More About Velocity Components** The velocity component in the direction of the laser beam is an important, but sometimes confusing, idea when you first encounter it. So, let’s spend a bit more time thinking this idea through using Fig. [](#fig-4-3). In Fig. [](#fig-4-3)a, the first atom’s velocity is pointing directly towards the laser, so $v_{\parallel }<0$. For this atom, there is no perpendicular component to the atom, $v_{\perp }=0$. If the laser was traveling towards the left, $v_{\parallel }>0$ for this atom because the sign of $v_{\parallel }$ only depends upon if the atom is moving towards or away from the laser beam.
+**A Bit More About Velocity Components** The velocity component in the direction of the laser beam is an important, but sometimes confusing, idea when you first encounter it. So, let’s spend a bit more time thinking this idea through using Fig. [](#fig-4-3). In Fig. [](#fig-4-3)a, the first atom’s velocity is pointing directly towards the laser, so $v_{\parallel }<0$. For this atom, there is no perpendicular component of the atom’s velocity, $v_{\perp }=0$. If the laser was traveling towards the left, $v_{\parallel }>0$ for this atom because the sign of $v_{\parallel }$ only depends upon if the atom is moving towards or away from the laser beam.
 ```{figure} ../images/ch-04/541577_1_En_4_Fig3_HTML.jpg
 :label: fig-4-3
 :alt: (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, v_parallel. As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
@@ -264,7 +264,7 @@ Note that each transmission plot has a different vertical scale. Individually, a
 
 This feature, which is called a **Doppler profile**, is much wider than a spectral feature from a single atom and is pretty close to the same shape as $1 - Af(v_{\parallel })$, where *A* is some constant and $f(v_{\parallel })$ is the Maxwell-Boltzmann velocity distribution. Notice the center of the Doppler profile is still at the resonance frequency $\delta =0$.
 
-The width of a Doppler profile can be found from FWHM of the Maxwell-Boltzmann velocity distribution, which is a velocity. We can convert this velocity to a frequency using the Doppler shift formula. The FWHM of a spectral feature broadened by temperature, which is called the Doppler width, is given by the formula:
+The width of a Doppler profile can be found from the FWHM of the Maxwell-Boltzmann velocity distribution, which is a velocity. We can convert this velocity to a frequency using the Doppler shift formula. The FWHM of a spectral feature broadened by temperature, which is called the Doppler width, is given by the formula:
 
 ```{math}
 :label: eq-4-8
@@ -322,11 +322,11 @@ The 3 on the right hand side represents the three degrees of freedom of an atom 
 
 In our experiment, both we, the scientists, and the laser light source are stationary while the atoms, which act like the observers of the laser light, are moving. The same principles of the Doppler effect apply whether the light source is moving and the observer is stationary, the light source is stationary and the observer is moving, or if both are moving. All that matters is whether the source and observer are moving towards each other or away from each other.
 
-The Doppler effect is a powerful tool in astronomy. Suppose we are using a telescope to collect light from a distant star that is mostly composed of hydrogen gas. That star is emitting light with frequencies corresponding to the difference of the hydrogen energy levels. We now know that if the star is moving towards us, the frequency of light leaving that star will look to us to have a higher frequency than what we would observe if we just had a hydrogen light bulb in our lab. In astronomy, this phenomenon is called blue-shifted light because the light has a higher frequency than we would expect if we measured the spectrum of hydrogen here on earth. If the star is moving away from us, which is far more common in astronomy, the frequency of light that is emitted from the star looks to be lower frequency compared to what we would measure from a source here on earth. This is called red-shifted light.
+The Doppler effect is a powerful tool in astronomy. Suppose we are using a telescope to collect light from a distant star that is mostly composed of hydrogen gas. That star is emitting light with frequencies corresponding to the difference of the hydrogen energy levels. We now know that if the star is moving towards us, the frequency of light leaving that star will look to us to have a higher frequency than what we would observe if we just had a hydrogen light bulb in our lab. In astronomy, this phenomenon is called blue-shifted light because the light has a higher frequency than we would expect if we measured the spectrum of hydrogen here on earth. If the star is moving away from us, which is far more common in astronomy, the frequency of light that is emitted from the star looks to be lower in frequency compared to what we would measure from a source here on earth. This is called red-shifted light.
 
 In summary, if the star is moving towards us, we will see a spectrum that is shifted to higher frequencies compared to what we measure in the lab (blue-shifted; $v<0$), and we will see a shift to lower frequencies if the star was moving away from us (red-shifted; $v>0$).
 
-The Doppler effect allows us to calculate the speed of that galaxy. The Doppler formula for a star moving towards (or away) from the earth has a slightly different form than Eq. [](#eq-4-3):
+The Doppler effect allows us to calculate the speed of that star. The Doppler formula for a star moving towards (or away from) the earth has a slightly different form than Eq. [](#eq-4-3):
 
 ```{math}
 :label: eq-4-14
@@ -360,7 +360,7 @@ For each of the following equations, write a brief description of what each equa
 :label: prob-4-2
 :enumerator: 4.2
 
-Assess Eq. [](#eq-4-8). The purpose of any assessment is to increase or decrease our confidence in something. Assessments are challenging because we inherently want our calculations to be correct! To combat this bias for assessing a formula, I find it is easiest to write down all the parameters on the right hand side and then try to forget the formula all together. Then you ask yourself the question, “If I increased *T*, then the Doppler width should get _________ because _________.” You need to decide if “larger” or “smaller” goes into the first blank and explain, using a physics reason, why that should happen in the second blank. Next, repeat that process for every parameter. After I think through each parameter, I go check the formula to make sure my statements match the formula.
+Assess Eq. [](#eq-4-8). The purpose of any assessment is to increase or decrease our confidence in something. Assessments are challenging because we inherently want our calculations to be correct! To combat this bias for assessing a formula, I find it is easiest to write down all the parameters on the right hand side and then try to forget the formula altogether. Then you ask yourself the question, “If I increased *T*, then the Doppler width should get _________ because _________.” You need to decide if “larger” or “smaller” goes into the first blank and explain, using a physics reason, why that should happen in the second blank. Next, repeat that process for every parameter. After I think through each parameter, I go check the formula to make sure my statements match the formula.
 
 If your statement does not match your formula, then either your formula is wrong or your reasoning is wrong. Either way, you now have an opportunity to learn something! But, more importantly, you will understand an equation more after you assess it.
 ```
@@ -459,6 +459,6 @@ Use the data graphed in Fig. [](#fig-4-8) to estimate the wavelengths of those l
 [^2]: Named after the Scottish mathematician James Clerk Maxwell and the Austrian physicist Ludwig Boltzmann.
 [^3]: This is a distribution for 1 dimension since we are only interested in the velocity component for a single direction. In the future, you might encounter a Maxwell-Boltzmann velocity distribution that has a power of 3/2 instead of 1/2 on the expression in front of the Gaussian function. That would be a velocity distribution for all components of velocity, not just the parallel component.
 [^4]: You can derive this formula from the Maxwell-Boltzmann velocity distribution, but you will need to use calculus.
-[^5]: Image and data is from the Sloan Digital Sky Survey. Funding for the Sloan Digital Sky Survey (SDSS) has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Aeronautics and Space Administration, the National Science Foundation, the U.S. Department of Energy, the Japanese Monbukagakusho, and the Max Planck Society. The SDSS Web site is http://www.sdss.org/.
+[^5]: Image and data are from the Sloan Digital Sky Survey. Funding for the Sloan Digital Sky Survey (SDSS) has been provided by the Alfred P. Sloan Foundation, the Participating Institutions, the National Aeronautics and Space Administration, the National Science Foundation, the U.S. Department of Energy, the Japanese Monbukagakusho, and the Max Planck Society. The SDSS Web site is http://www.sdss.org/.
 
     The SDSS is managed by the Astrophysical Research Consortium (ARC) for the Participating Institutions. The Participating Institutions are The University of Chicago, Fermilab, the Institute for Advanced Study, the Japan Participation Group, The Johns Hopkins University, Los Alamos National Laboratory, the Max-Planck-Institute for Astronomy (MPIA), the Max-Planck-Institute for Astrophysics (MPA), New Mexico State University, University of Pittsburgh, Princeton University, the United States Naval Observatory, and the University of Washington.
