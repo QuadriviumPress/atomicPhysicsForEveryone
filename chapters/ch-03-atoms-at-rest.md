@@ -84,9 +84,9 @@ An illustrative example of an absorption plot (left) and a transmission plot (ri
 The natural linewidth is the full width at half the maximum (FWHM) of the absorption bump, see Fig. [](#fig-3-5). It is a property of the transition that we cannot change. As an analogy, think about the charge or mass of an electron. The charge of the electron is simply the charge of the electron, which is $1.602\times 10^{-19}\,\text{coulombs}$. The mass of the electron is simply the mass of the electron, which is $9.11\times 10^{-31}\,\text{kg}$. These are intrinsic properties of the electron that we cannot change. The natural linewidth of a transition is inherent for that transition, and we cannot change it.
 ```{figure} ../images/ch-03/541577_1_En_3_Fig5_HTML.png
 :label: fig-3-5
-:alt: A zoom in of a spectral feature. The natural linewidth is the full width half maximum of this feature
+:alt: A zoom in of a spectral feature. The natural linewidth is the full width at half maximum of this feature
 
-A zoom in of a spectral feature. The natural linewidth is the full width half maximum of this feature
+A zoom in of a spectral feature. The natural linewidth is the full width at half maximum of this feature
 
 
 ```
@@ -340,17 +340,17 @@ r_{\gamma}(\delta,s)= \Bigl( \frac{s}{1+s} \Bigr) \frac{\pi \gamma}{1+\frac{4\de
 
 This is now a Lorentzian function with amplitude $\frac {s}{1+s} \pi \gamma$ and FWHM of $\gamma _{s}=\gamma \sqrt {1+s}$. As we increase the saturation parameter *s* (i.e., increase the laser intensity), the FWHM of the scattering rate becomes larger by a factor of $\sqrt {1+s}$. Therefore, the width of a spectral feature increases by the same amount. Also notice that when $s \rightarrow 0$, the FWHM reaches its minimum value of the natural linewidth.
 
-Next, let’s analyse the amplitude. As the saturation parameter gets larger and larger, $1+s\approx s$, so $\frac {s}{1+s}\rightarrow 1$. The amplitude saturates! As the laser power increases, the amplitude approaches the maximum scattering rate of $\pi \gamma$. However, the FWHM never saturates; it continues to broaden, as shown in Fig. [](#fig-3-9).
+Next, let’s analyze the amplitude. As the saturation parameter gets larger and larger, $1+s\approx s$, so $\frac {s}{1+s}\rightarrow 1$. The amplitude saturates! As the laser power increases, the amplitude approaches the maximum scattering rate of $\pi \gamma$. However, the FWHM never saturates; it continues to broaden, as shown in Fig. [](#fig-3-9).
 ```{figure} ../images/ch-03/541577_1_En_3_Fig9_HTML.png
 :label: fig-3-9
-:alt: The scattering rate for a transition with as a function of detuning for different saturation parameters. The red dashed line is the maximum possible scattering rate
+:alt: The scattering rate for a transition with a natural linewidth of 5.22 MHz as a function of detuning for different saturation parameters. The red dashed line is the maximum possible scattering rate
 
 The scattering rate for a transition with $\gamma =5.22\,\text{MHz}$ as a function of detuning for different saturation parameters. The red dashed line is the maximum possible scattering rate
 
 
 ```
 
-Finally, let’s put some numbers in to start getting comfortable with real scattering rate numbers. For the example in Fig. [](#fig-3-9), I used the natural linewidth for a transition in the cesium atom near 852 nm. The natural linewdith is about $\gamma =5.22\,\text{MHz}$. The on-resonance $(\delta =0)$ scattering rate is 8.2 million photons absorbed (and re-emitted) per second for $s=1$; 14.9 million photons per second for $s=10$; 16.2 million photons per second $s=100$. For a typical transition, scattering hundreds of thousands to millions of photons per second is not unusual. Notice that when *s* is small, the scattering rate at $\delta =-20\,\text{MHz}$ is almost 0; mathematically, it is about 270,000 photons/sec for $s=1$. However, the scattering rate for $s=100$ remains quite sizable.
+Finally, let’s put some numbers in to start getting comfortable with real scattering rate numbers. For the example in Fig. [](#fig-3-9), I used the natural linewidth for a transition in the cesium atom near 852 nm. The natural linewidth is about $\gamma =5.22\,\text{MHz}$. The on-resonance $(\delta =0)$ scattering rate is 8.2 million photons absorbed (and re-emitted) per second for $s=1$; 14.9 million photons per second for $s=10$; 16.2 million photons per second for $s=100$. For a typical transition, scattering hundreds of thousands to millions of photons per second is not unusual. Notice that when *s* is small, the scattering rate at $\delta =-20\,\text{MHz}$ is almost 0; mathematically, it is about 270,000 photons/sec for $s=1$. However, the scattering rate for $s=100$ remains quite sizable.
 
 For completeness, there are other factors that can broaden the width of a transition including temperature (this is the topic of Chap. [](#ch-4)) and pressure. We do not cover pressure broadening, also known as collisional broadening, in this book.
 
@@ -379,7 +379,7 @@ A simplified Grotrian diagram for a transition in the atom known as barium-135. 
 
 Some learners may use only Part 1 of this book. I wanted to introduce you to bra-ket notation so that you have seen it at least once before you take quantum mechanics. We are going to use it in this example and in Problem [](#prob-3-9), but it will not be used again until Part 2. You are, of course, welcome to use bra-ket notation if you want, but it is not necessary. You may also see bra-ket notation if you take a linear algebra class.
 
-As seen in Fig. [](#fig-3-10), we are going to label the ground state $\left |g_{F=3/2}\right \rangle$ and the three excited states $\left | e_{F=1/2}\right \rangle$, $\left |e_{F=3/2}\right \rangle$, and $\left |e_{F=5/2}\right \rangle$. *F* is called a quantum number, and it is always a positive integer, a half integer, or zero; quantum numbers are explored starting in Chap. [](#ch-6). For now, these quantum numbers are just being used to label our states. Notice there is a center of gravity frequency, $f_{\text{cog}}$, that tells us the energy difference between the center of gravity for the two states. This tells us that our transitions are all around 541.4 THz, or 553.7 nm. Each hyperfine level is shifted from their center of gravity state by a small amount. I want to emphasize that if a nucleus has angular momentum, the center of gravity states do not exist in real life! The hyperfine states are the actual states. However, we can learn a lot of physics by determining how the hyperfine levels shift from the center of gravity, which is explored in Chaps. [](#ch-9) and [](#ch-10).
+As seen in Fig. [](#fig-3-10), we are going to label the ground state $\left |g_{F=3/2}\right \rangle$ and the three excited states $\left | e_{F=1/2}\right \rangle$, $\left |e_{F=3/2}\right \rangle$, and $\left |e_{F=5/2}\right \rangle$. *F* is called a quantum number, and it is always a positive integer, a half integer, or zero; quantum numbers are explored starting in Chap. [](#ch-6). For now, these quantum numbers are just being used to label our states. Notice there is a center of gravity frequency, $f_{\text{cog}}$, that tells us the energy difference between the center of gravity for the two states. This tells us that our transitions are all around 541.4 THz, or 553.7 nm. Each hyperfine level is shifted from its center of gravity state by a small amount. I want to emphasize that if a nucleus has angular momentum, the center of gravity states do not exist in real life! The hyperfine states are the actual states. However, we can learn a lot of physics by determining how the hyperfine levels shift from the center of gravity, which is explored in Chaps. [](#ch-9) and [](#ch-10).
 
 ````{prf:example}
 :label: example-3-1
@@ -457,7 +457,7 @@ This problem explores the scattering rate, Eq. [](#eq-3-11).
 :label: prob-3-5
 :enumerator: 3.5
 
-A transition in the Europium atom has a natural linewidth of $\gamma = 25.5\,\text{MHz}$. The wavelength of light at the resonance frequency is $\lambda =466.188\,\text{nm}$. Calculate the saturation intensity in units of $\text{mW}/\text{cm}^2$ and $\text{mW}/\text{mm}^2$.
+A transition in the europium atom has a natural linewidth of $\gamma = 25.5\,\text{MHz}$. The wavelength of light at the resonance frequency is $\lambda =466.188\,\text{nm}$. Calculate the saturation intensity in units of $\text{mW}/\text{cm}^2$ and $\text{mW}/\text{mm}^2$.
 
 Hint: 1 W$=$1 J/s
 ```
@@ -514,8 +514,8 @@ The transition we are interested in is shown in Fig. [](#fig-3-12). There are tw
 
 ## References
 
-1. Baird, P.E.G., Brambley, R.J., Burnett, K., Stacey, D.N., Warrington, D.M., Woodgate, G.K.: Optical isotope shifts and hyperfine structure in $\lambda$553.5 nm of barium, Proc. R. Soc. Lond. A365567–365582 (1979). [https://doi.org/10.1098/rspa.1979.0035](https://doi.org/10.1098/rspa.1979.0035)
-2. Karlsson, H., Litzén, U.: Revised Ba I and Ba II wavelengths and energy levels derived by fourier transform spectroscopy. Phys. Scripta **60**, 321 (1999). [https://doi.org/10.1238/Physica.Regular.060a00321](https://doi.org/10.1238/Physica.Regular.060a00321)
+1. Baird, P.E.G., Brambley, R.J., Burnett, K., Stacey, D.N., Warrington, D.M., Woodgate, G.K.: Optical isotope shifts and hyperfine structure in $\lambda$553.5 nm of barium, Proc. R. Soc. Lond. A **365**, 567–582 (1979). [https://doi.org/10.1098/rspa.1979.0035](https://doi.org/10.1098/rspa.1979.0035)
+2. Karlsson, H., Litzén, U.: Revised Ba I and Ba II wavelengths and energy levels derived by Fourier transform spectroscopy. Phys. Scripta **60**, 321 (1999). [https://doi.org/10.1238/Physica.Regular.060a00321](https://doi.org/10.1238/Physica.Regular.060a00321)
 3. Thibault, C., Touchard, F., Büttgenbach, S., Klapisch, R., de Saint Simon, M., Duong, H.T., Jacquinot, P., Juncar, P., Liberman, S., Pillet, P., Pinard, J., Vialle, J.L., Pesnelle, A., Huber, G.: Hyperfine structure and isotope shift of the $\text{D}_{2}$ line of 76–98Rb and some of their isomers. Phys. Rev. C **23**, 2720 (1981). [https://doi.org/10.1103/PhysRevC.23.2720](https://doi.org/10.1103/PhysRevC.23.2720)
 
 [^1]: This is for the low power limit. In Sect. [](#sec-3-5), we will refine this formula slightly to include power broadening. I just want to start basic to get the concepts first.

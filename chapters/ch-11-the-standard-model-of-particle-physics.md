@@ -81,7 +81,7 @@ But, Eq. [](#eq-11-3) tells us that $\Gamma \tau = 1$, so we find
 This is really neat! We now know why a spectral feature has a width and an excited state has a lifetime: time and energy are incompatible observables. While that was fun, you might be thinking, “Why is this in Chap. [](#ch-11), a chapter devoted to the issues and problems in quantum mechanics?” We will need it in Sect. [](#sec-11-4-2) to understand something called vacuum fluctuations. But first, we need to discuss one more concept: **antimatter**.
 ```{figure} ../images/ch-11/541577_1_En_11_Fig1_HTML.png
 :label: fig-11-1
-:alt: An electron in an excited state decays with a characteristic lifetime . That lifetime is related to the linewidth of the excited state by Eq. [](#eq-11-3). If is small, is large. Conversely, if is large, is small
+:alt: An electron in an excited state decays with a characteristic lifetime tau. That lifetime is related to the linewidth of the excited state by Eq. [](#eq-11-3). If tau is small, Gamma is large. Conversely, if tau is large, Gamma is small
 
 An electron in an excited state decays with a characteristic lifetime $\tau$. That lifetime is related to the linewidth of the excited state by Eq. [](#eq-11-3). If $\tau$ is small, $\Gamma$ is large. Conversely, if $\tau$ is large, $\Gamma$ is small
 
@@ -114,7 +114,7 @@ Other examples of pair production include creating a muon and an antimuon (see S
 
 **Fun Fact**
 
-The nuclei of an atom can also have excited states similar to the electrons in the atom. These nuclear excited states are much higher energy compared to electron excited states. Almost all of these excited states emit a high energy photon called an x-ray or a gamma ray to transition back to the nuclear ground state. However, there are nuclei that emit matter and antimatter pairs to transition back to the nuclear ground state! As an example, oxygen-16 has an excited state about $6050\times 10^{3}\,\text{eV}$ above the nuclear ground state.[^8] When an oxygen-16 nucleus is in this excited state, it would violate conservation of angular momentum if it did decay to the nuclear ground state by emitting a photon. So, instead the nucleon gets rid of the energy by emitting an electron and positron in order for the nucleus to transition back to the nuclear ground state.
+The nucleus of an atom can also have excited states similar to the electrons in the atom. These nuclear excited states are much higher energy compared to electron excited states. Almost all of these excited states emit a high energy photon called an x-ray or a gamma ray to transition back to the nuclear ground state. However, there are nuclei that emit matter and antimatter pairs to transition back to the nuclear ground state! As an example, oxygen-16 has an excited state about $6050\times 10^{3}\,\text{eV}$ above the nuclear ground state.[^8] When an oxygen-16 nucleus is in this excited state, it would violate conservation of angular momentum if it did decay to the nuclear ground state by emitting a photon. So, instead the nucleon gets rid of the energy by emitting an electron and positron in order for the nucleus to transition back to the nuclear ground state.
 
 (sec-11-4)=
 ## 11.4 Going from Quantum Mechanics to Quantum Field Theory
@@ -254,7 +254,7 @@ The four elementary particles colored red are the force carriers. Even though th
 We can now be more precise in what happens during $\beta ^{-}$ decay, see Fig. [](#fig-11-7). During this process, a down quark in the neutron is transformed into an up quark, resulting in the neutron becoming a proton. This transformation is facilitated by the emission of a $\text{W}^{-}$ boson, which quickly decays into an electron and an anti-electron neutrino. The proton remains in the nucleus, while the electron and anti-electron neutrino are emitted from the atom.
 ```{figure} ../images/ch-11/541577_1_En_11_Fig7_HTML.png
 :label: fig-11-7
-:alt: A Feynman diagram showing how a neutron decays into a proton. A neutron is composed of 2 down quarks and 1 up quark. One of the down quarks is transformed into an up quark. This transformation is facilitated by the emission of a boson, which quickly decays into an electron and an anti-electron neutrino
+:alt: A Feynman diagram showing how a neutron decays into a proton. A neutron is composed of 2 down quarks and 1 up quark. One of the down quarks is transformed into an up quark. This transformation is facilitated by the emission of a W-minus boson, which quickly decays into an electron and an anti-electron neutrino
 
 A Feynman diagram showing how a neutron decays into a proton. A neutron is composed of 2 down quarks and 1 up quark. One of the down quarks is transformed into an up quark. This transformation is facilitated by the emission of a $\text{W}^{-}$ boson, which quickly decays into an electron and an anti-electron neutrino
 

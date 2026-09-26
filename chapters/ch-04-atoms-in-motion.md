@@ -27,7 +27,7 @@ By the end of this chapter, you should be able to understand:
 The Doppler effect is likely a phenomenon you have encountered before. When an ambulance, police car, or racecar travels past you, the sound you hear changes pitch. This happens because the motion of the vehicle compresses or extends the sound waves. Figure [](#fig-4-1) shows the sound waves emitted by a stationary ambulance (left) and a moving ambulance (right). Let’s focus on the stationary ambulance. Imagine that you are standing in front of or behind the ambulance. The wavelength of the sound wave that hits your ear is the same for both scenarios, so you would hear the same pitch independent of where you are standing. Now, imagine the ambulance is moving. If you were standing in front of the ambulance (OK, maybe a bit to the side …we don’t want you to get hit, even in a thought experiment), the wavelength of the sound wave that reaches your ear is shorter compared to the stationary ambulance. If you were standing behind the moving ambulance, the wavelength is longer compared to the stationary ambulance. The formula that relates the frequency (pitch) that you hear to the wavelength should look really familiar. It is $v_{s}=f\lambda$, where $v_{s}$ is the speed of sound in air (replace $v_{s}$ with *c* and you have Eq. [](#eq-1-1) from p. 19). The apparent shift in frequency due to an object moving is known as the Doppler effect, named after Austrian physicist and mathematician Christian Doppler. It is a very important concept in spectroscopy.
 ```{figure} ../images/ch-04/541577_1_En_4_Fig1_HTML.jpg
 :label: fig-4-1
-:alt: Left: An ambulance at rest emitting a sound wave from its siren. The wavelength and frequency of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
+:alt: Left: An ambulance at rest emitting a sound wave from its siren. The wavelength (lambda_0) and frequency (f_0) of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
 
 Left: An ambulance at rest emitting a sound wave from its siren. The wavelength $\lambda _0$ and frequency $f_0$ of the sound wave is the same in all directions. Right: Now the ambulance is moving to the right. The sound wave in front of the ambulance is compressed, which means the perceived wavelength is smaller and the perceived frequency is larger (higher pitch). The sound wave behind the ambulance is expanded, which means the perceived wavelength is larger and the perceived frequency is smaller (lower pitch)
 
@@ -39,7 +39,7 @@ The Doppler effect occurs for any type of wave. Whether it is a sound wave, a li
 (sec-4-2)=
 ## 4.2 Laser Frequency From an Atom’s Perspective
 
-What does this have to do with spectroscopy? In Chap. [](#ch-3), we made an important statement after analyzing Eq. [](#eq-3-1) on p. 45. It is so important we will repeat it here:
+What does this have to do with spectroscopy? In Chap. [](#ch-3), we made an important statement after analyzing Eq. [](#eq-3-1). It is so important we will repeat it here:
 
 $\blacktriangleright$ **Important Statement:**
 
@@ -79,7 +79,7 @@ Illustration for a Doppler shift thought experiment with atoms and a laser
 f_{\text{atom2}}=f_{L}+\Delta f_{D},
 ```
 
-where $f_{\text{atom2}}$ is the laser frequency according to atom 2, $f_{L}$ is the actual laser frequency (i.e. the frequency measured in the laboratory/stationary frame), and $\Delta f_{D}$ is perceived shift in frequency due to the Doppler effect. In this example, $\Delta f_{D}>0$ for atom 2, so if we want $f_{\text{atom2}}=f_{r}$, then we need to set the laser frequency smaller than the resonance frequency such that $f_{r}=f_{L}+\Delta f_{D}$.
+where $f_{\text{atom2}}$ is the laser frequency according to atom 2, $f_{L}$ is the actual laser frequency (i.e. the frequency measured in the laboratory/stationary frame), and $\Delta f_{D}$ is the perceived shift in frequency due to the Doppler effect. In this example, $\Delta f_{D}>0$ for atom 2, so if we want $f_{\text{atom2}}=f_{r}$, then we need to set the laser frequency smaller than the resonance frequency such that $f_{r}=f_{L}+\Delta f_{D}$.
 
 Likewise, atom 3 is moving away from the laser source, so it will claim the laser frequency is lower. As a result, the actual laser frequency will have to be higher than the resonance frequency for atom 3 to absorb a photon.
 
@@ -91,7 +91,7 @@ Understanding the Doppler effect is really important in spectroscopy. Inside a g
 
 **An Important Correction** I simplified the above description by just a little bit. An atom moves in three dimensions, but only the component of the atom’s velocity in the direction toward or away from the laser beam contributes to the Doppler effect. An atom that isn’t moving toward or away from a laser can still be moving; it is just moving perpendicular to the laser. A more correct statement is: Inside a gaseous sample of atoms, some atoms have a velocity component pointing towards the laser, some atoms have a velocity component that is pointing away from the laser, and some atoms have no velocity components pointing towards or away from the laser.
 
-We represent that velocity component with the parameter $v_{\parallel }$. It is defined to be positive if the atom is traveling away the laser and negative if traveling towards from the laser.
+We represent that velocity component with the parameter $v_{\parallel }$. It is defined to be positive if the atom is traveling away from the laser and negative if traveling towards the laser.
 
 **Definitions**
 
@@ -128,14 +128,14 @@ Comparing Eqs. [](#eq-4-1) and [](#eq-4-3), we find the formula for the Doppler 
 **A Bit More About Velocity Components** The velocity component in the direction of the laser beam is an important, but sometimes confusing, idea when you first encounter it. So, let’s spend a bit more time thinking this idea through using Fig. [](#fig-4-3). In Fig. [](#fig-4-3)a, the first atom’s velocity is pointing directly towards the laser, so $v_{\parallel }<0$. For this atom, there is no perpendicular component to the atom, $v_{\perp }=0$. If the laser was traveling towards the left, $v_{\parallel }>0$ for this atom because the sign of $v_{\parallel }$ only depends upon if the atom is moving towards or away from the laser beam.
 ```{figure} ../images/ch-04/541577_1_En_4_Fig3_HTML.jpg
 :label: fig-4-3
-:alt: (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, . As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
+:alt: (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, v_parallel. As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
 
 (**a**) Only the component of velocity in the direction of the laser beams results in a Doppler shift. The first two atoms have different velocities, but the same component in the direction of the laser, $v_{\parallel }$. As such, they will experience the same Doppler shift. The third atom has a velocity component in the opposite direction, so it will have a different Doppler shift. The last atom is completely stationary. (**b**) All three of these atoms have no velocity component in the direction of the laser, so they all have zero Doppler shift
 
 
 ```
 
-The second atom has both a perpendicular component and a parallel component. Only the parallel component causes the Doppler shift, and the parallel component tells us the atom is moving towards the laser source, so $v_{\parallel }<0$. Notice the parallel component for the two first two atoms are the same size and pointing in the same direction. Therefore, they will have the same Doppler shift.
+The second atom has both a perpendicular component and a parallel component. Only the parallel component causes the Doppler shift, and the parallel component tells us the atom is moving towards the laser source, so $v_{\parallel }<0$. Notice the parallel component for the first two atoms is the same size and pointing in the same direction. Therefore, they will have the same Doppler shift.
 
 The third atom has a perpendicular component, which we don’t care about, and a parallel component pointing away from the laser, so $v_{\parallel }>0$. This atom will absorb photons with a different laser frequency than atoms 1 and 2. The last atom is not moving at all. It has no perpendicular or parallel component: $v_{\parallel }=0$ and $v_{\perp }=0$. Figure [](#fig-4-3)b shows three examples of atoms with $v_{\parallel }=0$. Each of these atoms will absorb photons when $f_{L}=f_{r}$.
 
@@ -333,7 +333,7 @@ The Doppler effect allows us to calculate the speed of that galaxy. The Doppler 
 \begin{array}{rcl} f_{\text{obs}}&=&\frac{f_{\text{em}}}{1+z} \\ z &=& \frac{v}{c}, \end{array}
 ```
 
-where $f_{\text{obs}}$ is the Doppler shifted frequency measured on earth, $f_{\text{em}}$ is the frequency of the light emitted from the star, and *v* is the speed of the star or galaxy in the direction of earth. Astronomers also use the parameter $z = \frac {v}{c}$ to describe blue-shift light ($z<0 \rightarrow v<0$; the star is moving towards the earth) and red-shifted light ($z>0\rightarrow v>0$; the star is moving away the earth). You will have the opportunity to derive this formula in Problem [](#prob-4-7).
+where $f_{\text{obs}}$ is the Doppler shifted frequency measured on earth, $f_{\text{em}}$ is the frequency of the light emitted from the star, and *v* is the speed of the star or galaxy in the direction of earth. Astronomers also use the parameter $z = \frac {v}{c}$ to describe blue-shifted light ($z<0 \rightarrow v<0$; the star is moving towards the earth) and red-shifted light ($z>0\rightarrow v>0$; the star is moving away from the earth). You will have the opportunity to derive this formula in Problem [](#prob-4-7).
 
 Finally, astronomers like to use wavelength instead of frequency. Writing Eq. [](#eq-4-14) using wavelength and solving for *z* gives:
 
@@ -371,7 +371,7 @@ If your statement does not match your formula, then either your formula is wrong
 
 An atom at rest is excited from the ground state to an excited state by a photon from a laser with frequency $f=315.11254\,\text{THz}$.
 
-- (a) Suppose the laser is positioned to send photons to the right, and an atom is moving towards the laser with a velocity component of $v_{\parallel }=-200\,\text{m/s}$ (the minus sign indicates the atom is moving towards from the laser), see atom 2 from Fig. [](#fig-4-2) on p. 68. What frequency should the laser be for this atom to absorb a photon?
+- (a) Suppose the laser is positioned to send photons to the right, and an atom is moving towards the laser with a velocity component of $v_{\parallel }=-200\,\text{m/s}$ (the minus sign indicates the atom is moving towards the laser), see atom 2 from Fig. [](#fig-4-2). What frequency should the laser be for this atom to absorb a photon?
 - (b) Now the laser is pointed to send photons to the left, so now the atom is moving away from the laser source. What frequency should the laser be for this atom to absorb a photon?
 ```
 

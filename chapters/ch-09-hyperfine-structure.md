@@ -29,7 +29,7 @@ When an atom has a non-zero nuclear spin, the nucleus interacts with the magneti
 Table [](#tbl-9-1) is a copy of a table from Chap. [](#ch-7) that summarizes all of the angular momentum vectors and angular momentum quantum numbers for the system of electrons and the atom as a whole. Let’s look at some examples. Oxygen has three stable isotopes: oxygen-16 (99.76% of all oxygen on earth is oxygen-16), oxygen-17 ($\sim$0.04%), and oxygen-18 ($\sim$0.20%). Isotopes are elements with the same number of protons but different numbers of neutrons. Oxygen-16 has 8 electrons, 8 protons, and 8 neutrons. Oxygen-17 has 8 electrons, 8 protons, and 9 neutrons. Oxygen-18 has 8 electrons, 8 protons, and 10 neutrons. Since each isotope has a different number of neutrons, the transition frequencies are slightly different. This small shift, called an isotope shift, will be discussed in Chap. [](#ch-10).
 
 (tbl-9-1)=
-**Table 9.1** This table summaries all of the angular momentum quantum numbers
+**Table 9.1** This table summarizes all of the angular momentum quantum numbers
 
 | Type | QN | Rule | Formula |
 | --- | --- | --- | --- |
@@ -366,7 +366,7 @@ Table [](#tbl-9-2) shows the energy shifts for the hyperfine levels with respect
 :label: prob-9-2
 :enumerator: 9.2
 
-Below is table for four states in europium.[^8] The first row represents the ground state, and the three subsequent rows are excited states. Europium has two stable isotopes, europium-151 and europium-153.
+Below is a table for four states in europium.[^8] The first row represents the ground state, and the three subsequent rows are excited states. Europium has two stable isotopes, europium-151 and europium-153.
 
 (tbl-9-4)=
 **Table 9.4**

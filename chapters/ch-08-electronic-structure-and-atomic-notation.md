@@ -26,7 +26,7 @@ By the end of this chapter, you should be able to understand:
 (sec-8-1)=
 ## 8.1 Energy Level Spacings
 
-Figure [](#fig-8-1) shows the energy levels for hydrogen, helium, lithium, and europium. As a reminder, hydrogen has 1 electron, helium has 2, lithium has 3, and europium has 63. Notice how different the energy levels are! Hydrogen’s first excited state is over 80,000 $\text{cm}^{-1}$ above the ground state, while helium’s first excited state is around 160,000 $\text{cm}^{-1}$ above the ground state![^1] The hydrogen states seem to get closer and closer to each other as the energy increases, but helium seems to “clump” a bit more. And look at Europium; there seems to be a big gap between the ground state before a really dense set of energy levels, a gap, and then even more! The red line on each element is the energy needed to rip an electron from the atom. We call this the **ionization threshold**.
+Figure [](#fig-8-1) shows the energy levels for hydrogen, helium, lithium, and europium. As a reminder, hydrogen has 1 electron, helium has 2, lithium has 3, and europium has 63. Notice how different the energy levels are! Hydrogen’s first excited state is over 80,000 $\text{cm}^{-1}$ above the ground state, while helium’s first excited state is around 160,000 $\text{cm}^{-1}$ above the ground state![^1] The hydrogen states seem to get closer and closer to each other as the energy increases, but helium seems to “clump” a bit more. And look at europium; there seems to be a big gap between the ground state before a really dense set of energy levels, a gap, and then even more! The red line on each element is the energy needed to rip an electron from the atom. We call this the **ionization threshold**.
 ```{figure} ../images/ch-08/541577_1_En_8_Fig1_HTML.png
 :label: fig-8-1
 :alt: The energy levels of hydrogen, helium, lithium, and europium. The red line at the top of each element is the ionization threshold, which is the energy required to remove an electron from the atom
@@ -35,12 +35,12 @@ The energy levels of hydrogen, helium, lithium, and europium. The red line at th
 
 ```
 
-Even though the energy levels are so densely packed, they are still discrete. The energy levels looking like a solid band is just an artifact of making a picture with many, many discrete energy levels (the europium diagram has 500 levels in it). Figure [](#fig-8-2) is a zoom in of the Europium energy levels from 40,210 $\text{cm}^{-1}$ to 40,250 $\text{cm}^{-1}$, which is right in the middle of one of the dense patches. As you can see, these 7 levels are very close together, but still discrete. Plotting all 500 levels together really highlights the groupings.
+Even though the energy levels are so densely packed, they are still discrete. The energy levels looking like a solid band is just an artifact of making a picture with many, many discrete energy levels (the europium diagram has 500 levels in it). Figure [](#fig-8-2) is a zoom in of the europium energy levels from 40,210 $\text{cm}^{-1}$ to 40,250 $\text{cm}^{-1}$, which is right in the middle of one of the dense patches. As you can see, these 7 levels are very close together, but still discrete. Plotting all 500 levels together really highlights the groupings.
 ```{figure} ../images/ch-08/541577_1_En_8_Fig2_HTML.png
 :label: fig-8-2
-:alt: A zoom in on some of the denser states in Europium. Even though there are many states, they are still discrete
+:alt: A zoom in on some of the denser states in europium. Even though there are many states, they are still discrete
 
-A zoom in on some of the denser states in Europium. Even though there are many states, they are still discrete
+A zoom in on some of the denser states in europium. Even though there are many states, they are still discrete
 
 ```
 
@@ -69,7 +69,7 @@ Lithium has 3 electrons and europium has 63. Like helium, we can think about the
 The second major contribution comes from something called **electron shells**, which are made up of **electron subshells**. The first shell is called 1, and it contains 1 subshell labelled 1s, see Fig. [](#fig-8-3). The second shell is 2 and has two shells. The third shell is 3 and has 3 subshells and so on. In Fig. [](#fig-8-3), we stop showing all possible subshells on shell 5. There is a 5g subshell, 6f, 6g, 6h, etc. that is not shown. In quantum mechanics and atomic physics, the shell number $(1,~2,~3,~\dots )$ is a quantum number called the principal quantum number, represented by the letter *n*. This is the same quantum number *n* explored in Chap. [](#ch-6).
 ```{figure} ../images/ch-08/541577_1_En_8_Fig3_HTML.png
 :label: fig-8-3
-:alt: How electrons fill shells. This diagram is often called Madelung energy ordering rule, named after the German physicist Erwin Madelung. The top row is the shell and has one subshell. The second row is the shell and has two subshells. The third row is the shell and has three subshells, and so on
+:alt: How electrons fill shells. This diagram is often called Madelung energy ordering rule, named after the German physicist Erwin Madelung. The top row is the n = 1 shell and has one subshell. The second row is the n = 2 shell and has two subshells. The third row is the n = 3 shell and has three subshells, and so on
 
 How electrons fill shells. This diagram is often called Madelung energy ordering rule, named after the German physicist Erwin Madelung. The top row is the $n=1$ shell and has one subshell. The second row is the $n=2$ shell and has two subshells. The third row is the $n=3$ shell and has three subshells, and so on
 
